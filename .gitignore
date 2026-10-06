@@ -1,3 +1,4 @@
+legacy-root/
 # Archive ignores generated/local outputs; files remain physically preserved.
 legacy-root/**/.godot/
 legacy-root/**/.local/
