@@ -1,0 +1,21 @@
+{
+	"changed": true,
+	"debugger_attached": false,
+	"evidence": "res://.hh-agent/evidence/01M0Q0N080F9TNEF0QYQY4M7KR",
+	"game_tree_source": "is_playing_scene",
+	"headless_play": "unproven",
+	"is_playing_scene": false,
+	"mode": "debug",
+	"pid_source": "unproven",
+	"play_pid": 0,
+	"playing": false,
+	"playing_scene": "",
+	"previous_alive": false,
+	"previous_run_id": "01M0Q0MXXR6A4HE8P4DMTA95FN",
+	"remote_tree": false,
+	"run_id": "01M0Q0N080F9TNEF0QYQY4M7KR",
+	"runtime_autoload": false,
+	"scene": "res://r6w7/c3/seed_parse/shot.tscn",
+	"stop_reason": "test",
+	"tree_kind": "editor"
+}

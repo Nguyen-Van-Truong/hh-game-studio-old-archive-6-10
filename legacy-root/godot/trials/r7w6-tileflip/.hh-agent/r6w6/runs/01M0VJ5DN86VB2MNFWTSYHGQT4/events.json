@@ -1,0 +1,21 @@
+{
+	"items": [
+		{
+			"attempt": 0,
+			"kind": "run_begin",
+			"ms": 28833,
+			"name": "keyboard_cursor_plus_accept_flips_a_tile",
+			"scene": "res://scenes/memory/board.tscn"
+		},
+		{
+			"kind": "step",
+			"ms": 29033,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 41065,
+			"ok": false
+		}
+	]
+}

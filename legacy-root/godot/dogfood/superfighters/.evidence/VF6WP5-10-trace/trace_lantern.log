@@ -1,0 +1,29 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_TRACE map=lantern start bot=328,128 foe=24,96 path_ok=true n=20 cells=20,8,19,8,18,8,17,8,16,8,15,8,14,8,13,8,12,8,11,8,10,8,9,8,8,8,7,8,6,8,5,8,4,7,3,6,2,6,1,6
+HH_CMD t=40 here=14,8 nxt=13,8 x=-1 jump=false jp=false crouch=false ladder=false climb=false
+HH_TRACE t=40 pos=223,132 cell=13,8 foe=24,100 d=201 ladder=false climb=false floor=true hang=false lock=false wall=false vx=-170 vy=0 intent=attack nxt=13,8 path_i=1 path_n=14 pit=0 gun=0
+HH_CMD t=80 here=8,8 nxt=7,8 x=-1 jump=true jp=true crouch=false ladder=false climb=false
+HH_TRACE t=80 pos=134,132 cell=8,8 foe=24,100 d=115 ladder=false climb=false floor=true hang=false lock=false wall=false vx=-55 vy=0 intent=attack nxt=7,8 path_i=1 path_n=8 pit=0 gun=1
+HH_CMD t=120 here=6,8 nxt=5,8 x=-1 jump=true jp=true crouch=false ladder=false climb=false
+HH_TRACE t=120 pos=98,132 cell=6,8 foe=24,100 d=80 ladder=false climb=false floor=true hang=false lock=false wall=false vx=-55 vy=0 intent=attack nxt=5,8 path_i=1 path_n=6 pit=0 gun=2
+HH_CMD t=160 here=4,4 nxt=3,6 x=0 jump=false jp=false crouch=true ladder=true climb=false
+HH_TRACE t=160 pos=72,80 cell=4,5 foe=24,100 d=52 ladder=true climb=true floor=false hang=false lock=false wall=false vx=0 vy=140 intent=attack nxt=3,6 path_i=1 path_n=4 pit=0 gun=2
+HH_CMD t=200 here=4,4 nxt=3,6 x=0 jump=false jp=false crouch=true ladder=true climb=false
+HH_TRACE t=200 pos=72,81 cell=4,5 foe=24,100 d=52 ladder=true climb=true floor=false hang=false lock=false wall=false vx=0 vy=140 intent=attack nxt=3,6 path_i=1 path_n=4 pit=0 gun=2
+HH_CMD t=240 here=4,4 nxt=3,6 x=0 jump=false jp=false crouch=true ladder=true climb=true
+HH_TRACE t=240 pos=72,81 cell=4,5 foe=24,100 d=52 ladder=true climb=true floor=false hang=false lock=false wall=false vx=0 vy=140 intent=attack nxt=3,6 path_i=2 path_n=5 pit=0 gun=2
+HH_CMD t=280 here=4,4 nxt=4,5 x=0 jump=false jp=false crouch=true ladder=true climb=true
+HH_TRACE t=280 pos=72,82 cell=4,5 foe=24,100 d=51 ladder=true climb=true floor=false hang=false lock=false wall=false vx=0 vy=140 intent=attack nxt=4,5 path_i=1 path_n=5 pit=0 gun=2
+HH_CMD t=320 here=4,4 nxt=3,6 x=0 jump=false jp=false crouch=true ladder=true climb=true
+HH_TRACE t=320 pos=72,82 cell=4,5 foe=24,100 d=51 ladder=true climb=true floor=false hang=false lock=false wall=false vx=0 vy=140 intent=attack nxt=3,6 path_i=1 path_n=4 pit=0 gun=2
+HH_CMD t=360 here=4,5 nxt=3,6 x=-1 jump=false jp=true crouch=false ladder=true climb=true
+HH_TRACE t=360 pos=69,77 cell=4,4 foe=24,100 d=50 ladder=true climb=false floor=false hang=false lock=false wall=false vx=-193 vy=-208 intent=attack nxt=3,6 path_i=2 path_n=5 pit=0 gun=2
+HH_CMD t=400 here=4,5 nxt=3,6 x=-1 jump=false jp=true crouch=false ladder=true climb=true
+HH_TRACE t=400 pos=69,77 cell=4,4 foe=24,100 d=50 ladder=true climb=false floor=false hang=false lock=false wall=false vx=-193 vy=-208 intent=attack nxt=3,6 path_i=2 path_n=5 pit=0 gun=2
+HH_CMD t=440 here=4,5 nxt=3,6 x=-1 jump=false jp=true crouch=false ladder=true climb=true
+HH_TRACE t=440 pos=69,78 cell=4,4 foe=24,100 d=50 ladder=true climb=false floor=false hang=false lock=false wall=false vx=-193 vy=-208 intent=attack nxt=3,6 path_i=2 path_n=5 pit=0 gun=2
+HH_CMD t=480 here=4,5 nxt=3,6 x=-1 jump=false jp=true crouch=false ladder=true climb=true
+HH_TRACE t=480 pos=69,78 cell=4,4 foe=24,100 d=50 ladder=true climb=false floor=false hang=false lock=false wall=false vx=-193 vy=-208 intent=attack nxt=3,6 path_i=2 path_n=5 pit=0 gun=2
+HH_CMD t=520 here=4,4 nxt=3,6 x=0 jump=false jp=false crouch=true ladder=true climb=false
+HH_TRACE t=520 pos=72,79 cell=4,4 foe=24,100 d=52 ladder=true climb=true floor=false hang=false lock=false wall=false vx=0 vy=140 intent=attack nxt=3,6 path_i=2 path_n=5 pit=0 gun=2

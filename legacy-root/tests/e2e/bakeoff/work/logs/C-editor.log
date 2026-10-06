@@ -1,0 +1,56 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[beckett] server listening on http://127.0.0.1:18770/mcp/hh-bakeoff-82c47cf9a5c8994d220273c3 (token auth on)
+ERROR: Parse JSON failed. Error at line 0: Unknown error getting token
+   at: parse_string (core/io/json.cpp:629)
+   GDScript backtrace (most recent call first):
+       [0] _configured (res://addons/beckett/core/client_config.gd:140)
+       [1] detect (res://addons/beckett/core/client_config.gd:151)
+       [2] _refresh_clients (res://addons/beckett/panel/panel.gd:1203)
+       [3] _refresh (res://addons/beckett/panel/panel.gd:1186)
+       [4] _ready (res://addons/beckett/panel/panel.gd:118)
+       [5] _enter_tree (res://addons/beckett/plugin.gd:70)
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+[   0% ] [90m[1msave[22m | Started Saving Scene (4 steps)[39m[0m
+[   0% ] [90m[1msave[22m | Analyzing[39m[0m
+[  20% ] [90m[1msave[22m | Creating Thumbnail[39m[0m
+ERROR: Parameter "t" is null.
+   at: texture_2d_get (./servers/rendering/dummy/storage/texture_storage.h:110)
+   GDScript backtrace (most recent call first):
+       [0] _save_scene (res://addons/beckett/tools/scene_tools.gd:219)
+       [1] _call_tool (res://addons/beckett/core/mcp_server.gd:571)
+       [2] _dispatch (res://addons/beckett/core/mcp_server.gd:500)
+       [3] handle_http (res://addons/beckett/core/mcp_server.gd:421)
+       [4] _try_handle (res://addons/beckett/core/http_server.gd:196)
+       [5] _process (res://addons/beckett/core/http_server.gd:126)
+[  80% ] [90m[1msave[22m | Saving Scene[39m[0m
+[92m[ DONE ][39m [1msave[22m
+[0m
+[   0% ] [90m[1msave[22m | Started Saving Scene (4 steps)[39m[0m
+[   0% ] [90m[1msave[22m | Analyzing[39m[0m
+[  20% ] [90m[1msave[22m | Creating Thumbnail[39m[0m
+ERROR: Parameter "t" is null.
+   at: texture_2d_get (./servers/rendering/dummy/storage/texture_storage.h:110)
+   GDScript backtrace (most recent call first):
+       [0] _play_scene (res://addons/beckett/tools/run_tools.gd:80)
+       [1] _call_tool (res://addons/beckett/core/mcp_server.gd:571)
+       [2] _dispatch (res://addons/beckett/core/mcp_server.gd:500)
+       [3] handle_http (res://addons/beckett/core/mcp_server.gd:421)
+       [4] _try_handle (res://addons/beckett/core/http_server.gd:196)
+       [5] _process (res://addons/beckett/core/http_server.gd:126)
+[  80% ] [90m[1msave[22m | Saving Scene[39m[0m
+[92m[ DONE ][39m [1msave[22m
+[0m

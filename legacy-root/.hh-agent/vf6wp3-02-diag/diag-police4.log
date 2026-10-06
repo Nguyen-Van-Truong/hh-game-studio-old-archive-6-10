@@ -1,0 +1,19 @@
+﻿Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_DIAG start map=police bots=3
+HH_VF_STAGE HUNT want=win map=police tick=5 p1=(72.7,116.0) foe=(232.0, 147.9991) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=police tick=95 p1=(238.3,147.8) foe=(233.0919, 147.9962) hp=84.0 stuck=1
+HH_VF_STAGE HUNT want=win map=police tick=185 p1=(226.0,147.8) foe=(232.8723, 147.2535) hp=84.0 stuck=0
+HH_VF_STAGE HUNT want=win map=police tick=275 p1=(240.0,147.8) foe=(234.1863, 147.9988) hp=85.3 stuck=1
+HH_VF_STAGE HUNT want=win map=police tick=365 p1=(379.2,126.9) foe=(952.0, 179.9852) hp=72.8 stuck=0
+HH_VF_STAGE HUNT want=win map=police tick=455 p1=(411.5,51.7) foe=(952.0, 179.9852) hp=72.8 stuck=23
+HH_VF_STAGE HUNT want=win map=police tick=545 p1=(411.5,22.5) foe=(952.0, 179.9852) hp=75.3 stuck=113
+HH_VF_STAGE HUNT want=win map=police tick=635 p1=(411.5,10.2) foe=(952.0, 179.9852) hp=81.3 stuck=203
+HH_VF_STAGE HUNT want=win map=police tick=725 p1=(411.5,15.0) foe=(952.0, 179.9852) hp=87.3 stuck=293
+HH_VF_STAGE HUNT want=win map=police tick=815 p1=(411.5,36.7) foe=(952.0, 179.9852) hp=93.3 stuck=383
+HH_VF_STAGE HUNT want=win map=police tick=905 p1=(411.5,65.2) foe=(952.0, 179.9852) hp=99.3 stuck=473
+HH_VF_STAGE HUNT want=win map=police tick=995 p1=(411.5,30.3) foe=(952.0, 179.9852) hp=100.0 stuck=563
+HH_VF_STAGE HUNT want=win map=police tick=1085 p1=(411.5,12.4) foe=(952.0, 179.9852) hp=100.0 stuck=653
+HH_VF_STAGE HUNT want=win map=police tick=1175 p1=(411.5,11.5) foe=(952.0, 179.9852) hp=100.0 stuck=743
+HH_VF_STAGE HUNT want=win map=police tick=1265 p1=(411.5,27.6) foe=(952.0, 179.9852) hp=100.0 stuck=833
+

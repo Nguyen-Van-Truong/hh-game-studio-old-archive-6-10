@@ -1,0 +1,27 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_VF_BOTS STEP=boot DISPLAY=headless
+HH_VF_BOTS STEP=schema ok=true
+HH_VF_BOTS STEP=map_sync id=rooftops
+HH_VF_BOTS STEP=map_sync id=storage
+HH_VF_BOTS STEP=map_sync id=police
+HH_VF_BOTS STEP=map_sync id=hazardous
+HH_VF_BOTS STEP=map_sync id=lantern
+HH_VF_BOTS STEP=map_sync id=gauge
+HH_VF_BOTS STEP=maps six
+HH_VF_BOTS STEP=weapons_start nades=3 gun=pistol ammo=12
+HH_VF_BOTS STEP=weapons classes=2
+HH_VF_BOTS STEP=finish_chunk left=1020 outcome=play
+HH_VF_BOTS STEP=finish_chunk left=840 outcome=play
+HH_VF_BOTS STEP=finish_chunk left=660 outcome=play
+HH_VF_BOTS STEP=finish_chunk left=480 outcome=play
+HH_VF_BOTS STEP=finish_chunk left=300 outcome=play
+HH_VF_BOTS STEP=finish_chunk left=120 outcome=play
+HH_VF_BOTS STEP=finish_chunk left=0 outcome=play
+HH_VF_BOTS STEP=finish_fighter slot=0 team=0 dead=false cause= hp=54 shots=8 x=105 y=87 bot=true
+HH_VF_BOTS STEP=finish_fighter slot=1 team=1 dead=false cause= hp=60 shots=8 x=696 y=21 bot=true
+HH_VF_BOTS STEP=finish outcome=play
+HH_VF_BOTS STEP=greedy
+HH_VF_BOTS STEP=recover
+HH_VF_BOTS STEP=diff
+HH_VF_BOTS STEP=bound

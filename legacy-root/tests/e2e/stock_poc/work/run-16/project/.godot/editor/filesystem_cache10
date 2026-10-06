@@ -1,0 +1,16 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1787211122
+main.tscn::PackedScene::6649235103831124205::1787211122::0::1::::<><><>0<>0<><>::uid://co5ilnv0mg5vg::::res://player.gd
+player.gd::GDScript::5817922607012171800::1787211121::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player_placeholder.png::CompressedTexture2D::3104513640557022498::1787211121::1787211122::1::::<><><>0<>0<>dc015bcbd997130c975ab8befa707d40<>res://.godot/imported/player_placeholder.png-56220e1ab1c49799c5a77683769c3a11.ctex::
+::res://addons/::1787210623
+::res://addons/hh_stock_poc/::1787211121
+dock.gd::GDScript::5530110179539673223::1787210648::0::1::::<>VBoxContainer<><>0<>1<><>::
+net.gd::GDScript::4525078173211456588::1787210855::0::1::::<>RefCounted<><>0<>1<><>::
+overlay.gd::GDScript::2190828537088844260::1787210638::0::1::::<>PanelContainer<><>0<>1<><>::
+plugin.cfg::TextFile::-1::1787210623::0::1::::<><><>0<>0<><>::
+plugin.gd::GDScript::6351946028318943594::1787210728::0::1::::<>EditorPlugin<><>0<>1<><>::
+README.md::TextFile::-1::1787210843::0::1::::<><><>0<>0<><>::
+runtime.gd::GDScript::3289905159897067057::1787210731::0::1::::<>Node<><>0<>0<><>::
+::res://addons/hh_stock_poc/templates/::1787211121
+player_move.gd::GDScript::840333381460603005::1787210623::0::1::::<>CharacterBody2D<><>0<>0<><>::

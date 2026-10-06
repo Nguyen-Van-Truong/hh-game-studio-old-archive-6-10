@@ -1,0 +1,7 @@
+{"name":"schema","ok":true}
+{"count":1,"name":"maps","ok":true}
+{"classes":1,"name":"weapons","ok":false}
+{"name":"finish","ok":true,"outcome":"win"}
+{"hud":"Bot skill regular · delay 10 · aim±10° · budget 8","name":"diff","ok":true}
+{"name":"bound","ok":true,"peak":10}
+{"name":"live","ok":true}

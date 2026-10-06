@@ -1,0 +1,22 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_VF_BOTS STEP=map_sync id=rooftops
+HH_VF_BOTS STEP=map_sync id=hazardous
+HH_VF_BOTS STEP=map_sync id=gauge
+HH_VF_BOTS STEP=map_sync id=storage
+HH_VF_BOTS STEP=map_sync id=police
+HH_VF_BOTS STEP=map_sync id=lantern
+HH_DIAG MAP id=rooftops reach=false reason=none moved=97.7 toward=78.4 goal=305.6 wp=78.1 engage=306.3 closest=295.2 gun=0 melee=0 pit_blocks=33 pit_reroutes=0 dead=false
+HH_DIAG MAP id=hazardous reach=true reason=engage moved=162.3 toward=162.1 goal=61.9 wp=82.4 engage=65.5 closest=62.5 gun=7 melee=0 pit_blocks=78 pit_reroutes=0 dead=false
+HH_DIAG MAP id=gauge reach=true reason=engage moved=224.1 toward=223.6 goal=48.4 wp=96.0 engage=51.7 closest=48.0 gun=8 melee=0 pit_blocks=0 pit_reroutes=0 dead=false
+HH_DIAG MAP id=storage reach=false reason=none moved=136.5 toward=37.4 goal=170.6 wp=136.5 engage=196.3 closest=114.6 gun=0 melee=0 pit_blocks=0 pit_reroutes=0 dead=false
+HH_DIAG MAP id=police reach=true reason=engage moved=99.4 toward=98.4 goal=64.8 wp=64.8 engage=68.2 closest=64.6 gun=9 melee=0 pit_blocks=18 pit_reroutes=0 dead=false
+HH_DIAG MAP id=lantern reach=true reason=engage moved=257.5 toward=257.5 goal=48.2 wp=179.6 engage=51.7 closest=49.5 gun=6 melee=0 pit_blocks=90 pit_reroutes=0 dead=false
+HH_DIAG ERR rooftops bot did not reach named foe/waypoint goal=305.6 wp=78.1 engage=306.3 closest=295.2 reason=none
+HH_DIAG ERR rooftops bot never fired or melee-hit a living foe gun=0 melee=0
+HH_DIAG ERR rooftops bot missing live aim-error postcondition off=0.0
+HH_DIAG ERR rooftops bot did not arrive on a platform/waypoint/foe goal=305.6 wp=78.1 engage=306.3 closest=295.2
+HH_DIAG ERR storage bot did not reach named foe/waypoint goal=170.6 wp=136.5 engage=196.3 closest=114.6 reason=none
+HH_DIAG ERR storage bot never fired or melee-hit a living foe gun=0 melee=0
+HH_DIAG ERR storage bot missing live aim-error postcondition off=0.0
+HH_DIAG MAPS fail errors=7

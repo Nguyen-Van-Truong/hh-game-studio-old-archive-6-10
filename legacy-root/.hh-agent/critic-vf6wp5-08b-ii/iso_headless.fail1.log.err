@@ -1,0 +1,22 @@
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_bots.gd:179)
+SCRIPT ERROR: Parse Error: Identifier "InputActions" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_bots.gd:26)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_bots.gd:29)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_bots.gd:29)
+SCRIPT ERROR: Parse Error: Identifier "Maps" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_bots.gd:77)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_bots.gd:102)
+SCRIPT ERROR: Parse Error: Could not resolve external class member "live_app".
+   at: GDScript::reload (res://tests/run_bots.gd:103)
+SCRIPT ERROR: Parse Error: Identifier "Maps" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_bots.gd:126)
+SCRIPT ERROR: Parse Error: Identifier "Maps" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_bots.gd:137)
+SCRIPT ERROR: Parse Error: Identifier "SimConstants" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_bots.gd:245)
+ERROR: Failed to load script "res://tests/run_bots.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)

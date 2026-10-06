@@ -1,0 +1,65 @@
+{
+	"items": [
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"has_more\":false,\"items\":[{\"class\":\"Window\",\"name\":\"root\",\"path\":\"/root\"},{\"class\":\"Node\",\"name\":\"HhReloadDriver\",\"path\":\"/root/HhReloadDriver\"},{\"class\":\"Node2D\",\"name\":\"shot\",\"path\":\"/root/shot\"},{\"class\":\"Node2D\",\"name\":\"Fixture\",\"path\":\"/root/shot/Fixture\"},{\"class\":\"Node\",\"name\":\"HHAgentTickProbe\",\"path\":\"/root/shot/HHAgentTickProbe\"}],\"limit\":50,\"next_cursor\":\"\",\"offset\":0,\"ok\":true,\"op\":\"tree\",\"remote_tree\":true,\"run_id\":\"01M0Q1ATG2AWJCD4T3TBPNN1AZ\",\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":false,\"frames\":10,\"frozen\":false,\"paused\":false,\"physics_frames\":15,\"physics_hz\":0,\"probe_physics\":15,\"probe_process\":11,\"seed\":0,\"seed_pinned\":false,\"ticks_msec\":1384},\"token\":\"01M0Q1ATSJHPBYKNM7D2WHK42P\",\"total\":5,\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q1ATG2AWJCD4T3TBPNN1AZ",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 198449
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frozen\":true,\"is_playing_scene\":true,\"observed_frozen\":true,\"ok\":true,\"op\":\"freeze\",\"paused\":true,\"physics_hz\":60,\"playing\":true,\"probe_after\":20,\"probe_before\":20,\"probe_physics\":20,\"probe_process\":16,\"remote_tree\":true,\"run_id\":\"01M0Q1ATG2AWJCD4T3TBPNN1AZ\",\"seed\":4242,\"seed_pinned\":true,\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":18,\"frozen\":true,\"paused\":true,\"physics_frames\":23,\"physics_hz\":60,\"probe_physics\":20,\"probe_process\":16,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1500},\"token\":\"01M0Q1AW2N12KPFZH8S168149M\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q1ATG2AWJCD4T3TBPNN1AZ",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 198561
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"fixture_after\":24,\"fixture_before\":20,\"frames_advanced\":4,\"frozen\":true,\"is_playing_scene\":true,\"matched\":false,\"missed_event\":false,\"ok\":true,\"op\":\"step\",\"paused\":true,\"physics_hz\":60,\"playing\":true,\"probe_after\":24,\"probe_before\":20,\"remote_tree\":true,\"run_id\":\"01M0Q1ATG2AWJCD4T3TBPNN1AZ\",\"seed\":4242,\"seed_pinned\":true,\"source\":\"hh_agent_runtime\",\"stepped\":true,\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":25,\"frozen\":true,\"paused\":true,\"physics_frames\":30,\"physics_hz\":60,\"probe_physics\":24,\"probe_process\":19,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1617},\"token\":\"01M0Q1AW64JNKGTG9T5V1VRMQ4\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q1ATG2AWJCD4T3TBPNN1AZ",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 198671
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"found\":true,\"got\":\"panel_ready\",\"is_playing_scene\":true,\"key\":\"last_signal\",\"kind\":\"property\",\"matched\":true,\"node_path\":\"Fixture\",\"ok\":true,\"op\":\"assert\",\"playing\":true,\"remote_tree\":true,\"run_id\":\"01M0Q1ATG2AWJCD4T3TBPNN1AZ\",\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":28,\"frozen\":true,\"paused\":true,\"physics_frames\":33,\"physics_hz\":60,\"probe_physics\":24,\"probe_process\":19,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1684},\"token\":\"01M0Q1AW9JTFZVKF72NMKJ112P\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q1ATG2AWJCD4T3TBPNN1AZ",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 198737
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"code\":\"E_UNVERIFIED\",\"dummy\":false,\"is_playing_scene\":true,\"message\":\"Play viewport blit was empty; refusing dummy PNG\",\"ok\":false,\"op\":\"screenshot\",\"playing\":true,\"remote_tree\":true,\"run_id\":\"01M0Q1ATG2AWJCD4T3TBPNN1AZ\",\"screenshot_artifact_present\":false,\"source\":\"hh_agent_runtime\",\"stable\":{\"frames\":35,\"frames_before\":32,\"frames_waited\":3,\"frozen\":true,\"pixel_stable\":true,\"stable\":true,\"used_sleep\":false},\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":35,\"frozen\":true,\"paused\":true,\"physics_frames\":40,\"physics_hz\":60,\"probe_physics\":24,\"probe_process\":19,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1830},\"token\":\"01M0Q1AWBNMBD5ZVFW4W6ZC4AS\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q1ATG2AWJCD4T3TBPNN1AZ",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 198894
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"code\":\"E_UNVERIFIED\",\"dummy\":false,\"is_playing_scene\":true,\"message\":\"Play viewport blit was empty; refusing dummy PNG\",\"ok\":false,\"op\":\"screenshot\",\"playing\":true,\"remote_tree\":true,\"run_id\":\"01M0Q1ATG2AWJCD4T3TBPNN1AZ\",\"screenshot_artifact_present\":false,\"source\":\"hh_agent_runtime\",\"stable\":{\"frames\":35,\"frames_before\":32,\"frames_waited\":3,\"frozen\":true,\"pixel_stable\":true,\"stable\":true,\"used_sleep\":false},\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":35,\"frozen\":true,\"paused\":true,\"physics_frames\":40,\"physics_hz\":60,\"probe_physics\":24,\"probe_process\":19,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1843},\"token\":\"01M0Q1AWBNMBD5ZVFW4W6ZC4AS\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q1ATG2AWJCD4T3TBPNN1AZ",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 198894
+		}
+	],
+	"stop_reason": "test"
+}

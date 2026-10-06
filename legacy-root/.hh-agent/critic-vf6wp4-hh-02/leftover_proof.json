@@ -1,0 +1,11 @@
+﻿{
+    "path":  "D:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\.hh-agent\\critic-vf6wp4-hh-02\\iso",
+    "window_exe":  "C:\\Users\\truon\\AppData\\Local\\HHGodotAgent\\tooling\\godot-4.7.1-stable\\bin\\Godot_v4.7.1-stable_win64_console.exe",
+    "run_survival_host_exit":  0,
+    "note":  "HH leftover-0 iso critic-vf6wp4-hh-02; one --path; console twin; check_survival + run_survival",
+    "after_run_survival":  0,
+    "run_survival_elapsed_sec":  710.6,
+    "host":  "System.Diagnostics.Process WaitForExit",
+    "after_check":  0,
+    "leftover":  0
+}

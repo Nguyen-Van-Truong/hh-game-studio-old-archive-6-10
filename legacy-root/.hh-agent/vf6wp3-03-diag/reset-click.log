@@ -1,0 +1,7 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_DIAG plant path=user://vf_stage/progress_vf6wp3_diag_reset.json score=30
+HH_DIAG title visible=true phase=title reset_txt=Reset Stage confirm_vis=false score=30
+HH_DIAG after_reset_click armed=false confirm_vis=false confirm_txt=Confirm Reset score=30
+HH_DIAG after_confirm score=30 idx=3 awarded=[0.0, 1.0, 2.0] confirm_vis=false phase=title
+HH_DIAG RESET_CLICK FAIL

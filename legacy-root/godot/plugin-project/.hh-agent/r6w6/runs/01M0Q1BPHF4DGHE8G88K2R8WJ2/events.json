@@ -1,0 +1,46 @@
+{
+	"items": [
+		{
+			"attempt": 0,
+			"kind": "run_begin",
+			"ms": 225566,
+			"name": "seed_tint",
+			"scene": "res://r6w7/c3/seed_tint/shot.tscn"
+		},
+		{
+			"kind": "step",
+			"ms": 225935,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 227216,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 227305,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 227425,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 227492,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 227650,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 227699,
+			"ok": true
+		}
+	]
+}

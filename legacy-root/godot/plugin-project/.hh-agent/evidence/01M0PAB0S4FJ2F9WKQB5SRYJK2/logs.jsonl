@@ -1,0 +1,4 @@
+{"kind":"runtime","line":0,"message":"game_view:setup_complete","path":"","run_id":"01M0PAB0S4FJ2F9WKQB5SRYJK2","stack":[],"tree_kind":"remote","ts_ms":8005}
+{"kind":"runtime","line":0,"message":"game_view:window_size (1152, 648)","path":"","run_id":"01M0PAB0S4FJ2F9WKQB5SRYJK2","stack":[],"tree_kind":"remote","ts_ms":8006}
+{"kind":"runtime","line":0,"message":"game_view:window_size (1152, 648)","path":"","run_id":"01M0PAB0S4FJ2F9WKQB5SRYJK2","stack":[],"tree_kind":"remote","ts_ms":8038}
+{"kind":"runtime","line":1,"message":"game_view:hdr_state false false 80.0 270.0 1.0 true false","path":"","run_id":"01M0PAB0S4FJ2F9WKQB5SRYJK2","stack":[],"tree_kind":"remote","ts_ms":8038}

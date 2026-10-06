@@ -1,0 +1,11 @@
+{
+  "files": [
+    "r7w5/soak1/logs/events.1787560585157.jsonl",
+    "r7w5/soak1/logs/events.1787555583452.jsonl",
+    "r7w5/soak1/logs/events.1787555456685.jsonl"
+  ],
+  "checkpoint_refs": [
+    "r7w5/soak1/state.json"
+  ],
+  "rotated_at_ms": 1787560585157
+}

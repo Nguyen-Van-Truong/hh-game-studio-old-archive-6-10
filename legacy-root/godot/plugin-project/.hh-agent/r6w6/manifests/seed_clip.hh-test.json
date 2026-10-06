@@ -1,0 +1,22 @@
+{
+	"assert_key": "ui_w",
+	"assert_kind": "property",
+	"assert_node_path": "Fixture",
+	"assert_op": "gte",
+	"assert_value_int": 200.0,
+	"flaky_is_not_pass": true,
+	"mode": "debug",
+	"name": "seed_clip",
+	"path": "res://r6w7/c3/seed_clip/seed_clip.hh-test.json",
+	"scene": "res://r6w7/c3/seed_clip/shot.tscn",
+	"schema": "hh-test/1",
+	"step_frames": 4.0,
+	"steps": [
+		"setup",
+		"run",
+		"assert",
+		"teardown"
+	],
+	"suite": "r6w7",
+	"teardown_stop": true
+}

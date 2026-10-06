@@ -1,0 +1,37 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_ASSERT_FAIL one-way drop did not fall y0=35.9991302490234 y1=35.9991302490234 dy=0.0 eps=8.0
+HH_ASSERT_FAIL drop did not clear COL_PLATFORM mask=35
+HH_ASSERT_FAIL fixture fx_drop failed four-dir dxR=29.3333511352539 dxL=-18.3333511352539 dyU=-0.00067901611328 dyD=0.0
+HH_ASSERT_FAIL DROP outcome is fail
+HH_ASSERT_FAIL DIRS outcome is fail
+HH_ASSERT_FAIL events_all missing drop_through
+HH_ASSERT_FAIL DROP structured outcome is fail
+HH_ASSERT_FAIL DIRS structured outcome is fail
+HH_VF_TRAV run_id=VF2WP5-20260829-ASIA-SAIGON-02
+HH_VF_TRAV command_id=cmd.vf2-wp5.ladder-ledge.2
+HH_VF_TRAV DISPLAY=headless
+HH_VF_TRAV SEED=1 MAP=fx_ladder MODE=vs2
+HH_VF_TRAV STARTED_AT=2026-08-29T15:09:15+07:00 ENDED_AT=2026-08-29T15:09:17+07:00
+HH_VF_TRAV USED_STEP_FIXED=0 USED_APPLY_FRAMES=2436 USED_APPLY_ATTEMPTED=2436 USED_APPLY_SUCCEEDED=2436 USED_PARSE_INPUT_EVENT=1 USED_ACTION_PRESS=0
+HH_VF_TRAV LADDER=pass LADDER_SOURCE=outcome_ladder
+HH_VF_TRAV LEDGE=pass LEDGE_SOURCE=outcome_ledge
+HH_VF_TRAV DROP=fail DROP_SOURCE=outcome_drop
+HH_VF_TRAV BLOCK=pass BLOCK_SOURCE=outcome_block
+HH_VF_TRAV DIRS=fail DIRS_SOURCE=outcome_dirs
+HH_VF_TRAV MAPS=fixtures_only MAPS_SOURCE=outcome_maps STAGE_NAV=not_claimed
+HH_VF_TRAV STUCK=pass STUCK_SOURCE=outcome_stuck
+HH_VF_TRAV CONTACT=pass CONTACT_SOURCE=outcome_contact
+HH_VF_TRAV LIVE=pass LIVE_SOURCE=outcome_live
+HH_VF_TRAV REPLAY=match REPLAY_SOURCE=outcome_replay
+HH_VF_TRAV HOLD_AIM=assumption SPRINT=assumption ROLL=assumption DIVE=assumption KICK=assumption FALL=assumption LADDER=assumption LEDGE=assumption DROP=assumption ROLL_DIVE=unavailable CLOCK=RL-SIM-FIXED-60
+HH_VF_TRAV EVIDENCE_DIR=d:\dataDiskD\intellji\hoanhaosocial\hoanhaonew-20-6-2025\hh-game-studio\.hh-agent\vf2wp5-fix\retry-headless
+FAIL: Vault Fighters ladder ledge traversal
+  - one-way drop did not fall y0=35.9991302490234 y1=35.9991302490234 dy=0.0 eps=8.0
+  - drop did not clear COL_PLATFORM mask=35
+  - fixture fx_drop failed four-dir dxR=29.3333511352539 dxL=-18.3333511352539 dyU=-0.00067901611328 dyD=0.0
+  - DROP outcome is fail
+  - DIRS outcome is fail
+  - events_all missing drop_through
+  - DROP structured outcome is fail
+  - DIRS structured outcome is fail

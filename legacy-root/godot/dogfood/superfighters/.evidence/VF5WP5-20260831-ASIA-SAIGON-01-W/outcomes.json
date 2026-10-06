@@ -1,0 +1,371 @@
+{
+	"apply": {
+		"attempted": 6293,
+		"succeeded": 6293,
+		"used_action_press": 0,
+		"used_apply_frames": 6293,
+		"used_parse_input_event": 0,
+		"used_step_fixed": 0
+	},
+	"bot": {
+		"climb_up_on_ladder": 45,
+		"climbing_frames": 45,
+		"coverage": "smoke",
+		"dead": false,
+		"hits": {
+			"east_bank": true,
+			"east_high": true
+		},
+		"honest": "preset east-ladder then short brain chase; not AI; not Y8 parity",
+		"routed_dead": false,
+		"slot": 2,
+		"source": "apply_frames vs1 bot smoke route holds up on east ladder onto east_high",
+		"verdict": "pass"
+	},
+	"camera": {
+		"arena_size": [
+			1024.0,
+			256.0
+		],
+		"centered": true,
+		"covers_arena": true,
+		"observed": true,
+		"source": "apply_frames then GameSession.camera_framing",
+		"verdict": "pass",
+		"viewport": [
+			1280.0,
+			720.0
+		]
+	},
+	"cargo": {
+		"drops": 1,
+		"hung_after": false,
+		"hung_before": true,
+		"observed": true,
+		"reached": true,
+		"source": "apply_frames body meets hanging crate; melee releases it",
+		"verdict": "pass"
+	},
+	"cargo_still": {
+		"acid": false,
+		"alive": true,
+		"allow_lose": false,
+		"climbing": false,
+		"hanging": false,
+		"lose_visible": false,
+		"on_floor": true,
+		"on_ladder": false,
+		"x": 274.813110351563,
+		"y": 67.8130264282227,
+		"zone": "mid_west"
+	},
+	"crossing_still": {
+		"acid": false,
+		"alive": true,
+		"allow_lose": false,
+		"climbing": false,
+		"hanging": false,
+		"lose_visible": false,
+		"on_floor": true,
+		"on_ladder": false,
+		"x": 471.226837158203,
+		"y": 67.9994430541992,
+		"zone": "mid_east"
+	},
+	"dive": {
+		"acid": false,
+		"damage": 0,
+		"dead": true,
+		"dived": true,
+		"invuln_cancels_toxic": false,
+		"observed": true,
+		"source": "apply_frames dive into vitriol; take_env_tick ignores invuln",
+		"trajectory": {
+			"acid": true,
+			"dead": true,
+			"dy": 153.651550292969,
+			"floor_then_air": true,
+			"last_on_floor": false,
+			"last_zone": "",
+			"samples": 261,
+			"x0": 72.3888854980469,
+			"x1": 479.278076171875,
+			"y0": 128.472229003906,
+			"y1": 282.123779296875
+		},
+		"verdict": "pass"
+	},
+	"graph": {
+		"elevations": 8,
+		"source": "MapGraph helper; official reach is apply_frames",
+		"verdict": "pass",
+		"zones": [
+			{
+				"graph": true,
+				"id": "west_bank"
+			},
+			{
+				"graph": true,
+				"id": "west_span"
+			},
+			{
+				"graph": true,
+				"id": "west_high"
+			},
+			{
+				"graph": true,
+				"id": "west_mid"
+			},
+			{
+				"graph": true,
+				"id": "mid_west"
+			},
+			{
+				"graph": true,
+				"id": "mid_east"
+			},
+			{
+				"graph": true,
+				"id": "mid_low"
+			},
+			{
+				"graph": true,
+				"id": "east_high"
+			},
+			{
+				"graph": true,
+				"id": "east_bank"
+			},
+			{
+				"graph": true,
+				"id": "sump_lip"
+			},
+			{
+				"graph": true,
+				"id": "sump_wade"
+			}
+		]
+	},
+	"lip_still": {
+		"acid": false,
+		"alive": true,
+		"allow_lose": false,
+		"climbing": false,
+		"hanging": false,
+		"lose_visible": false,
+		"on_floor": true,
+		"on_ladder": false,
+		"x": 379.889007568359,
+		"y": 163.813140869141,
+		"zone": "sump_lip"
+	},
+	"live": {
+		"hud": "Vitriol Sump",
+		"source": "HUD + title display Vitriol Sump",
+		"verdict": "pass"
+	},
+	"name": {
+		"display": "Vitriol Sump",
+		"source": "catalog + ArenaSpec Vitriol Sump",
+		"verdict": "pass"
+	},
+	"p1": {
+		"climb_up_on_ladder": 0,
+		"climbing_frames": 157,
+		"dead": false,
+		"hits": {
+			"east_bank": true,
+			"east_high": true,
+			"mid_east": true,
+			"mid_low": true,
+			"mid_west": true,
+			"sump_lip": true,
+			"west_bank": true,
+			"west_high": true,
+			"west_mid": true,
+			"west_span": true
+		},
+		"on_floor": true,
+		"pos": [
+			844.278381347656,
+			19.9999389648438
+		],
+		"source": "apply_frames live body; P1 holds up on ladders through safe zones",
+		"verdict": "pass"
+	},
+	"p2": {
+		"climb_up_on_ladder": 0,
+		"climbing_frames": 52,
+		"coverage": "smoke",
+		"dead": false,
+		"hits": {
+			"mid_west": true,
+			"west_bank": true,
+			"west_high": true,
+			"west_span": true
+		},
+		"honest": "preset west-ladder walk onto mid_west; not AI; not Y8 parity",
+		"source": "apply_frames P2 smoke route holds up on west ladder onto mid_west",
+		"verdict": "pass"
+	},
+	"pipes_still": {
+		"acid": false,
+		"alive": true,
+		"allow_lose": false,
+		"climbing": false,
+		"hanging": false,
+		"lose_visible": false,
+		"on_floor": true,
+		"on_ladder": false,
+		"x": 173.66764831543,
+		"y": 19.8131732940674,
+		"zone": "west_high"
+	},
+	"replay": {
+		"catalog_hash": "59be1462182973f6f291b96994574cbca1e8af2299371743a90a1cd72231282e",
+		"frames": 240,
+		"live_hash": "db07f7ebfb4cca6a961ac871cf7abf8c5ad130d9a7896ea127777a0d44799a2e",
+		"observed": true,
+		"pairs": [
+			{
+				"hash": "59be1462182973f6f291b96994574cbca1e8af2299371743a90a1cd72231282e",
+				"id": "hazardous",
+				"kind": "catalog",
+				"match": true
+			},
+			{
+				"frames": 240,
+				"hash": "db07f7ebfb4cca6a961ac871cf7abf8c5ad130d9a7896ea127777a0d44799a2e",
+				"id": "live_toxic",
+				"kind": "apply_frames",
+				"match": true
+			}
+		],
+		"source": "replay live apply_frames replay hash plus catalog reload",
+		"verdict": "match"
+	},
+	"roll": {
+		"acid": true,
+		"damage": 0,
+		"dead": false,
+		"observed": true,
+		"rolled": true,
+		"source": "apply_frames roll off sump_lip into vitriol",
+		"trajectory": {
+			"acid": true,
+			"dead": false,
+			"dy": 61.3131408691406,
+			"floor_then_air": true,
+			"last_on_floor": false,
+			"last_zone": "",
+			"samples": 211,
+			"x0": 72.3888854980469,
+			"x1": 481.389099121094,
+			"y0": 128.472229003906,
+			"y1": 189.785369873047
+		},
+		"verdict": "pass"
+	},
+	"spawn": {
+		"p1_dead": false,
+		"p2_dead": false,
+		"source": "idle apply_frames; spawn AABB off pit/toxic",
+		"verdict": "pass"
+	},
+	"tactic": {
+		"floor_cause": "pit",
+		"floor_dead": true,
+		"observed": true,
+		"pipe_alive": true,
+		"pipe_fired": true,
+		"pipe_zone": "mid_east",
+		"source": "live floor walk dies; pipe route lives and fires — hazard changes movement and weapon strategy",
+		"verdict": "pass"
+	},
+	"toxic": {
+		"acid": true,
+		"cause": "damage",
+		"damage": 4,
+		"dead": true,
+		"deaths": 1,
+		"enters": 1,
+		"hp_after": 52.0,
+		"observed": true,
+		"source": "apply_frames live walk-off lip into sump_wade pool; stay-to-death",
+		"trajectory": {
+			"acid": true,
+			"dead": true,
+			"dy": 51.5147399902344,
+			"floor_then_air": true,
+			"last_on_floor": true,
+			"last_zone": "sump_lip",
+			"samples": 337,
+			"x0": 72.3888854980469,
+			"x1": 379.889007568359,
+			"y0": 128.472229003906,
+			"y1": 179.986968994141
+		},
+		"verdict": "pass"
+	},
+	"toxic_still": {
+		"acid": true,
+		"alive": true,
+		"allow_lose": true,
+		"climbing": false,
+		"hanging": false,
+		"lose_visible": false,
+		"on_floor": true,
+		"on_ladder": false,
+		"x": 379.889007568359,
+		"y": 179.986968994141,
+		"zone": "sump_lip"
+	},
+	"variants": {
+		"morphs": [
+			{
+				"acid": true,
+				"dead": true,
+				"dy": 51.5147399902344,
+				"morph": "drop",
+				"samples": 337
+			},
+			{
+				"acid": false,
+				"dead": true,
+				"dy": 153.651550292969,
+				"morph": "dive",
+				"samples": 261
+			},
+			{
+				"acid": true,
+				"dead": false,
+				"dy": 61.3131408691406,
+				"morph": "roll",
+				"samples": 211
+			}
+		],
+		"observed": true,
+		"source": "three apply_frames morphologies: drop / dive / roll into vitriol",
+		"verdict": "pass"
+	},
+	"zone": {
+		"climb_up_on_ladder": 45,
+		"climbing_frames": 254,
+		"missing": [],
+		"p1_all": true,
+		"source": "apply_frames live body positions (graph helper only)",
+		"union": {
+			"east_bank": true,
+			"east_high": true,
+			"mid_east": true,
+			"mid_low": true,
+			"mid_west": true,
+			"sump_lip": true,
+			"west_bank": true,
+			"west_high": true,
+			"west_mid": true,
+			"west_span": true
+		},
+		"verdict": "pass"
+	}
+}

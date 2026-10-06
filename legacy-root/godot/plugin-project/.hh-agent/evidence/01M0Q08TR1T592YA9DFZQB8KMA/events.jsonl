@@ -1,0 +1,2 @@
+{"event":"play.started","run_id":"01M0Q08TR1T592YA9DFZQB8KMA","scene":"res://r6w7/seed_tint/shot.tscn","ts_ms":111990,"verb":"debug"}
+{"event":"play.stopped","reason":"crash","run_id":"01M0Q08TR1T592YA9DFZQB8KMA","ts_ms":114192}

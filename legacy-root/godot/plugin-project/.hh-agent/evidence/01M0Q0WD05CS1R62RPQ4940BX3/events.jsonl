@@ -1,0 +1,2 @@
+{"event":"play.started","run_id":"01M0Q0WD05CS1R62RPQ4940BX3","scene":"res://r6w7/c1/seed_mask/shot.tscn","ts_ms":32400,"verb":"debug"}
+{"event":"play.stopped","reason":"crash","run_id":"01M0Q0WD05CS1R62RPQ4940BX3","ts_ms":34299}

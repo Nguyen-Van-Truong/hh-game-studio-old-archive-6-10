@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://c4yyugod264m4"]
+
+[ext_resource type="Script" path="res://snake/snake_game.gd" id="1_j2kkt"]
+
+[node name="snake" type="Node2D" unique_id=1360453701]
+script = ExtResource("1_j2kkt")
+metadata/hh_agent_uid = "hhuid_471973270_2"
+metadata/_hh_agent_uid = "hhuid_471973270_2"
+
+[node name="Board" type="ColorRect" parent="." unique_id=1584149052]
+offset_right = 512.0
+offset_bottom = 384.0
+color = Color(0.08, 0.1, 0.14, 1)
+metadata/hh_agent_uid = "hhuid_471972422_1"
+metadata/_hh_agent_uid = "hhuid_471972422_1"
+
+[node name="Board2" type="ColorRect" parent="." unique_id=1977705241]
+metadata/hh_agent_uid = "hhuid_539970999_3"
+metadata/_hh_agent_uid = "hhuid_539970999_3"
+
+[node name="Head" type="ColorRect" parent="." unique_id=38668593]
+offset_left = 128.0
+offset_top = 192.0
+offset_right = 158.0
+offset_bottom = 222.0
+color = Color(0.2, 0.9, 0.3, 1)
+metadata/hh_agent_uid = "hhuid_543370200_4"
+metadata/_hh_agent_uid = "hhuid_543370200_4"
+
+[node name="Food" type="ColorRect" parent="." unique_id=2005555613]
+offset_left = 320.0
+offset_top = 192.0
+offset_right = 350.0
+offset_bottom = 222.0
+color = Color(0.95, 0.2, 0.2, 1)
+metadata/hh_agent_uid = "hhuid_547070147_5"
+metadata/_hh_agent_uid = "hhuid_547070147_5"
+
+[node name="Score" type="Label" parent="." unique_id=368396926]
+offset_left = 8.0
+offset_top = 388.0
+offset_right = 400.0
+offset_bottom = 420.0
+metadata/hh_agent_uid = "hhuid_550771326_6"
+metadata/_hh_agent_uid = "hhuid_550771326_6"
+
+[node name="Board3" type="ColorRect" parent="." unique_id=787143345]
+metadata/hh_agent_uid = "hhuid_587171776_7"
+metadata/_hh_agent_uid = "hhuid_587171776_7"
+
+[node name="Head2" type="ColorRect" parent="." unique_id=858374336]
+metadata/hh_agent_uid = "hhuid_590771090_8"
+metadata/_hh_agent_uid = "hhuid_590771090_8"
+
+[node name="Food2" type="ColorRect" parent="." unique_id=1091450036]
+metadata/hh_agent_uid = "hhuid_594570906_9"
+metadata/_hh_agent_uid = "hhuid_594570906_9"
+
+[node name="Score2" type="Label" parent="." unique_id=1953597262]
+metadata/hh_agent_uid = "hhuid_598371159_10"
+metadata/_hh_agent_uid = "hhuid_598371159_10"
+
+[node name="Board4" type="ColorRect" parent="." unique_id=1967471523]
+metadata/hh_agent_uid = "hhuid_636596729_11"
+metadata/_hh_agent_uid = "hhuid_636596729_11"
+
+[node name="Head3" type="ColorRect" parent="." unique_id=489890277]
+metadata/hh_agent_uid = "hhuid_640296979_12"
+metadata/_hh_agent_uid = "hhuid_640296979_12"
+
+[node name="Food3" type="ColorRect" parent="." unique_id=755100806]
+metadata/hh_agent_uid = "hhuid_644097502_13"
+metadata/_hh_agent_uid = "hhuid_644097502_13"
+
+[node name="Score3" type="Label" parent="." unique_id=849604746]
+metadata/hh_agent_uid = "hhuid_647897463_14"
+metadata/_hh_agent_uid = "hhuid_647897463_14"

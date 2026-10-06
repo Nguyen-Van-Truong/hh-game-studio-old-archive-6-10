@@ -1,0 +1,13 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_VF_BOTS STEP=map_sync id=rooftops
+HH_VF_BOTS STEP=map_sync id=storage
+HH_DIAG MAP id=rooftops reach=false reason=none moved=289.1 toward=284.7 goal=99.3 wp=208.7 engage=100.4 closest=99.2 gun=0 melee=0 pit_blocks=246 pit_reroutes=0
+HH_DIAG MAP id=storage reach=true reason=waypoint moved=96.3 toward=95.7 goal=112.3 wp=16.4 engage=115.8 closest=113.2 gun=0 melee=0 pit_blocks=0 pit_reroutes=0
+HH_DIAG ERR rooftops bot did not reach named foe/waypoint goal=99.3 wp=208.7 engage=100.4 closest=99.2 reason=none
+HH_DIAG ERR rooftops bot never fired or melee-hit a living foe gun=0 melee=0
+HH_DIAG ERR rooftops bot missing live aim-error postcondition off=0.0
+HH_DIAG ERR rooftops bot did not arrive on a platform/waypoint/foe goal=99.3 wp=208.7 engage=100.4 closest=99.2
+HH_DIAG ERR storage bot never fired or melee-hit a living foe gun=0 melee=0
+HH_DIAG ERR storage bot missing live aim-error postcondition off=0.0
+HH_DIAG MAPS fail errors=6

@@ -1,0 +1,9 @@
+{
+  "name": "@hoanhao-local/game-2-launcher",
+  "private": true,
+  "hh_readiness_path": "/play/",
+  "hh_readiness_identity": "data-app=\"hh-overthinking-lab\"",
+  "scripts": {
+    "dev": "npm --prefix ../../../../game-hoanhao/games/game-2 run dev"
+  }
+}

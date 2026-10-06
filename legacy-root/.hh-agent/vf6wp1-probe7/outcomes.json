@@ -1,0 +1,147 @@
+{
+	"apply": {
+		"attempted": 599,
+		"succeeded": 596,
+		"used_action_press": 0,
+		"used_apply_frames": 596,
+		"used_force_kill": 0,
+		"used_parse_input_event": 1,
+		"used_step_fixed": 0
+	},
+	"ff": {
+		"class": "assumption",
+		"source": "Combat.friendly_fire_on via match contract",
+		"stage": false,
+		"verdict": "pass",
+		"vs1": false,
+		"vs2": true
+	},
+	"live": {
+		"end_reason": "quit",
+		"frozen": true,
+		"outcome": "quit",
+		"paused": true,
+		"source": "InputEventAction pause + pause Quit button",
+		"verdict": "pass"
+	},
+	"lose": {
+		"end_reason": "p1_down",
+		"outcome": "lose",
+		"p1_dead": true,
+		"source": "apply_frames match_lose.json",
+		"used_force_kill": false,
+		"verdict": "pass"
+	},
+	"machine": {
+		"canonical": true,
+		"modes": [
+			"vs1",
+			"vs2",
+			"stage",
+			"survival"
+		],
+		"source": "_Match.mode_row uses_machine",
+		"verdict": "pass"
+	},
+	"pause": {
+		"apply_rejected": true,
+		"hash_stable": false,
+		"phase": "paused",
+		"sim_frozen": true,
+		"source": "set_paused then apply_frames reject + match_pause.json",
+		"tick0": 10,
+		"tick1": 10,
+		"verdict": "fail"
+	},
+	"quit": {
+		"end_reason": "quit",
+		"session_cleared": true,
+		"source": "apply_frames then match_ops quit",
+		"title_visible": true,
+		"used_force_kill": false,
+		"verdict": "pass"
+	},
+	"replay": {
+		"pair_count": 6,
+		"pairs": [
+			{
+				"hash": "d11e872e77f3bc0024a87f18cb12658466f5cfaac6163420a0200fb81bd50cc8",
+				"match": false,
+				"name": "match_lose.json",
+				"outcome": "lose"
+			},
+			{
+				"hash": "e2995df1ee5235aace4eb96a08358ad59ffa663205bd9ec88105b8823c91dbda",
+				"match": false,
+				"name": "match_pause.json",
+				"outcome": "play"
+			},
+			{
+				"hash": "24618377912d5b08c37b4985bf3df2b1ff983eef569916076bf5640385bde540",
+				"match": false,
+				"name": "match_quit.json",
+				"outcome": "quit"
+			},
+			{
+				"hash": "ae4b88a954590d060b5379babaaf556e4022c79b63960ff8d8c0a8b5ef433455",
+				"match": false,
+				"name": "match_restart.json",
+				"outcome": "win"
+			},
+			{
+				"hash": "390293eb235a4709ddbf13c97648091df2406ed8f59132edc8d89972bb08bd9a",
+				"match": false,
+				"name": "match_tie.json",
+				"outcome": "tie"
+			},
+			{
+				"hash": "bd779712c0286d0dfd78e7dcaccc498b07e503bcf79f4638944ef227be554df4",
+				"match": false,
+				"name": "match_win.json",
+				"outcome": "win"
+			}
+		],
+		"source": "SimReplay.final_hash twice",
+		"verdict": "fail"
+	},
+	"restart": {
+		"restarted_outcome": "play",
+		"source": "apply_frames match_restart.json restart_same",
+		"verdict": "pass"
+	},
+	"schema": {
+		"source": "data/sim/match.json + traces",
+		"verdict": "pass"
+	},
+	"seed": {
+		"formula": "7 + stage * 13",
+		"source": "SimSeed.for_match",
+		"stage1": 20,
+		"verdict": "pass",
+		"vs1": 7,
+		"vs2": 7
+	},
+	"signal": {
+		"emitted": 1,
+		"loses": 0,
+		"source": "apply_eval twice + _resolve_end",
+		"verdict": "pass",
+		"wins": 1
+	},
+	"tie": {
+		"end_reason": "timeout",
+		"outcome": "tie",
+		"source": "apply_frames match_tie.json timeout approximation",
+		"timer_class": "assumption",
+		"timer_observed": false,
+		"used_force_kill": false,
+		"verdict": "pass"
+	},
+	"win": {
+		"end_reason": "last_standing",
+		"outcome": "win",
+		"source": "apply_frames match_win.json",
+		"used_force_kill": false,
+		"verdict": "pass"
+	}
+}

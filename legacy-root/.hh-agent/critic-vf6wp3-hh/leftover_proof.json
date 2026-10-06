@@ -1,0 +1,22 @@
+{
+    "critic":  "HH leftover-0 isolated",
+    "run_id":  "VF6WP3-20260901-ASIA-SAIGON-01",
+    "command_id":  "cmd.vf6-wp3.stage-progress.1",
+    "iso":  ".hh-agent/critic-vf6wp3-hh/iso",
+    "exe":  "C:\\Users\\truon\\AppData\\Local\\HHGodotAgent\\tooling\\godot-4.7.1-stable\\bin\\Godot_v4.7.1-stable_win64_console.exe",
+    "check_exit":  0,
+    "headless_host_exit":  0,
+    "headless_elapsed_sec":  8.1,
+    "headless_hung":  false,
+    "window_host_exit":  0,
+    "window_elapsed_sec":  10.2,
+    "window_hung":  false,
+    "leftover_before":  0,
+    "after_check":  0,
+    "after_headless":  0,
+    "after_window":  0,
+    "leftover_after_product":  0,
+    "leftover":  0,
+    "host":  "System.Diagnostics.Process WaitForExit",
+    "note":  "HH leftover-0 on critic-vf6wp3-hh iso only; did not touch II or product path"
+}

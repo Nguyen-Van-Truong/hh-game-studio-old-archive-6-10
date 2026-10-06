@@ -1,0 +1,36 @@
+{
+	"items": [
+		{
+			"attempt": 0,
+			"kind": "run_begin",
+			"ms": 51365,
+			"name": "seed_anim",
+			"scene": "res://r6w7/c1/seed_anim/shot.tscn"
+		},
+		{
+			"kind": "step",
+			"ms": 51694,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 52987,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 53074,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 53185,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 53230,
+			"ok": true
+		}
+	]
+}

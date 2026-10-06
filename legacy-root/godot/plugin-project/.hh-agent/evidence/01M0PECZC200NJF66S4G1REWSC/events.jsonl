@@ -1,0 +1,4 @@
+{"event":"play.started","run_id":"01M0PECZC200NJF66S4G1REWSC","scene":"res://r6w2/probe.tscn","ts_ms":7891,"verb":"debug"}
+{"code":"E_TIMEOUT","event":"play.stopped","reason":"hang","run_id":"01M0PECZC200NJF66S4G1REWSC","ts_ms":17899}
+{"event":"play.stopped","reason":"test","run_id":"01M0PECZC200NJF66S4G1REWSC","ts_ms":18719}
+{"event":"play.stopped","reason":"test","run_id":"01M0PECZC200NJF66S4G1REWSC","ts_ms":18829}

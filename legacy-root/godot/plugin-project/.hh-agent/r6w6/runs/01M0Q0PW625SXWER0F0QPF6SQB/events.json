@@ -1,0 +1,36 @@
+{
+	"items": [
+		{
+			"attempt": 0,
+			"kind": "run_begin",
+			"ms": 227677,
+			"name": "seed_spike",
+			"scene": "res://r6w7/c3/seed_spike/shot.tscn"
+		},
+		{
+			"kind": "step",
+			"ms": 227989,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 229293,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 229360,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 229695,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 229740,
+			"ok": true
+		}
+	]
+}

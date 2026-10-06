@@ -1,0 +1,15 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_VF_BOTS STEP=map_sync id=rooftops
+HH_VF_BOTS STEP=map_sync id=hazardous
+HH_VF_BOTS STEP=map_sync id=gauge
+HH_VF_BOTS STEP=map_sync id=storage
+HH_VF_BOTS STEP=map_sync id=police
+HH_VF_BOTS STEP=map_sync id=lantern
+HH_DIAG MAP id=rooftops reach=true reason=engage moved=316.4 toward=316.3 goal=67.7 wp=236.7 engage=71.3 closest=71.3 gun=7 melee=0 pit_blocks=44 pit_reroutes=0 dead=false
+HH_DIAG MAP id=hazardous reach=true reason=engage moved=156.3 toward=156.2 goal=67.8 wp=76.4 engage=71.5 closest=71.5 gun=6 melee=0 pit_blocks=0 pit_reroutes=0 dead=false
+HH_DIAG MAP id=gauge reach=true reason=engage moved=224.1 toward=223.4 goal=48.6 wp=237.9 engage=51.9 closest=48.1 gun=6 melee=0 pit_blocks=0 pit_reroutes=0 dead=false
+HH_DIAG MAP id=storage reach=true reason=engage moved=143.6 toward=130.2 goal=77.8 wp=75.2 engage=71.3 closest=71.3 gun=4 melee=0 pit_blocks=0 pit_reroutes=0 dead=false
+HH_DIAG MAP id=police reach=true reason=engage moved=96.5 toward=95.4 goal=67.8 wp=73.7 engage=71.2 closest=71.2 gun=6 melee=0 pit_blocks=6 pit_reroutes=0 dead=false
+HH_DIAG MAP id=lantern reach=true reason=engage moved=256.5 toward=256.5 goal=49.2 wp=178.7 engage=52.5 closest=50.3 gun=8 melee=0 pit_blocks=0 pit_reroutes=0 dead=false
+HH_DIAG MAPS pass errors=0

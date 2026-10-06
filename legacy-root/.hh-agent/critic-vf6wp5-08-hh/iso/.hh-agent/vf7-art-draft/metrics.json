@@ -1,0 +1,8 @@
+{
+  "actor_bounds_target": "14-18 x 20-24 logical px",
+  "head_max_fraction": 0.3,
+  "weapon_extension_max_fraction": 0.8,
+  "socket_drift_target_px": 1,
+  "silhouette_pairwise_target_pct": 15,
+  "measured": "geometry-authored bounds; pixel edge-mask measurement pending integrator"
+}

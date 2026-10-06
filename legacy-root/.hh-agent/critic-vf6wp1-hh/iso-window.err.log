@@ -1,0 +1,40 @@
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:154)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:178)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:200)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:325)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:341)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:357)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:401)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:414)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:431)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:449)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:468)
+SCRIPT ERROR: Parse Error: Identifier "InputActions" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:25)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:27)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:27)
+SCRIPT ERROR: Parse Error: Identifier "Maps" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:85)
+SCRIPT ERROR: Parse Error: Identifier "SimConstants" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:294)
+SCRIPT ERROR: Parse Error: Identifier "SimReplay" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:327)
+SCRIPT ERROR: Parse Error: Identifier "InputActions" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:479)
+SCRIPT ERROR: Parse Error: Identifier "InputFrame" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_match.gd:485)
+ERROR: Failed to load script "res://tests/run_match.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)

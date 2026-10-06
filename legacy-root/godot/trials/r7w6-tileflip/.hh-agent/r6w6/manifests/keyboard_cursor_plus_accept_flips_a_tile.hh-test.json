@@ -1,0 +1,20 @@
+{
+	"assert_key": "flips",
+	"assert_kind": "property",
+	"assert_node_path": ".",
+	"assert_op": "gte",
+	"assert_value_int": 1.0,
+	"flaky_is_not_pass": true,
+	"mode": "play",
+	"name": "keyboard_cursor_plus_accept_flips_a_tile",
+	"path": "res://r7w6/keyboard_cursor_plus_accept_flips_a_tile.hh-test.json",
+	"scene": "res://scenes/memory/board.tscn",
+	"schema": "hh-test/1",
+	"step_frames": 2.0,
+	"steps": [
+		"ui_accept"
+	],
+	"suite": "r7w6",
+	"teardown_stop": true,
+	"timeout_ms": 120000.0
+}

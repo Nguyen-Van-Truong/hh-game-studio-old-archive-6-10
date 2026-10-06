@@ -1,0 +1,10 @@
+{
+  "job_id": "soak1",
+  "session_id": "01M0S9KQAMPJ0PVXC1KQG9XY4G",
+  "task_id": "01M0S9KQAMSQBVQ8ZC7DZZC6XD",
+  "command_id": "01M0S9KQAM37AKPCVSK0E4WBW2",
+  "compacted": true,
+  "checkpoint_refs": [
+    "r7w5/soak1/state.json"
+  ]
+}

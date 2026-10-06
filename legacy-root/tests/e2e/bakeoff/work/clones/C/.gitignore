@@ -1,0 +1,22 @@
+# Godot
+.godot/
+*.import
+export_presets.cfg
+.import/
+
+# Editor / OS
+*.log
+.DS_Store
+.vscode/
+Thumbs.db
+
+# Pack output
+dist/
+
+# Junk / temp
+nul
+*.tmp
+.tmp_findings/
+
+# Registry publish tool (downloaded per-release, never ship it)
+mcp-publisher.exe

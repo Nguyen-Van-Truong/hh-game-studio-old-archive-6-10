@@ -1,0 +1,83 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_VF_BOTS STEP=boot DISPLAY=headless
+HH_VF_BOTS STEP=schema ok=true
+HH_VF_BOTS STEP=map_sync id=rooftops
+HH_VF_BOTS STEP=map_sync id=storage
+HH_VF_BOTS STEP=map_sync id=police
+HH_VF_BOTS STEP=map_sync id=hazardous
+HH_VF_BOTS STEP=map_sync id=lantern
+HH_VF_BOTS STEP=map_sync id=gauge
+HH_VF_BOTS STEP=maps six
+HH_VF_BOTS STEP=weapons_start nades=3 gun=pistol ammo=12
+HH_VF_BOTS STEP=weapons classes=0
+HH_VF_BOTS STEP=finish_chunk left=1020 outcome=play
+HH_VF_BOTS STEP=finish_chunk left=840 outcome=lose
+HH_VF_BOTS STEP=finish_fighter slot=0 team=0 dead=true cause=damage hp=0 shots=1 x=412 y=164 bot=true
+HH_VF_BOTS STEP=finish_fighter slot=1 team=1 dead=false cause= hp=12 shots=1 x=402 y=164 bot=true
+HH_VF_BOTS STEP=finish outcome=lose
+HH_VF_BOTS STEP=greedy
+HH_VF_BOTS STEP=recover
+HH_VF_BOTS STEP=diff
+HH_VF_BOTS STEP=bound
+HH_VF_BOTS STEP=live
+HH_ASSERT_FAIL rooftops bot did not reach named foe/waypoint goal=106.9 wp=128.2 engage=108.7 closest=108.7 reason=none
+HH_ASSERT_FAIL rooftops bot never fired or melee-hit a living foe gun=0 melee=0
+HH_ASSERT_FAIL rooftops bot missing live aim-error postcondition off=0.0
+HH_ASSERT_FAIL rooftops bot did not arrive on a platform/waypoint/foe goal=106.9 wp=128.2 engage=108.7 closest=108.7
+HH_ASSERT_FAIL storage bot never fired or melee-hit a living foe gun=0 melee=0
+HH_ASSERT_FAIL storage bot missing live aim-error postcondition off=0.0
+HH_ASSERT_FAIL hazardous bot did not reach named foe/waypoint goal=159.6 wp=127.8 engage=162.3 closest=162.3 reason=none
+HH_ASSERT_FAIL hazardous bot never fired or melee-hit a living foe gun=0 melee=0
+HH_ASSERT_FAIL hazardous bot missing live aim-error postcondition off=0.0
+HH_ASSERT_FAIL lantern bot did not reach named foe/waypoint goal=86.6 wp=65.4 engage=85.0 closest=85.0 reason=none
+HH_ASSERT_FAIL lantern bot never fired or melee-hit a living foe gun=0 melee=0
+HH_ASSERT_FAIL lantern bot missing live aim-error postcondition off=0.0
+HH_ASSERT_FAIL gauge bot did not reach named foe/waypoint goal=119.6 wp=98.7 engage=122.1 closest=122.1 reason=none
+HH_ASSERT_FAIL gauge bot never fired or melee-hit a living foe gun=0 melee=0
+HH_ASSERT_FAIL gauge bot missing live aim-error postcondition off=0.0
+HH_ASSERT_FAIL bot used 0 live classes fire_spawn=0 melee_hit=0 explosion=0
+HH_ASSERT_FAIL weapons proof missing live fire_spawn
+HH_ASSERT_FAIL weapons proof missing nade explosion or melee hit
+HH_ASSERT_FAIL MAPS structured outcome is fail
+HH_ASSERT_FAIL WEAPONS structured outcome is fail
+HH_VF_BOTS run_id=VF6WP5-20260903-ASIA-SAIGON-04
+HH_VF_BOTS command_id=cmd.vf6-wp5.bots.4
+HH_VF_BOTS DISPLAY=headless
+HH_VF_BOTS SEED=7 MAP=rooftops MODE=vs1 NAME=Skyline Relay
+HH_VF_BOTS STARTED_AT=2026-09-04T06:06:37+07:00 ENDED_AT=2026-09-04T06:23:33+07:00
+HH_VF_BOTS USED_STEP_FIXED=0 USED_APPLY_FRAMES=4633 USED_APPLY_ATTEMPTED=4633 USED_APPLY_SUCCEEDED=4633 USED_PARSE_INPUT_EVENT=0 USED_ACTION_PRESS=0 USED_FORCE_KILL=0 USED_TELEPORT=0 USED_APPLY_EVAL=0
+HH_VF_BOTS SCHEMA=pass SCHEMA_SOURCE=outcome_schema
+HH_VF_BOTS MAPS=fail WEAPONS=fail FINISH=pass GREEDY=pass RECOVER=pass DIFF=pass BOUND=pass LIVE=pass
+HH_VF_BOTS MAP_ROW id=rooftops name=Skyline Relay reach=false reason=none pit=true aim=false combat=false moved=291.8 toward=277.1 goal_dist=106.9 waypoint_dist=128.2 engage=108.7 closest=108.7 pit_blocks=241 pit_reroutes=83 gun=0 melee=0 aim_err=0.0 shot_off=0.0 cause=
+HH_VF_BOTS MAP_ROW id=storage name=Pallet Annex reach=true reason=waypoint pit=true aim=false combat=false moved=96.0 toward=96.0 goal_dist=112.0 waypoint_dist=25.7 engage=118.2 closest=118.2 pit_blocks=0 pit_reroutes=0 gun=0 melee=0 aim_err=0.0 shot_off=0.0 cause=
+HH_VF_BOTS MAP_ROW id=police name=Signal Court reach=true reason=goal pit=true aim=true combat=true moved=157.0 toward=156.5 goal_dist=6.7 waypoint_dist=6.9 engage=7.0 closest=6.3 pit_blocks=286 pit_reroutes=99 gun=4 melee=0 aim_err=7.8 shot_off=7.6 cause=
+HH_VF_BOTS MAP_ROW id=hazardous name=Vitriol Sump reach=false reason=none pit=true aim=false combat=false moved=152.0 toward=64.4 goal_dist=159.6 waypoint_dist=127.8 engage=162.3 closest=162.3 pit_blocks=182 pit_reroutes=60 gun=0 melee=0 aim_err=0.0 shot_off=0.0 cause=
+HH_VF_BOTS MAP_ROW id=lantern name=Lantern Cut reach=false reason=none pit=true aim=false combat=false moved=225.3 toward=219.1 goal_dist=86.6 waypoint_dist=65.4 engage=85.0 closest=85.0 pit_blocks=1034 pit_reroutes=314 gun=0 melee=0 aim_err=-3.0 shot_off=0.0 cause=
+HH_VF_BOTS MAP_ROW id=gauge name=Gauge Deck reach=false reason=none pit=true aim=false combat=false moved=195.1 toward=152.4 goal_dist=119.6 waypoint_dist=98.7 engage=122.1 closest=122.1 pit_blocks=0 pit_reroutes=0 gun=0 melee=0 aim_err=0.0 shot_off=0.0 cause=
+HH_VF_BOTS HONESTY BOT_COVERAGE=planner NOT_AI=0 NOT_Y8_PARITY=1 PLANNER_CLASS=assumption DIFF=tuning NO_TELEPORT=1 NO_PERFECT_AIM=1 NO_HIDDEN_STATE=1
+HH_VF_BOTS FORCE_KILL_OFFICIAL=0 TELEPORT_OFFICIAL=0
+HH_VF_BOTS EVIDENCE_DIR=D:\dataDiskD\intellji\hoanhaosocial\hoanhaonew-20-6-2025\hh-game-studio\godot\dogfood\superfighters\.evidence\VF6WP5-diag-04c
+FAIL: Vault Fighters bot planner
+  - rooftops bot did not reach named foe/waypoint goal=106.9 wp=128.2 engage=108.7 closest=108.7 reason=none
+  - rooftops bot never fired or melee-hit a living foe gun=0 melee=0
+  - rooftops bot missing live aim-error postcondition off=0.0
+  - rooftops bot did not arrive on a platform/waypoint/foe goal=106.9 wp=128.2 engage=108.7 closest=108.7
+  - storage bot never fired or melee-hit a living foe gun=0 melee=0
+  - storage bot missing live aim-error postcondition off=0.0
+  - hazardous bot did not reach named foe/waypoint goal=159.6 wp=127.8 engage=162.3 closest=162.3 reason=none
+  - hazardous bot never fired or melee-hit a living foe gun=0 melee=0
+  - hazardous bot missing live aim-error postcondition off=0.0
+  - lantern bot did not reach named foe/waypoint goal=86.6 wp=65.4 engage=85.0 closest=85.0 reason=none
+  - lantern bot never fired or melee-hit a living foe gun=0 melee=0
+  - lantern bot missing live aim-error postcondition off=0.0
+  - gauge bot did not reach named foe/waypoint goal=119.6 wp=98.7 engage=122.1 closest=122.1 reason=none
+  - gauge bot never fired or melee-hit a living foe gun=0 melee=0
+  - gauge bot missing live aim-error postcondition off=0.0
+  - bot used 0 live classes fire_spawn=0 melee_hit=0 explosion=0
+  - weapons proof missing live fire_spawn
+  - weapons proof missing nade explosion or melee hit
+  - MAPS structured outcome is fail
+  - WEAPONS structured outcome is fail
+HH_VF_BOTS FINISHED=1
+HH_VF_BOTS PROCESS_EXIT=1

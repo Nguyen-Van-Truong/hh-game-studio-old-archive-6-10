@@ -1,0 +1,252 @@
+﻿using SFD;
+using SFD.MenuControls;
+using SFDCT.Assets;
+using SFDCT.Configuration;
+using Keys = Microsoft.Xna.Framework.Input.Keys;
+using Panel = SFD.MenuControls.Panel;
+
+namespace SFDCT.UI.Panels;
+
+internal class ExSubContentPanel : Panel
+{
+    private Menu m_enabledMenu;
+    private Menu m_disabledMenu;
+    private Menu m_menu;
+    private bool m_changed = false;
+
+    public ExSubContentPanel() : base(LanguageHelper.GetText("sfdct.setting.header.subcontent"), 600, Menu.ITEM_HEIGHT * 12 + 50)
+    {
+        m_enabledMenu = new(new(0, 50), Width / 2, Menu.ITEM_HEIGHT * 10, this);
+        m_disabledMenu = new(new(Width / 2, 50), Width / 2, Menu.ITEM_HEIGHT * 10, this);
+        m_menu = new(new(0, 50 + Menu.ITEM_HEIGHT * 11), Width, Menu.ITEM_HEIGHT, this);
+
+        m_enabledMenu.NeighborRightId = 2;
+        m_enabledMenu.NeighborDownId = 0;
+        m_disabledMenu.NeighborLeftId = 1;
+        m_disabledMenu.NeighborDownId = 0;
+        m_menu.NeighborUpId = 1;
+
+        m_menu.Add(new MenuItemButton(LanguageHelper.GetText("button.done"), ok, MenuIcons.Ok));
+
+        members.Add(m_menu);
+        members.Add(m_enabledMenu);
+        members.Add(m_disabledMenu);
+        m_menu.SelectFirst();
+
+        m_enabledMenu.Add(new MenuItemSeparator(LanguageHelper.GetText("general.on")));
+        foreach (var folderName in SubContent.GetEnabled())
+        {
+            m_enabledMenu.Add(new MenuItemButton(folderName, folderAction));
+        }
+
+        foreach (var folderName in SubContent.GetNew())
+        {
+            m_enabledMenu.Add(new MenuItemButton(folderName, folderAction));
+        }
+
+        m_disabledMenu.Add(new MenuItemSeparator(LanguageHelper.GetText("general.off")));
+        foreach (var folderName in SubContent.GetDisabled())
+        {
+            m_disabledMenu.Add(new MenuItemButton(folderName, folderAction));
+        }
+    }
+
+    private void MoveItem(Menu menu, MenuItem item, bool up)
+    {
+        int index = menu.IndexOf(item);
+        int otherIndex = index + (up ? -1 : 1);
+
+        var otherItem = menu.ItemAt(otherIndex);
+        if (otherItem == null) return;
+
+        menu.Items[index] = otherItem;
+        menu.Items[otherIndex] = item;
+        menu.UpdatePositions();
+        menu.UpdateScrollbar();
+    }
+
+    private void SwapItem(Menu fromMenu, Menu toMenu, MenuItem item)
+    {
+        int index = fromMenu.IndexOf(item);
+        if (index == -1) return;
+
+        fromMenu.Remove(item);
+        toMenu.Add(item);
+
+        item.Deselect();
+    }
+
+    private void folderAction(object obj)
+    {
+        if (obj is not MenuItemButton menuItem) return;
+
+        if (menuItem.ParentMenu == m_disabledMenu)
+        {
+            OpenSubPanel(new ExConfirmMultiplePanel(menuItem.lblName.Text,
+            [
+                "Back",
+                "Enable"
+            ], [
+                _ =>
+                {
+                    CloseSubPanel();
+                },
+                _ =>
+                {
+                    m_changed = true;
+                    SwapItem(m_disabledMenu, m_enabledMenu, menuItem);
+                    CloseSubPanel();
+                },
+            ], [
+                MenuIcons.Cancel,
+                MenuIcons.Settings,
+            ]));
+        }
+        else if (menuItem.ParentMenu == m_enabledMenu)
+        {
+            string[] optionTexts;
+            ControlEvents.ChooseEvent[] optionEvents;
+            string[] optionIcons;
+
+            if (menuItem.ParentMenu.IndexOf(menuItem) == 1)
+            {
+                optionTexts = [
+                    "Back",
+                    "Disable",
+                    "Move Down"
+                ];
+
+                optionEvents = [
+                    _ =>
+                    {
+                        CloseSubPanel();
+                    },
+                    _ =>
+                    {
+                        m_changed = true;
+                        SwapItem(m_enabledMenu, m_disabledMenu, menuItem);
+                        CloseSubPanel();
+                    },
+                    _ =>
+                    {
+                        m_changed = true;
+                        MoveItem(m_enabledMenu, menuItem, false);
+                        CloseSubPanel();
+                    }
+                ];
+
+                optionIcons = [
+                    MenuIcons.Cancel,
+                    MenuIcons.Settings,
+                    null
+                ];
+            }
+            else if (menuItem.ParentMenu.IndexOf(menuItem) == menuItem.ParentMenu.ItemCount - 1)
+            {
+                optionTexts = [
+                    "Back",
+                    "Disable",
+                    "Move Up",
+                ];
+
+                optionEvents = [
+                    _ =>
+                    {
+                        CloseSubPanel();
+                    },
+                    _ =>
+                    {
+                        m_changed = true;
+                        SwapItem(m_enabledMenu, m_disabledMenu, menuItem);
+                        CloseSubPanel();
+                    },
+                    _ =>
+                    {
+                        m_changed = true;
+                        MoveItem(m_enabledMenu, menuItem, true);
+                        CloseSubPanel();
+                    }
+                ];
+
+                optionIcons = [
+                    MenuIcons.Cancel,
+                    MenuIcons.Settings,
+                    null,
+                ];
+            }
+            else
+            {
+                optionTexts = [
+                    "Back",
+                    "Disable",
+                    "Move Up",
+                    "Move Down"
+                ];
+
+                optionEvents = [
+                    _ =>
+                    {
+                        CloseSubPanel();
+                    },
+                    _ =>
+                    {
+                        m_changed = true;
+                        SwapItem(m_enabledMenu, m_disabledMenu, menuItem);
+                        CloseSubPanel();
+                    },
+                    _ =>
+                    {
+                        m_changed = true;
+                        MoveItem(m_enabledMenu, menuItem, true);
+                        CloseSubPanel();
+                    },
+                    _ =>
+                    {
+                        m_changed = true;
+                        MoveItem(m_enabledMenu, menuItem, false);
+                        CloseSubPanel();
+                    }
+                ];
+
+                optionIcons = [
+                    MenuIcons.Cancel,
+                    MenuIcons.Settings,
+                    null,
+                    null
+                ];
+            }
+
+            OpenSubPanel(new ExConfirmMultiplePanel(menuItem.lblName.Text, optionTexts, optionEvents, optionIcons));
+        }
+    }
+
+    private void ok(object _)
+    {
+        if (m_changed)
+        {
+            // join and format the names of all
+            // the buttons in each menu as folder names
+            string enabledFolders = SubContent.JoinFoldersInSettingLine(m_enabledMenu.Items.Where(b => b is MenuItemButton && b is not MenuItemSeparator).Select(b => ((MenuItemButton)b).lblName.Text));
+            string disabledFolders = SubContent.JoinFoldersInSettingLine(m_disabledMenu.Items.Where(b => b is MenuItemButton && b is not MenuItemSeparator).Select(b => ((MenuItemButton)b).lblName.Text));
+
+            ExConfig.Set(ExSettingKey.SubContentEnabledFolders, enabledFolders);
+            ExConfig.Set(ExSettingKey.SubContentDisabledFolders, disabledFolders);
+            ExConfig.Save();
+
+            MessageStack.Show(LanguageHelper.GetText("menu.settings.restartrequiredmessage"), MessageStackType.Information);
+        }
+
+        ParentPanel.CloseSubPanel();
+    }
+
+    public override void KeyPress(Keys key)
+    {
+        if (subPanel == null && key == Keys.Escape)
+        {
+            ParentPanel.CloseSubPanel();
+            return;
+        }
+
+        base.KeyPress(key);
+    }
+}

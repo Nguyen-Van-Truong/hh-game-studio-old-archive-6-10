@@ -1,0 +1,2 @@
+{"kind":"PARSER","line":3,"message":"PARSER  ERROR: res://r6w1/parse_bad.gd:3 - Parse Error: Expected end of statement after expression, found \"Identifier\" instead.","path":"res://r6w1/parse_bad.gd","run_id":"01M0PB0KGWTRFEAGV2VW00C7QR","stack":[],"tree_kind":"remote","ts_ms":12505}
+{"kind":"PARSER","line":0,"message":"PARSER  ERROR: modules/gdscript/gdscript_resource_format.cpp:46 - Failed to load script \"res://r6w1/parse_bad.gd\" with error \"Parse error\".","path":"","run_id":"01M0PB0KGWTRFEAGV2VW00C7QR","stack":[],"tree_kind":"remote","ts_ms":12506}

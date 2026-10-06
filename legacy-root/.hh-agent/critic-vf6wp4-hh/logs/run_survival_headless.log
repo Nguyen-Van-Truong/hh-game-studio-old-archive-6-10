@@ -1,0 +1,63 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_VF_SURVIVAL STEP=boot DISPLAY=headless
+HH_VF_SURVIVAL STEP=records
+HH_VF_SURVIVAL STEP=title
+HH_VF_SURVIVAL STEP=distinct
+HH_VF_SURVIVAL STEP=score_spawn
+HH_VF_SURVIVAL STEP=pause
+HH_VF_SURVIVAL STEP=soak
+HH_VF_SURVIVAL SOAK_SEC=600 ELAPSED=600.39 MAX_BOTS=1 REMATCH=0
+HH_VF_SURVIVAL STEP=restart
+HH_VF_SURVIVAL HUNT tick=11212 p1=(72.2,116.0) foe=(455.7958, 115.9991) p1_hp=100.0 bots=1 stuck=1 pit=false
+HH_VF_SURVIVAL HUNT tick=11302 p1=(140.8,116.0) foe=(387.207, 115.9991) p1_hp=100.0 bots=1 stuck=1 pit=false
+HH_VF_SURVIVAL HUNT tick=11392 p1=(169.7,92.8) foe=(376.0, 105.2698) p1_hp=100.0 bots=1 stuck=2 pit=false
+HH_VF_SURVIVAL HUNT tick=11482 p1=(199.4,63.0) foe=(354.5822, 67.81318) p1_hp=100.0 bots=1 stuck=0 pit=false
+HH_VF_SURVIVAL HUNT tick=11572 p1=(242.1,68.0) foe=(311.8823, 67.81318) p1_hp=100.0 bots=1 stuck=0 pit=false
+HH_VF_SURVIVAL HUNT tick=11662 p1=(362.3,67.5) foe=(353.9726, 67.81318) p1_hp=50.0 bots=1 stuck=0 pit=false
+HH_VF_SURVIVAL HUNT tick=11752 p1=(374.7,88.0) foe=(378.8218, 86.03233) p1_hp=40.0 bots=1 stuck=13 pit=false
+HH_VF_SURVIVAL HUNT tick=11842 p1=(374.7,88.0) foe=(378.8218, 86.03233) p1_hp=40.0 bots=1 stuck=103 pit=false
+HH_VF_SURVIVAL HUNT tick=11932 p1=(374.7,88.0) foe=(378.8218, 86.03233) p1_hp=45.2 bots=1 stuck=193 pit=false
+HH_VF_SURVIVAL HUNT tick=12022 p1=(374.7,88.0) foe=(378.8218, 86.03233) p1_hp=51.2 bots=1 stuck=283 pit=false
+HH_VF_SURVIVAL HUNT tick=12112 p1=(374.7,88.0) foe=(378.8218, 86.03233) p1_hp=57.2 bots=1 stuck=373 pit=false
+HH_VF_SURVIVAL HUNT tick=12202 p1=(374.7,88.0) foe=(378.8218, 86.03233) p1_hp=63.2 bots=1 stuck=463 pit=false
+HH_VF_SURVIVAL HUNT tick=12292 p1=(374.7,88.0) foe=(378.8218, 86.03233) p1_hp=69.2 bots=1 stuck=553 pit=false
+HH_VF_SURVIVAL HUNT tick=12382 p1=(374.7,88.0) foe=(378.8218, 86.03233) p1_hp=75.2 bots=1 stuck=643 pit=false
+HH_VF_SURVIVAL HUNT tick=12472 p1=(367.0,66.6) foe=(378.8218, 86.03233) p1_hp=81.2 bots=1 stuck=1 pit=true
+HH_VF_SURVIVAL HUNT tick=12562 p1=(360.5,67.4) foe=(378.8218, 86.03233) p1_hp=87.2 bots=1 stuck=81 pit=true
+HH_VF_SURVIVAL HUNT tick=12652 p1=(360.6,67.5) foe=(378.8218, 86.03233) p1_hp=93.2 bots=1 stuck=42 pit=true
+HH_VF_SURVIVAL HUNT tick=12742 p1=(361.9,67.5) foe=(378.8218, 86.03233) p1_hp=99.2 bots=1 stuck=15 pit=true
+HH_VF_SURVIVAL HUNT tick=12832 p1=(360.5,67.2) foe=(378.8218, 86.03233) p1_hp=100.0 bots=1 stuck=3 pit=true
+HH_VF_SURVIVAL HUNT tick=12922 p1=(360.9,67.0) foe=(378.8218, 86.03233) p1_hp=100.0 bots=1 stuck=12 pit=true
+HH_VF_SURVIVAL HUNT tick=13012 p1=(361.7,66.9) foe=(378.8218, 86.03233) p1_hp=100.0 bots=1 stuck=0 pit=true
+HH_VF_SURVIVAL HUNT tick=13102 p1=(360.9,67.4) foe=(378.8218, 86.03233) p1_hp=100.0 bots=1 stuck=1 pit=true
+HH_VF_SURVIVAL HUNT tick=13192 p1=(360.5,67.2) foe=(378.8218, 86.03233) p1_hp=100.0 bots=1 stuck=82 pit=true
+HH_VF_SURVIVAL HUNT tick=13282 p1=(360.9,67.3) foe=(378.8218, 86.03233) p1_hp=100.0 bots=1 stuck=13 pit=true
+HH_VF_SURVIVAL HUNT tick=13372 p1=(360.7,67.2) foe=(378.8218, 86.03233) p1_hp=100.0 bots=1 stuck=103 pit=true
+HH_VF_SURVIVAL HUNT tick=13462 p1=(360.6,67.0) foe=(378.8218, 86.03233) p1_hp=100.0 bots=1 stuck=193 pit=true
+HH_VF_SURVIVAL HUNT tick=13552 p1=(360.5,67.4) foe=(378.8218, 86.03233) p1_hp=100.0 bots=1 stuck=71 pit=true
+HH_VF_SURVIVAL HUNT tick=13642 p1=(360.9,67.3) foe=(378.8218, 86.03233) p1_hp=100.0 bots=1 stuck=161 pit=true
+HH_VF_SURVIVAL HUNT tick=13732 p1=(411.6,115.8) foe=(378.8218, 86.03233) p1_hp=68.0 bots=1 stuck=0 pit=true
+HH_VF_SURVIVAL HUNT tick=13822 p1=(504.0,115.8) foe=(378.8218, 86.03233) p1_hp=68.0 bots=1 stuck=1 pit=true
+HH_VF_SURVIVAL HUNT tick=13912 p1=(506.8,109.4) foe=(378.8218, 86.03233) p1_hp=69.3 bots=1 stuck=85 pit=true
+HH_VF_SURVIVAL HUNT tick=14002 p1=(554.7,115.9) foe=(378.8218, 86.03233) p1_hp=75.3 bots=1 stuck=1 pit=true
+HH_VF_SURVIVAL HUNT tick=14092 p1=(586.6,99.0) foe=(378.8218, 86.03233) p1_hp=81.3 bots=1 stuck=0 pit=true
+HH_VF_SURVIVAL RESOLVE lose ok=true cause=pit outcome=lose tick=14161 cycles=2950
+HH_VF_SURVIVAL run_id=VF6WP4-20260903-ASIA-SAIGON-01
+HH_VF_SURVIVAL command_id=cmd.vf6-wp4.survival.1
+HH_VF_SURVIVAL DISPLAY=headless
+HH_VF_SURVIVAL SEED=7 MAP=rooftops MODE=survival NAME=Skyline Relay
+HH_VF_SURVIVAL STARTED_AT=2026-09-03T09:57:40+07:00 ENDED_AT=2026-09-03T10:10:24+07:00
+HH_VF_SURVIVAL USED_STEP_FIXED=0 USED_APPLY_FRAMES=14161 USED_APPLY_ATTEMPTED=14191 USED_APPLY_SUCCEEDED=14161 USED_PARSE_INPUT_EVENT=4003 USED_ACTION_PRESS=0 USED_FORCE_KILL=0 USED_TELEPORT=0 USED_APPLY_EVAL=0
+HH_VF_SURVIVAL SCHEMA=pass SCHEMA_SOURCE=outcome_schema
+HH_VF_SURVIVAL LOAD=pass MODE=survival MAP=rooftops
+HH_VF_SURVIVAL DISTINCT=pass STAGE_HASH_STABLE=true
+HH_VF_SURVIVAL SCORE=pass FIRST=1 LAST=7
+HH_VF_SURVIVAL SPAWN=pass MAX_BOTS=1 CAP=6
+HH_VF_SURVIVAL PAUSE=pass RESTART=pass LIVE=pass SOAK_SEC=600 ELAPSED=600.39 TIMELINE=6 EVENTS=245
+HH_VF_SURVIVAL HONESTY BOT_COVERAGE=smoke NOT_AI=1 NOT_Y8_PARITY=1 SURVIVAL_SHIPPED=1 LOOP=approximation
+HH_VF_SURVIVAL FORCE_KILL_OFFICIAL=0 TELEPORT_OFFICIAL=0
+HH_VF_SURVIVAL EVIDENCE_DIR=d:\dataDiskD\intellji\hoanhaosocial\hoanhaonew-20-6-2025\hh-game-studio\.hh-agent\critic-vf6wp4-hh\evidence\headless
+PASS: Vault Fighters survival director
+HH_VF_SURVIVAL FINISHED=1
+HH_VF_SURVIVAL PROCESS_EXIT=0

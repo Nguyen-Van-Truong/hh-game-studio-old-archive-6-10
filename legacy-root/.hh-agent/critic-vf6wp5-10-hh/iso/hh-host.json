@@ -1,0 +1,11 @@
+{
+    "leftover":  0,
+    "path":  "D:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\.hh-agent\\critic-vf6wp5-10-hh\\iso\\superfighters",
+    "counted_product_path":  "D:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\.hh-agent\\critic-vf6wp5-10-hh\\iso\\superfighters",
+    "scan":  "Win32_Process Name~Godot; CommandLine contains critic iso --path",
+    "engine_exe":  "C:\\Users\\truon\\AppData\\Local\\HHGodotAgent\\tooling\\godot-4.7.1-stable\\bin\\Godot_v4.7.1-stable_win64.exe",
+    "headless_host_exit":  0,
+    "headless_elapsed_sec":  828,
+    "host":  "System.Diagnostics.Process.WaitForExit",
+    "note":  "HH leftover-0 on iso --path only; no banner remap; did not touch II product path"
+}

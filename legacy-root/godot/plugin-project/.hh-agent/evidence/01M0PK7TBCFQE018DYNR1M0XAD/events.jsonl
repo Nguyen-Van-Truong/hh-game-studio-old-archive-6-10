@@ -1,0 +1,2 @@
+{"event":"play.started","run_id":"01M0PK7TBCFQE018DYNR1M0XAD","scene":"res://r6w4/freeze.tscn","ts_ms":43450,"verb":"debug"}
+{"event":"play.stopped","reason":"test","run_id":"01M0PK7TBCFQE018DYNR1M0XAD","ts_ms":46249}

@@ -1,0 +1,1 @@
+{"command_id":"01M0S9T4WZBJ1FR47S42JYW3D5","ok":true,"cached":true,"after":{"soak_cached":true,"name":"Node_150","path":"Node_150","class_name":"Node2D","parent":"."},"postcondition":{"verified":true,"checks":["node_exists_under_parent"]},"changed":true}

@@ -1,0 +1,29 @@
+{
+	"display": "Vitriol Sump",
+	"map_id": "hazardous",
+	"mode": "vs2",
+	"replay": {
+		"catalog_hash": "5f3669d06dc2814f6db79381231179e44d5ba986b446f13c5e87d083d661bb48",
+		"frames": 229,
+		"live_hash": "869ba643635cd034eec63f6dd20c7b56a610ca66cb7ee86a611775cb8d83d32a",
+		"observed": true,
+		"pairs": [
+			{
+				"hash": "5f3669d06dc2814f6db79381231179e44d5ba986b446f13c5e87d083d661bb48",
+				"id": "hazardous",
+				"kind": "catalog",
+				"match": true
+			},
+			{
+				"frames": 229,
+				"hash": "869ba643635cd034eec63f6dd20c7b56a610ca66cb7ee86a611775cb8d83d32a",
+				"id": "live_toxic",
+				"kind": "apply_frames",
+				"match": true
+			}
+		],
+		"source": "replay live apply_frames replay hash plus catalog reload",
+		"verdict": "match"
+	},
+	"seed": 15
+}

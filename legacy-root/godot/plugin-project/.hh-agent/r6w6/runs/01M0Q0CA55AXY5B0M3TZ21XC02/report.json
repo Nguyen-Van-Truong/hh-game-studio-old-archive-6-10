@@ -1,0 +1,78 @@
+{
+	"attempt": 1,
+	"engine": "4.7.1.stable.official.a13da4feb",
+	"evidence_index": [
+		{
+			"bytes": 628,
+			"hash": "3420e1b62c6b4658997d5fa7e31c938f23dcf7362e495ef098843bb19f11f837",
+			"kind": "hashes",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0CA55AXY5B0M3TZ21XC02/hashes.json"
+		},
+		{
+			"bytes": 4068,
+			"hash": "b8d82767ab7b4e63465c6f0996128901c1e5dc2a590d1a92cf2856d5e1da3673",
+			"kind": "logs",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0CA55AXY5B0M3TZ21XC02/logs.json"
+		},
+		{
+			"bytes": 723,
+			"hash": "a9a8d0531930f82b5d5abd282f92c5f7d0199fa3f6a3d9062d55ca64a2ca5dce",
+			"kind": "state",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0CA55AXY5B0M3TZ21XC02/state.json"
+		},
+		{
+			"bytes": 450,
+			"hash": "712d44f07e2539f7ae5a3afd65eff22633738bddd742c356774baeb66ffd4229",
+			"kind": "event",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0CA55AXY5B0M3TZ21XC02/events.json"
+		},
+		{
+			"bytes": 1965,
+			"hash": "159f1a5c6275d38d8b1a2b6b66dfd75ee0569f8ce56cad13a0af3d61ea09c8dd",
+			"kind": "report",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0CA55AXY5B0M3TZ21XC02/report.json"
+		},
+		{
+			"bytes": 1223,
+			"hash": "e1f76a870b8e765c9642ccb3b8d4d0864b3a84c3853172ad1d2144060ee6a6e0",
+			"kind": "html",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0CA55AXY5B0M3TZ21XC02/report.html"
+		},
+		{
+			"bytes": 1229,
+			"hash": "9c358303dfa3fb6837eacb79e07c334f440df5f05244a9f9a14af71d29bb8b75",
+			"kind": "evidence",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0CA55AXY5B0M3TZ21XC02/evidence.json"
+		}
+	],
+	"flaky": false,
+	"hashes": {
+		"commit": {
+			"source": "git",
+			"value": "1015eb00b72417fb11a6e51a478f41f02d05ec17"
+		},
+		"engine": "4.7.1.stable.official.a13da4feb",
+		"invented": false,
+		"project_hash": "a6534665ccbf72fe2e73e1a7c9dfd979900fc5550e40291f0d28d846296520bc",
+		"project_hash_files": [
+			"res://project.godot"
+		],
+		"project_hash_source": "sha256",
+		"tool_hashes": {
+			"hh_agent_runtime.gd": "b7d6ee9af3116ff7a4bcfa77998301f8fb6fc4a5f44ce8b7f427578035a50151",
+			"hh_play_adapter.gd": "af5204c9d6fd3a99aa34e7bb3e24c2519fdc1025ddeca1e1066127ba70684e00",
+			"hh_test_adapter.gd": "66f0aebde85df12c8c237aee842ee1da5d29a81381585bf5959b097eb62ffd1a"
+		}
+	},
+	"html_path": "res://.hh-agent/r6w6/runs/01M0Q0CA55AXY5B0M3TZ21XC02/report.html",
+	"invented_hashes": false,
+	"message": "state assertion failed",
+	"name": "seed_spike",
+	"play_proven": true,
+	"reason": "logic",
+	"report_path": "res://.hh-agent/r6w6/runs/01M0Q0CA55AXY5B0M3TZ21XC02/report.json",
+	"retry_max": 0,
+	"run_id": "01M0Q0CA55CR1S6BT50ZCFQP7D",
+	"schema": "hh-test/1",
+	"status": "fail"
+}

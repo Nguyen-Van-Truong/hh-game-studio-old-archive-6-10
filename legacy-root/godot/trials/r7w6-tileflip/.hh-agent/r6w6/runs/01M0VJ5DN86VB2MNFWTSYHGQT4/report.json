@@ -1,0 +1,78 @@
+{
+	"attempt": 1,
+	"engine": "4.7.1.stable.official.a13da4feb",
+	"evidence_index": [
+		{
+			"bytes": 628,
+			"hash": "2a7fb53afb1191ebcdd2200a15e0a64dafa3dd49db74a2c2471d9e8befd8c197",
+			"kind": "hashes",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5DN86VB2MNFWTSYHGQT4/hashes.json"
+		},
+		{
+			"bytes": 36,
+			"hash": "d4ef2f126c9f7a159958c089cfa15d0e3ecb59e26ceff2d1e2a84f2fd04c845a",
+			"kind": "logs",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5DN86VB2MNFWTSYHGQT4/logs.json"
+		},
+		{
+			"bytes": 2,
+			"hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+			"kind": "state",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5DN86VB2MNFWTSYHGQT4/state.json"
+		},
+		{
+			"bytes": 300,
+			"hash": "cb7b4217a33827e84cadadddec9f1414e76fe4f67392536adfda368f7d01fd43",
+			"kind": "event",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5DN86VB2MNFWTSYHGQT4/events.json"
+		},
+		{
+			"bytes": 2055,
+			"hash": "e61592c25fc053dde5c301ce5bf8de65601b7fafbd2822ea2d274f2c09f1d60c",
+			"kind": "report",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5DN86VB2MNFWTSYHGQT4/report.json"
+		},
+		{
+			"bytes": 1256,
+			"hash": "7b2cb93ec0e9de2c19af2e970002aaddd945d8e493c47df57cb25f3965d385d0",
+			"kind": "html",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5DN86VB2MNFWTSYHGQT4/report.html"
+		},
+		{
+			"bytes": 1225,
+			"hash": "8f8c9ac1f1cb6eafdd79f5f728f67725bd61a24718a09a065c7468108ae68f27",
+			"kind": "evidence",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5DN86VB2MNFWTSYHGQT4/evidence.json"
+		}
+	],
+	"flaky": false,
+	"hashes": {
+		"commit": {
+			"source": "git",
+			"value": "22c20c7993325b2909dd7c37374af5049f52c45f"
+		},
+		"engine": "4.7.1.stable.official.a13da4feb",
+		"invented": false,
+		"project_hash": "3cc861b7b4c3e1eef780a56975041207c30070d8d14fbeb064ba94b6934196f9",
+		"project_hash_files": [
+			"res://project.godot"
+		],
+		"project_hash_source": "sha256",
+		"tool_hashes": {
+			"hh_agent_runtime.gd": "182818448d2b286e3cd4dcf5986fd6475d9989c14e89f9d3ff4769002936f2b3",
+			"hh_play_adapter.gd": "af5204c9d6fd3a99aa34e7bb3e24c2519fdc1025ddeca1e1066127ba70684e00",
+			"hh_test_adapter.gd": "74f2cb6e81d8709d694f5c5f6ec1eba07cb637a92f07834dc0ee8713413e1b1c"
+		}
+	},
+	"html_path": "res://.hh-agent/r6w6/runs/01M0VJ5DN86VB2MNFWTSYHGQT4/report.html",
+	"invented_hashes": false,
+	"message": "runtime.tree failed: runtime debugger reply timed out (no remote tree invented)",
+	"name": "keyboard_cursor_plus_accept_flips_a_tile",
+	"play_proven": true,
+	"reason": "infra",
+	"report_path": "res://.hh-agent/r6w6/runs/01M0VJ5DN86VB2MNFWTSYHGQT4/report.json",
+	"retry_max": 0,
+	"run_id": "01M0VJ5DN8N1KFYFDGPGZ78ZXX",
+	"schema": "hh-test/1",
+	"status": "infra_error"
+}

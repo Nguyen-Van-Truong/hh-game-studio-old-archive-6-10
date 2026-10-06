@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cj66dsek8qxva"]
+
+[node name="main" type="Node2D" unique_id=450406805]
+metadata/hh_agent_uid = "hhuid_3867098_2"
+metadata/_hh_agent_uid = "hhuid_3867098_2"
+
+[node name="Player" type="Node2D" parent="." unique_id=106290822]
+metadata/hh_agent_uid = "hhuid_3866899_1"
+metadata/_hh_agent_uid = "hhuid_3866899_1"

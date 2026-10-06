@@ -1,0 +1,36 @@
+{
+	"items": [
+		{
+			"attempt": 0,
+			"kind": "run_begin",
+			"ms": 60102,
+			"name": "seed_clip",
+			"scene": "res://r6w7/c1/seed_clip/shot.tscn"
+		},
+		{
+			"kind": "step",
+			"ms": 60424,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 61729,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 61826,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 61925,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 62005,
+			"ok": true
+		}
+	]
+}

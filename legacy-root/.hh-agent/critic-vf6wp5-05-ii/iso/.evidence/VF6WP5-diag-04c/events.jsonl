@@ -1,0 +1,9 @@
+{"name":"schema","ok":true}
+{"count":6,"name":"maps","ok":false}
+{"classes":0,"explosion":0,"fire_spawn":0,"melee_hit":0,"name":"weapons","ok":false}
+{"name":"finish","ok":true,"outcome":"lose","winner_shots":1,"winner_slot":1}
+{"greedy":2,"name":"greedy","ok":true,"planner":0}
+{"locked":20,"name":"recover","ok":true}
+{"hud":"Bot skill regular · delay 10 · aim±10° · budget 8","name":"diff","ok":true}
+{"name":"bound","ok":true,"peak":56}
+{"name":"live","ok":true}

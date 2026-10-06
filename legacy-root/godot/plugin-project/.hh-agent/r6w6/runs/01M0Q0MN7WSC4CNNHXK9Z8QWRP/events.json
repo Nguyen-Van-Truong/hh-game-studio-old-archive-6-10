@@ -1,0 +1,51 @@
+{
+	"items": [
+		{
+			"attempt": 0,
+			"kind": "run_begin",
+			"ms": 155031,
+			"name": "seed_spike",
+			"scene": "res://r6w7/c2/seed_spike/shot.tscn"
+		},
+		{
+			"kind": "step",
+			"ms": 155336,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 156643,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 156753,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 156864,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 156910,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 157054,
+			"ok": false
+		},
+		{
+			"kind": "screenshot_alternative",
+			"message": "Play viewport blit was empty; refusing dummy PNG",
+			"ms": 157054
+		},
+		{
+			"kind": "step",
+			"ms": 157091,
+			"ok": true
+		}
+	]
+}

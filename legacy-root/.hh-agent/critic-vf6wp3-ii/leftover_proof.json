@@ -1,0 +1,24 @@
+{
+  "critic": "Hostile Critic II",
+  "wp": "VF6-WP3",
+  "tick": "yes",
+  "head": "147331d",
+  "source_tree_sha256": "ddb82205ff5a1819213bd286f49a516932c0eff5765cd1c85df4723bebf74e98",
+  "source_match_freeze": true,
+  "file_count": 120,
+  "iso_path": ".hh-agent/critic-vf6wp3-ii/iso",
+  "leftover_iso_final": 0,
+  "leftover_product_final": 0,
+  "rows": [
+    {"step": "before", "host_exit": null, "leftover": 0, "elapsed_sec": 0},
+    {"step": "check_stage.py", "host_exit": 0, "leftover": 0, "elapsed_sec": 1.1},
+    {"step": "headless run_stage console", "host_exit": 0, "leftover": 0, "elapsed_sec": 9.1, "apply": "850/850"},
+    {"step": "window console twin run_stage", "host_exit": 0, "leftover": 0, "elapsed_sec": 11.6, "note": "live stdout FINISHED=1 PROCESS_EXIT=0 DISPLAY=Windows; leftover 0", "apply": "870/870"},
+    {"step": "headless run_all console", "host_exit": 0, "leftover": 0, "elapsed_sec": 1584.5, "dive": "1253/1253"}
+  ],
+  "reward_hash_win0": "46559b7496990c7c7057b32e715a903e8037c6867f1a01a72a47c39e14f55a5e",
+  "reward_hash_win1": "084aae648db58353c5916fae0f21d508903451fa9a6141955f56ea17e115b98d",
+  "hash_empty_loss": "a94ea313475a85dff94945f19d6acc0cd4d3abc6ecd6c69ae0476e18b67b98e7",
+  "plan_29_8": "VF6-WP3 [ ]",
+  "parent_20_8": "R9-WP4 [ ]; 59/60"
+}

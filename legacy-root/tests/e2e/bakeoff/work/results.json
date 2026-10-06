@@ -1,0 +1,301 @@
+{
+  "A": {
+    "rows": {
+      "handshake_auth": {
+        "status": "PASS",
+        "evidence": "{\"id\": \"2\", \"result\": {\"addon_version\": \"4.1.0\", \"godot_version\": \"4.7.1-stable (official)\", \"project_name\": \"HH Minimal 2D\", \"project_path\": \"D:/dataDiskD/intellji/hoanhaosocial/hoanhaonew-20-6-2025/hh-game-studio/tests/e2e/bakeoff/work/projects/A/\", \"server_version_received\": \"hh-bakeoff-a\"}, \"status\": \"success\"}",
+        "notes": "mcp_handshake ok; godot=4.7.1-stable (official)"
+      },
+      "create_scene": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": \"UNKNOWN_COMMAND\", \"message\": \"Unknown command: create_scene\"}, \"id\": \"4\", \"status\": \"error\"}",
+        "notes": "no MCP create_scene; candidate documents agent-side .tscn write (not scored as PASS)"
+      },
+      "open_scene": {
+        "status": "PASS",
+        "evidence": "{\"id\": \"5\", \"result\": {\"path\": \"res://main.tscn\"}, \"status\": \"success\"}",
+        "notes": "open_scene res://main.tscn"
+      },
+      "save_scene": {
+        "status": "PASS",
+        "evidence": "{\"id\": \"6\", \"result\": {\"path\": \"res://main.tscn\"}, \"status\": \"success\"}",
+        "notes": "save_scene"
+      },
+      "add_node": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": \"UNKNOWN_COMMAND\", \"message\": \"Unknown command: add_node\"}, \"id\": \"7\", \"status\": \"error\"}",
+        "notes": "no live editor add_node (A is file-first for add/remove); typed=True"
+      },
+      "delete_node": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": \"UNKNOWN_COMMAND\", \"message\": \"Unknown command: delete_node\"}, \"id\": \"8\", \"status\": \"error\"}",
+        "notes": "no live editor delete_node (A is file-first for add/remove); typed=True"
+      },
+      "duplicate_node": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": \"UNKNOWN_COMMAND\", \"message\": \"Unknown command: duplicate_node\"}, \"id\": \"9\", \"status\": \"error\"}",
+        "notes": "no live editor duplicate_node (A is file-first for add/remove); typed=True"
+      },
+      "reparent_node": {
+        "status": "PASS",
+        "evidence": "{\"id\": \"14\", \"result\": {\"new_path\": \"Left/Right\"}, \"status\": \"success\"}",
+        "notes": "reparent_node Right -> Left after disk-authored tree"
+      },
+      "reorder_node": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": \"UNKNOWN_COMMAND\", \"message\": \"Unknown command: reorder_node\"}, \"id\": \"10\", \"status\": \"error\"}",
+        "notes": "no live editor reorder_node (A is file-first for add/remove); typed=True"
+      },
+      "set_property": {
+        "status": "PASS",
+        "evidence": "{\"set\": {\"id\": \"11\", \"result\": {}, \"status\": \"success\"}, \"get\": {\"id\": \"12\", \"result\": {\"properties\": {\"auto_translate_mode\": 0, \"clip_children\": 0, \"editor_description\": \"\", \"fixture_name\": \"minimal-2d\", \"light_mask\": 1, \"material\": null, \"modulate\": {\"a\": 1.0, \"b\": 1.0, \"g\": 1.0, \"r\": 1.0}, \"oversampling_with_scale\": 0, \"physics_interpolation_mode\": 0, \"position\": {\"x\": 24.0, \"y\": 48.0}, \"proces",
+        "notes": "update_node + get_node_properties readback"
+      },
+      "set_resource": {
+        "status": "PASS",
+        "evidence": "{\"set\": {\"id\": \"16\", \"result\": {}, \"status\": \"success\"}, \"mat\": \"\\\"():<CanvasItemMaterial#-9223370535998515227>\\\"\"}",
+        "notes": "update_node material + readback"
+      },
+      "script_write": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": \"UNKNOWN_COMMAND\", \"message\": \"Unknown command: write_script\"}, \"id\": \"18\", \"status\": \"error\"}",
+        "notes": "no MCP write_script; typed=True"
+      },
+      "script_validate": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": \"UNKNOWN_COMMAND\", \"message\": \"Unknown command: validate_script\"}, \"id\": \"19\", \"status\": \"error\"}",
+        "notes": "no MCP validate_script; typed=True"
+      },
+      "script_attach": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": \"UNKNOWN_COMMAND\", \"message\": \"Unknown command: attach_script\"}, \"id\": \"20\", \"status\": \"error\"}",
+        "notes": "no MCP attach_script; typed=True"
+      },
+      "undo": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": \"UNKNOWN_COMMAND\", \"message\": \"Unknown command: undo\"}, \"id\": \"21\", \"status\": \"error\"}",
+        "notes": "no MCP undo; typed=True"
+      },
+      "redo": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": \"UNKNOWN_COMMAND\", \"message\": \"Unknown command: redo\"}, \"id\": \"22\", \"status\": \"error\"}",
+        "notes": "no MCP redo; typed=True"
+      },
+      "play": {
+        "status": "PASS",
+        "evidence": "{\"id\": \"23\", \"result\": {\"frozen\": true}, \"status\": \"success\"}",
+        "notes": "run_project frozen=true"
+      },
+      "stop": {
+        "status": "PASS",
+        "evidence": "{\"id\": \"27\", \"result\": {}, \"status\": \"success\"}",
+        "notes": "stop_project"
+      },
+      "log": {
+        "status": "PASS",
+        "evidence": "{\"id\": \"26\", \"result\": {\"cursor\": 0, \"match_count\": 0, \"messages\": [], \"returned_count\": 0, \"total_count\": 0}, \"status\": \"success\"}",
+        "notes": "get_log_messages"
+      },
+      "screenshot": {
+        "status": "PASS",
+        "evidence": "tests/e2e/bakeoff/evidence/A-game-small.png",
+        "notes": "game screenshot PNG (headless dummy renderer is often a blank gray frame, not editor-visible)"
+      },
+      "runtime_state": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": \"TIMEOUT\", \"message\": \"Timed out waiting for get_runtime_state response\"}, \"id\": \"24\", \"status\": \"error\"}",
+        "notes": "runtime digest failed (game/debug session may be missing in headless)"
+      },
+      "select_focus": {
+        "status": "PASS",
+        "evidence": "{\"sel\": {\"id\": \"28\", \"result\": {}, \"status\": \"success\"}, \"got\": {\"id\": \"29\", \"result\": {\"selected\": [\"/root/Root\"]}, \"status\": \"success\"}}",
+        "notes": "select_node + get_selected_nodes readback (headless: Inspector not shown to a human)"
+      },
+      "retry_restart": {
+        "status": "PASS",
+        "evidence": "{\"id\": \"33\", \"result\": {\"restarting\": true, \"save\": false}, \"status\": \"success\"}",
+        "notes": "restart_editor ACK (spike evidence, not a production ledger)"
+      },
+      "wrong_path": {
+        "status": "PASS",
+        "evidence": "{\"error\": {\"code\": \"FILE_NOT_FOUND\", \"message\": \"Scene file not found: res://no/such/scene.tscn\"}, \"id\": \"30\", \"status\": \"error\"}",
+        "notes": "missing scene is a typed error"
+      },
+      "wrong_token": {
+        "status": "PASS",
+        "evidence": "{\"error\": {\"code\": \"AUTH_FAILED\", \"message\": \"missing or invalid session token\"}, \"id\": \"1\", \"status\": \"error\"}",
+        "notes": "AUTH_FAILED (or typed error) on bad token"
+      },
+      "wrong_schema": {
+        "status": "PASS",
+        "evidence": "{\"error\": {\"code\": \"INVALID_PARAMS\", \"message\": \"properties is required\"}, \"id\": \"31\", \"status\": \"error\"}",
+        "notes": "missing properties is a typed error"
+      },
+      "unsupported_eval_or_callv": {
+        "status": "PASS",
+        "evidence": "{\"error\": {\"code\": \"DISABLED\", \"message\": \"godot_exec/eval is disabled for the HH bake-off spike\"}, \"id\": \"32\", \"status\": \"error\"}",
+        "notes": "exec_run refused; godot_exec disabled for spike"
+      }
+    },
+    "scores": {
+      "correctness": 1.92,
+      "self_verify": 4.0,
+      "undo": 0.0,
+      "security": 5.0,
+      "maintainability": 3.0,
+      "godot_471": 5.0,
+      "weighted": 3.067
+    },
+    "version": "4.7.1-stable (official)"
+  },
+  "C": {
+    "rows": {
+      "handshake_auth": {
+        "status": "PASS",
+        "evidence": "{\"id\": 6, \"jsonrpc\": \"2.0\", \"result\": {\"capabilities\": {\"prompts\": {\"listChanged\": false}, \"resources\": {\"listChanged\": false}, \"tools\": {\"listChanged\": true}}, \"instructions\": \"Beckett \\u2014 MCP for Godot, free Lite edition (inspect + author + run + SEE the running game). Reflection tools (find_classes, describe_class, set_property, call_method) reach every engine class \\u2014 prefer them when n",
+        "notes": "initialize ok (Beckett \u2014 MCP for Godot (Lite))"
+      },
+      "create_scene": {
+        "status": "PASS",
+        "evidence": "{\"write\": {\"id\": 8, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"wrote 61 bytes to res://bakeoff_created.tscn\", \"type\": \"text\"}], \"isError\": false}}, \"open\": {\"id\": 9, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"opened res://bakeoff_created.tscn\", \"type\": \"text\"}], \"isError\": false}}}",
+        "notes": "write_file + open_scene (no dedicated create_scene; file tool is MCP)"
+      },
+      "open_scene": {
+        "status": "PASS",
+        "evidence": "{\"id\": 10, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"opened res://main.tscn\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "open_scene res://main.tscn"
+      },
+      "save_scene": {
+        "status": "PASS",
+        "evidence": "{\"id\": 11, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"saved scene\", \"type\": \"text\"}, {\"text\": \"Engine errors during this call (it still ran - verify its effect):\\n- [error] Parameter \\\"t\\\" is null. (./servers/rendering/dummy/storage/texture_storage.h:110 in texture_2d_get)\", \"type\": \"text\"}], \"isError\": false, \"structuredContent\": {\"engine_errors\": [{\"backtrace\": \"GDScript backtrace (most ",
+        "notes": "save_scene"
+      },
+      "add_node": {
+        "status": "PASS",
+        "evidence": "{\"id\": 12, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"created Node2D 'ChildA' under Root\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "create_node ChildA under Root"
+      },
+      "delete_node": {
+        "status": "PASS",
+        "evidence": "{\"id\": 24, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"deleted node ChildACopy\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "delete_node ChildACopy"
+      },
+      "duplicate_node": {
+        "status": "PASS",
+        "evidence": "{\"id\": 14, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"duplicated ChildA as 'ChildACopy'\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "duplicate_node ChildA"
+      },
+      "reparent_node": {
+        "status": "PASS",
+        "evidence": "{\"id\": 15, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"reparented ChildB under ChildA\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "reparent ChildB under ChildA"
+      },
+      "reorder_node": {
+        "status": "PASS",
+        "evidence": "{\"id\": 16, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"moved ChildA to index 0\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "move_node to_index=0"
+      },
+      "set_property": {
+        "status": "PASS",
+        "evidence": "{\"set\": {\"id\": 17, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"set ChildA.position = (32.0, 64.0)\", \"type\": \"text\"}], \"isError\": false}}, \"describe\": {\"id\": 18, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"{\\\"class\\\":\\\"Node2D\\\",\\\"properties\\\":{\\\"auto_translate_mode\\\":0,\\\"clip_children\\\":0,\\\"editor_description\\\":\\\"\\\",\\\"light_mask\\\":1,\\\"material\\\":null,\\\"modulate\\\":{\\\"a\\\":1.0,\\\"b\\\":1.0,",
+        "notes": "set_property + describe_object readback"
+      },
+      "set_resource": {
+        "status": "PASS",
+        "evidence": "{\"id\": 19, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"assigned CanvasItemMaterial to ChildA.material\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "set_resource inline CanvasItemMaterial"
+      },
+      "script_write": {
+        "status": "PASS",
+        "evidence": "{\"id\": 20, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"wrote 63 bytes to res://bakeoff_child.gd\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "write_script validate=true"
+      },
+      "script_validate": {
+        "status": "PASS",
+        "evidence": "{\"id\": 21, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"OK \\u2014 script compiles.\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "validate_script"
+      },
+      "script_attach": {
+        "status": "PASS",
+        "evidence": "{\"id\": 22, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"attached res://bakeoff_child.gd to ChildA\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "attach_script"
+      },
+      "undo": {
+        "status": "FAIL",
+        "evidence": "{\"undo\": {\"error\": {\"code\": -32602, \"message\": \"Unknown tool: undo\"}, \"id\": 25, \"jsonrpc\": \"2.0\"}, \"tree\": {\"id\": 23, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"{\\\"children\\\":[{\\\"children\\\":[{\\\"class\\\":\\\"Node2D\\\",\\\"name\\\":\\\"ChildB\\\"}],\\\"class\\\":\\\"Node2D\\\",\\\"name\\\":\\\"ChildA\\\",\\\"script\\\":\\\"res://bakeoff_child.gd\\\"},{\\\"class\\\":\\\"Node2D\\\",\\\"name\\\":\\\"ChildACopy\\\"}],\\\"class\\\":\\\"Node2D\\\",\\\"name\\\"",
+        "notes": "no MCP undo tool; scene mutations use EditorUndoRedoManager (human Ctrl+Z only). Agent-driven undo not available with call_method disabled."
+      },
+      "redo": {
+        "status": "FAIL",
+        "evidence": "{\"error\": {\"code\": -32602, \"message\": \"Unknown tool: redo\"}, \"id\": 26, \"jsonrpc\": \"2.0\"}",
+        "notes": "no MCP redo tool (UndoRedo-backed mutations, no agent redo)"
+      },
+      "play": {
+        "status": "PASS",
+        "evidence": "{\"id\": 27, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"playing res://main.tscn\", \"type\": \"text\"}, {\"text\": \"Engine errors during this call (it still ran - verify its effect):\\n- [error] Parameter \\\"t\\\" is null. (./servers/rendering/dummy/storage/texture_storage.h:110 in texture_2d_get)\", \"type\": \"text\"}], \"isError\": false, \"structuredContent\": {\"engine_errors\": [{\"backtrace\": \"GDScript back",
+        "notes": "play_scene main.tscn"
+      },
+      "stop": {
+        "status": "PASS",
+        "evidence": "{\"id\": 35, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"stopped\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "stop_scene"
+      },
+      "log": {
+        "status": "PASS",
+        "evidence": "{\"id\": 31, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"[user://logs/godot.log] 1/1 lines\\n\", \"type\": \"text\"}], \"isError\": false}}",
+        "notes": "logs_read"
+      },
+      "screenshot": {
+        "status": "PASS",
+        "evidence": "tests/e2e/bakeoff/evidence/C-game-small.png",
+        "notes": "screenshot target=game (headless dummy renderer may be blank)"
+      },
+      "runtime_state": {
+        "status": "PASS",
+        "evidence": "{\"tree\": {\"id\": 32, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"{\\\"node_count\\\":3.0,\\\"tree\\\":{\\\"children\\\":[{\\\"children\\\":[{\\\"class\\\":\\\"Node2D\\\",\\\"name\\\":\\\"ChildB\\\"}],\\\"class\\\":\\\"Node2D\\\",\\\"name\\\":\\\"ChildA\\\"}],\\\"class\\\":\\\"Node2D\\\",\\\"name\\\":\\\"Root\\\"}}\", \"type\": \"text\"}], \"isError\": false, \"structuredContent\": {\"node_count\": 3.0, \"tree\": {\"children\": [{\"children\": [{\"class\": \"Node2D\", \"name\":",
+        "notes": "get_remote_tree and/or runtime_get_property"
+      },
+      "select_focus": {
+        "status": "FAIL",
+        "evidence": "{\"create\": {\"id\": 12, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"created Node2D 'ChildA' under Root\", \"type\": \"text\"}], \"isError\": false}}, \"selection_resource\": {\"id\": 36, \"jsonrpc\": \"2.0\", \"result\": {\"contents\": [{\"mimeType\": \"application/json\", \"text\": \"{\\\"selected\\\":[]}\", \"uri\": \"scene://selection\"}]}}}",
+        "notes": "dock/activity focus hint on create_node, but no EditorInterface.select tool so a human Inspector selection is not guaranteed"
+      },
+      "retry_restart": {
+        "status": "SKIP",
+        "evidence": "{\"error\": {\"code\": -32602, \"message\": \"Unknown tool: restart_editor\"}, \"id\": 37, \"jsonrpc\": \"2.0\"}",
+        "notes": "no editor restart MCP tool on Lite (spike gap, not a ledger)"
+      },
+      "wrong_path": {
+        "status": "PASS",
+        "evidence": "{\"id\": 38, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"Error: No scene at: res://no/such/scene.tscn\", \"type\": \"text\"}], \"isError\": true}}",
+        "notes": "missing scene is a typed/handler error"
+      },
+      "wrong_token": {
+        "status": "PASS",
+        "evidence": "{\"http_status\": 401, \"error\": {\"code\": \"HTTP_401\", \"message\": \"unauthorized\"}}",
+        "notes": "401/typed error on bad Bearer token"
+      },
+      "wrong_schema": {
+        "status": "PASS",
+        "evidence": "{\"id\": 39, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"Error: Missing required parameter: 'type'.\", \"type\": \"text\"}], \"isError\": true}}",
+        "notes": "create_node without type failed"
+      },
+      "unsupported_eval_or_callv": {
+        "status": "PASS",
+        "evidence": "{\"id\": 40, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"Error: DISABLED: call_method/Object.callv is disabled for the HH bake-off spike\", \"type\": \"text\"}], \"isError\": true}}",
+        "notes": "call_method/Object.callv refused; disabled for spike"
+      }
+    },
+    "scores": {
+      "correctness": 5.0,
+      "self_verify": 4.0,
+      "undo": 0.0,
+      "security": 5.0,
+      "maintainability": 4.0,
+      "godot_471": 5.0,
+      "weighted": 3.833
+    },
+    "version": "4.7.1 (from get_godot_version)"
+  },
+  "winner": "C"
+}

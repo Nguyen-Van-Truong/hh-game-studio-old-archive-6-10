@@ -1,0 +1,15 @@
+﻿{
+    "critic":  "II leftover-0 windowed iso",
+    "run_id":  "VF6WP2-20260901-ASIA-SAIGON-02",
+    "command_id":  "cmd.vf6-wp2.vs-flow.2",
+    "iso":  ".hh-agent/critic-vf6wp2-ii/iso",
+    "exe":  "C:\\Users\\truon\\AppData\\Local\\HHGodotAgent\\tooling\\godot-4.7.1-stable\\bin\\Godot_v4.7.1-stable_win64_console.exe",
+    "window_host_exit":  0,
+    "window_elapsed_sec":  26.3,
+    "hung":  false,
+    "leftover_before":  0,
+    "leftover_after":  0,
+    "leftover":  0,
+    "pid":  41724,
+    "host":  "System.Diagnostics.Process WaitForExit"
+}

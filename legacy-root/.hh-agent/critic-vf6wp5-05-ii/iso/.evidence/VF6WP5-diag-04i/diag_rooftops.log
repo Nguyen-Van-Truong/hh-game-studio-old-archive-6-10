@@ -1,0 +1,16 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_TRACE map=rooftops start bot=456,112 foe=72,112 path_ok=true n=27 cells=28,7,27,7,26,7,25,7,24,7,23,6,23,5,22,4,21,4,20,4,19,4,18,4,17,4,16,4,15,4,14,4,13,4,12,4,11,4,10,5,10,6,9,7,8,7,7,7,6,7,5,7,4,7
+HH_TRACE t=40 pos=370,75 cell=23,4 foe=72,116 d=301 ladder=true climb=false floor=false hang=false vx=-117 vy=2 intent=attack nxt=22,4 gun=0
+HH_TRACE t=80 pos=311,68 cell=19,4 foe=72,116 d=244 ladder=false climb=false floor=true hang=false vx=-170 vy=0 intent=attack nxt=18,4 gun=0
+HH_TRACE t=120 pos=198,68 cell=12,4 foe=72,116 d=135 ladder=false climb=false floor=true hang=false vx=-170 vy=0 intent=hunt nxt=11,4 gun=0
+HH_TRACE t=160 pos=168,79 cell=10,4 foe=72,116 d=103 ladder=true climb=true floor=false hang=false vx=0 vy=140 intent=hunt nxt=10,6 gun=0
+HH_TRACE t=200 pos=168,86 cell=10,5 foe=72,116 d=101 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=10,6 gun=0
+HH_TRACE t=240 pos=168,86 cell=10,5 foe=72,116 d=101 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=10,6 gun=0
+HH_TRACE t=280 pos=165,127 cell=10,7 foe=72,116 d=94 ladder=true climb=false floor=false hang=false vx=0 vy=-180 intent=attack nxt=9,7 gun=0
+HH_TRACE t=320 pos=152,116 cell=9,7 foe=72,116 d=80 ladder=true climb=false floor=true hang=false vx=-40 vy=0 intent=attack nxt=8,7 gun=2
+HH_TRACE t=360 pos=142,116 cell=8,7 foe=70,116 d=71 ladder=false climb=false floor=true hang=false vx=0 vy=0 intent=attack nxt=7,7 gun=3
+HH_TRACE t=400 pos=141,116 cell=8,7 foe=70,116 d=71 ladder=false climb=false floor=true hang=false vx=0 vy=0 intent=attack nxt=7,7 gun=4
+HH_TRACE t=440 pos=140,116 cell=8,7 foe=69,116 d=71 ladder=false climb=false floor=true hang=false vx=0 vy=0 intent=attack nxt=7,7 gun=6
+HH_TRACE t=480 pos=140,116 cell=8,7 foe=792,107 d=652 ladder=false climb=false floor=true hang=false vx=0 vy=0 intent=attack nxt=7,7 gun=7
+HH_TRACE t=520 pos=140,116 cell=8,7 foe=792,107 d=652 ladder=false climb=false floor=true hang=false vx=0 vy=0 intent=attack nxt=7,7 gun=7

@@ -1,0 +1,17 @@
+{
+  "checkpoint_id": "01M0HV1BBNG397YA1AEGSB8EEY",
+  "command_id": "01M0HV1BB5DJ04EXBAEJDB3SAM",
+  "created_at": "2026-08-21T09:39:36.598Z",
+  "project_root": "D:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\godot\\plugin-project",
+  "git_ref": "",
+  "git_head": "",
+  "files": [
+    {
+      "rel": "hh_reload_driver.gd",
+      "sha256": "91840a9e5e11c79c7b93bae64030cc845f9832c659ba16bd5ec97b0856969850",
+      "missing": false
+    }
+  ],
+  "referenced_by": [],
+  "hard_delete_blocked": false
+}

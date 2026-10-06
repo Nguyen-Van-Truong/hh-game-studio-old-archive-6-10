@@ -1,0 +1,103 @@
+﻿<Texts name="SFDCT Default">
+	<!-- Language: en -->
+	<Text id="sfdct.menu.lobby.helpText">Type /cthelp for a list of SFDCT's commands</Text>
+
+	<Text id="sfdct.button.connectspectator">Connect (as spectator)</Text>
+	<Text id="sfdct.button.requestservermovement">Request Server-Movement</Text>
+
+	<Text id="sfdct.command.players.message.user">- {0}: '{1}' ({2}) {3}</Text>
+	<Text id="sfdct.command.players.message">- {0}: '{1}'</Text>
+	<Text id="sfdct.command.debugmouse.message">Debug mouse {0}</Text>
+	<Text id="sfdct.command.debugmousemoderators.message">Debug Mouse allowed for moderators set to {0}</Text>
+	<Text id="sfdct.command.modcommands.header.help">Use this command to manage the moderator commands list, syntax is '/MODCMD [L/LIST][C/CLEAR][R/REMOVE][A/ADD][T/TRY] [...]'</Text>
+	<Text id="sfdct.command.modcommands.header.list">Listing moderator commands</Text>
+	<Text id="sfdct.command.modcommands.header.clear">Cleared {0} moderator commands, moderators can now use all default commands</Text>
+	<Text id="sfdct.command.modcommands.header.remove">Removed {0} commands from moderator commands list</Text>
+	<Text id="sfdct.command.modcommands.header.add">Added {0} commands to moderator commands list</Text>
+	<Text id="sfdct.command.modcommands.header.try.true">Moderators can use following commands:</Text>
+	<Text id="sfdct.command.modcommands.header.try.false">Moderators can NOT use following commands:</Text>
+	<Text id="sfdct.command.gravity.fail.parsex">Failed to parse gravity X</Text>
+	<Text id="sfdct.command.gravity.fail.parsey">Failed to parse gravity Y</Text>
+	<Text id="sfdct.command.gravity.message">World Gravity set to {0}</Text>
+	<Text id="sfdct.command.damage.message">Dealt {0} damage to '{1}'</Text>
+	<Text id="sfdct.command.servermovement.message">Server-movement of '{0}' set to {1}</Text>
+	<Text id="sfdct.command.votekick.fail.voteinprogress">There is already a vote in progress</Text>
+	<Text id="sfdct.command.votekick.fail.notenoughusers">There aren't enough users to vote</Text>
+	<Text id="sfdct.command.votekick.fail.invaliduser">You can't start a vote-kick against this user</Text>
+	<Text id="sfdct.command.votekick.fail">You can't start another vote-kick right now</Text>
+	<Text id="sfdct.command.exec.fail.nofile">Commands file does not exist</Text>
+	<Text id="sfdct.command.exec.fail.error">Error executing commands file</Text>
+	<Text id="sfdct.command.votekick.message">'{0}' ({1}) HAS STARTED A VOTE-KICK AGAINST '{2}' ({3})</Text>
+	<Text id="sfdct.command.votekick.message.victim">- '{0}' ({1}) has started a vote-kick against you</Text>
+	<Text id="sfdct.command.votekick.message.owner">- You started a vote-kick against '{0}' ({1})</Text>
+	<Text id="sfdct.command.join.fail.nogameslot">You can't join back, unavailable game-slot</Text>
+	<Text id="sfdct.command.join.message">You stopped spectating and joined back</Text>
+	<Text id="sfdct.command.spectate.message.info">- Use /JOIN to stop spectating and join an available game-slot</Text>
+
+	<Text id="sfdct.credits.name">CREDITS</Text>
+	<Text id="sfdct.credits.header">SFDCT TEAM</Text>
+	<Text id="sfdct.credits.category.azure">Ideas, Testing</Text>
+	<Text id="sfdct.credits.category.eldous1">Ideas, Testing</Text>
+	<Text id="sfdct.credits.category.liokindy">Lead-Developer, Programmer</Text>
+	<Text id="sfdct.credits.category.nult">Ideas</Text>
+
+	<Text id="sfdct.vote.kick.end">VOTE-KICK ENDED</Text>
+	<Text id="sfdct.vote.kick.nouser">'{0}' ({1}) HAS LEFT, ADDING TO KICK-LIST</Text>
+	<Text id="sfdct.vote.kick.fail">'{0}' ({1}) WILL NOT BE KICKED (NOT ENOUGH VOTES)</Text>
+	<Text id="sfdct.vote.kick.success">'{0}' ({1}) WILL BE KICKED</Text>
+
+	<Text id="sfdct.vote.manual">VOTE: '{0}' ({1}, {2})</Text>
+
+	<Text id="sfdct.setting.header">SFDCT SETTINGS</Text>
+	<Text id="sfdct.setting.header.subcontent">SUB-CONTENT FOLDERS</Text>
+
+	<Text id="sfdct.setting.name.soundpanningenabled">ENABLED</Text>
+	<Text id="sfdct.setting.name.soundpanningstrength">STRENGTH</Text>
+	<Text id="sfdct.setting.name.soundpanningforcescreenspace">ALWAYS SCREEN-SPACE</Text>
+	<Text id="sfdct.setting.name.soundpanninginworldthreshold">IN-WORLD THRESHOLD</Text>
+	<Text id="sfdct.setting.name.soundpanninginworlddistance">IN-WORLD DISTANCE</Text>
+	<Text id="sfdct.setting.name.soundattenuationenabled">ENABLED</Text>
+	<Text id="sfdct.setting.name.soundattenuationmin">MINIMUM</Text>
+	<Text id="sfdct.setting.name.soundattenuationforcescreenspace">ALWAYS SCREEN-SPACE</Text>
+	<Text id="sfdct.setting.name.soundattenuationinworldthreshold">IN-WORLD THRESHOLD</Text>
+	<Text id="sfdct.setting.name.soundattenuationinworlddistance">IN-WORLD DISTANCE</Text>
+	<Text id="sfdct.setting.name.lowhealthsaturationfactor">DESATURATION STRENGTH</Text>
+	<Text id="sfdct.setting.name.lowhealththreshold">DESATURATION HEALTH THRESHOLD</Text>
+	<Text id="sfdct.setting.name.lowhealthhurtlevel1threshold">HURT-LEVEL-1 HEALTH THRESHOLD</Text>
+	<Text id="sfdct.setting.name.lowhealthhurtlevel2threshold">HURT-LEVEL-2 HEALTH THRESHOLD</Text>
+	<Text id="sfdct.setting.name.hidefilmgrain">ALWAYS HIDE FILMGRAIN</Text>
+	<Text id="sfdct.setting.name.disableclockticking">DISABLE 'Clock Ticking' SOUNDTRACK</Text>
+	<Text id="sfdct.setting.name.language">LANGUAGE FILE NAME</Text>
+	<Text id="sfdct.setting.name.spectatorsmaximum">MAXIMUM</Text>
+	<Text id="sfdct.setting.name.spectatorsonlymoderators">ONLY MODERATORS</Text>
+	<Text id="sfdct.setting.name.votekickenabled">ENABLED</Text>
+	<Text id="sfdct.setting.name.votekicksuccesscooldown">SUCCESS COOLDOWN SECONDS</Text>
+	<Text id="sfdct.setting.name.votekickfailcooldown">FAIL COOLDOWN SECONDS</Text>
+	<Text id="sfdct.setting.name.primarycolor">COLOR</Text>
+	<Text id="sfdct.setting.name.primarycolorhex">HEX-CODE</Text>
+	<Text id="sfdct.setting.name.subcontentenabled">ENABLED</Text>
+	<Text id="sfdct.setting.name.subcontentfolders">CONFIGURE</Text>
+	<Text id="sfdct.setting.name.chatwidth">CHAT WIDTH</Text>
+	<Text id="sfdct.setting.name.chatheight">CHAT HEIGHT</Text>
+	<Text id="sfdct.setting.name.chatextraheight">CHAT EXTRA-HEIGHT</Text>
+	<Text id="sfdct.setting.name.chatindependentteamrandomcolors">CHAT INDEPENDENT-TEAM RANDOM NAME COLORS</Text>
+
+	<Text id="sfdct.setting.help.soundpanninginworldthreshold">Controls the threshold of sound-panning, sounds closer than this will not be panned</Text>
+	<Text id="sfdct.setting.help.soundpanninginworlddistance">Controls the distance of sound-panning, sounds further than this will be fully panned</Text>
+	<Text id="sfdct.setting.help.soundattenuationmin">Controls the minimum volume of sound-attenuation, sounds volume will be lowered to this amount at max attenuation</Text>
+	<Text id="sfdct.setting.help.soundattenuationinworldthreshold">Controls the threshold of sound-attenuation, sounds closer than this will not be attenuated</Text>
+	<Text id="sfdct.setting.help.soundattenuationinworlddistance">Controls the distance of sound-attenuation, sounds further than this will be fully attenuated</Text>
+	<Text id="sfdct.setting.help.spectatorsonlymoderators">Controls if only moderators and the host can turn into spectators</Text>
+	<Text id="sfdct.setting.help.subcontentenabled">Enables or disables loading any files from "SFDCT/SubContent", sub-content files replace official files when loading, making modifying official content easier without needing to overwrite it</Text>
+	<Text id="sfdct.setting.help.chatextraheight">Extra height added to the chat when typing or pressing the 'SHOW CHAT' key</Text>
+	<Text id="sfdct.setting.help.chatindependentteamrandomcolors">Enables or disables slightly tinting the names of players in the independent team a 'random' color in the chat.</Text>
+
+	<Text id="sfdct.setting.category.soundpanning">Sound-Panning</Text>
+	<Text id="sfdct.setting.category.soundattenuation">Sound-Attenuation</Text>
+	<Text id="sfdct.setting.category.lowhealth">Low Health</Text>
+	<Text id="sfdct.setting.category.misc">Misc</Text>
+	<Text id="sfdct.setting.category.spectators">Spectators</Text>
+	<Text id="sfdct.setting.category.votekick">Vote-Kick</Text>
+	<Text id="sfdct.setting.category.subcontent">Sub-Content</Text>
+	<Text id="sfdct.setting.category.primarycolor">Primary-Color</Text>
+</Texts>

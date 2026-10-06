@@ -1,0 +1,84 @@
+{
+	"attempt": 1,
+	"engine": "4.7.1.stable.official.a13da4feb",
+	"evidence_index": [
+		{
+			"bytes": 628,
+			"hash": "2a7fb53afb1191ebcdd2200a15e0a64dafa3dd49db74a2c2471d9e8befd8c197",
+			"kind": "hashes",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5T3RVR1R6DF32PEFKCAX/hashes.json"
+		},
+		{
+			"bytes": 13931,
+			"hash": "72ef32e9181a3666fbb7d970840b58b732abbf1a6d0f7d4854dadb553122850b",
+			"kind": "logs",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5T3RVR1R6DF32PEFKCAX/logs.json"
+		},
+		{
+			"bytes": 577,
+			"hash": "161f9c6eb31f112f112de7c1b5668aeee5e9875dd2c80802a4875937f80fd061",
+			"kind": "state",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5T3RVR1R6DF32PEFKCAX/state.json"
+		},
+		{
+			"bytes": 763,
+			"hash": "72cf134733730f6193ecc0597e87160bdc72a83d4c159f365b48bd68e3d89986",
+			"kind": "event",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5T3RVR1R6DF32PEFKCAX/events.json"
+		},
+		{
+			"bytes": 5399,
+			"hash": "51799480eff2bc6ec3570c09cae2d18fcf009444777e4d7a7d2228a37550f7b4",
+			"kind": "screenshot",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5T3RVR1R6DF32PEFKCAX/screenshot.png"
+		},
+		{
+			"bytes": 2189,
+			"hash": "2bf8a242f43585a14eb491d1efcd0a528987e64d49403e1b77f5b4aab510cc19",
+			"kind": "report",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5T3RVR1R6DF32PEFKCAX/report.json"
+		},
+		{
+			"bytes": 1507,
+			"hash": "defdb945fa86e7bfbdde74e6d02cfd219742432713eb69afb2405c1c82cd2838",
+			"kind": "html",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5T3RVR1R6DF32PEFKCAX/report.html"
+		},
+		{
+			"bytes": 1441,
+			"hash": "9b2fb3065dc0f0629d5599fc626508dfba03360323358fd833e7f6ce91d5dd81",
+			"kind": "evidence",
+			"uri": "res://.hh-agent/r6w6/runs/01M0VJ5T3RVR1R6DF32PEFKCAX/evidence.json"
+		}
+	],
+	"flaky": false,
+	"hashes": {
+		"commit": {
+			"source": "git",
+			"value": "22c20c7993325b2909dd7c37374af5049f52c45f"
+		},
+		"engine": "4.7.1.stable.official.a13da4feb",
+		"invented": false,
+		"project_hash": "3cc861b7b4c3e1eef780a56975041207c30070d8d14fbeb064ba94b6934196f9",
+		"project_hash_files": [
+			"res://project.godot"
+		],
+		"project_hash_source": "sha256",
+		"tool_hashes": {
+			"hh_agent_runtime.gd": "182818448d2b286e3cd4dcf5986fd6475d9989c14e89f9d3ff4769002936f2b3",
+			"hh_play_adapter.gd": "af5204c9d6fd3a99aa34e7bb3e24c2519fdc1025ddeca1e1066127ba70684e00",
+			"hh_test_adapter.gd": "74f2cb6e81d8709d694f5c5f6ec1eba07cb637a92f07834dc0ee8713413e1b1c"
+		}
+	},
+	"html_path": "res://.hh-agent/r6w6/runs/01M0VJ5T3RVR1R6DF32PEFKCAX/report.html",
+	"invented_hashes": false,
+	"message": "test ok",
+	"name": "keyboard_cursor_plus_accept_flips_a_tile",
+	"play_proven": true,
+	"reason": "ok",
+	"report_path": "res://.hh-agent/r6w6/runs/01M0VJ5T3RVR1R6DF32PEFKCAX/report.json",
+	"retry_max": 0,
+	"run_id": "01M0VJ5T3RZFY6CKD3NRSV7YSX",
+	"schema": "hh-test/1",
+	"status": "pass"
+}

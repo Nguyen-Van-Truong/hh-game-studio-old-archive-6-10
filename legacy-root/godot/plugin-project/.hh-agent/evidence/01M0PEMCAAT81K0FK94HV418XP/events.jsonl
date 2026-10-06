@@ -1,0 +1,3 @@
+{"event":"play.started","run_id":"01M0PEMCAAT81K0FK94HV418XP","scene":"res://r6w2/probe.tscn","ts_ms":6488,"verb":"start"}
+{"code":"E_TIMEOUT","event":"play.stopped","reason":"hang","run_id":"01M0PEMCAAT81K0FK94HV418XP","ts_ms":16606}
+{"event":"play.stopped","reason":"test","run_id":"01M0PEMCAAT81K0FK94HV418XP","ts_ms":17322}

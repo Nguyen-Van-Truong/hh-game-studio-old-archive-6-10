@@ -1,0 +1,18 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_DIAG start map=hazardous bots=3
+HH_VF_STAGE HUNT want=win map=hazardous tick=5 p1=(72.7,132.0) foe=(295.3333, 131.9991) foe_hp=100.0 p1_hp=100.0 stuck=1 live_bots=3 cross=0 bots=1:live(295,132,hp=100),2:live(935,132,hp=100),3:live(311,132,hp=100)
+HH_VF_STAGE HUNT want=win map=hazardous tick=95 p1=(204.8,132.0) foe=(208.1823, 131.9989) foe_hp=80.0 p1_hp=100.0 stuck=0 live_bots=3 cross=0 bots=1:live(196,132,hp=80),2:live(816,122,hp=84),3:live(208,132,hp=80)
+HH_VF_STAGE HUNT want=win map=hazardous tick=185 p1=(209.8,132.0) foe=(208.1824, 131.9988) foe_hp=40.0 p1_hp=100.0 stuck=0 live_bots=3 cross=0 bots=1:live(192,132,hp=50),2:live(561,125,hp=84),3:live(208,132,hp=40)
+HH_VF_STAGE HUNT want=win map=hazardous tick=275 p1=(203.8,132.0) foe=(190.2092, 131.996) foe_hp=30.0 p1_hp=100.0 stuck=0 live_bots=2 cross=0 bots=1:live(190,132,hp=30),2:live(306,132,hp=84),3:dead(214,131,hp=0)
+HH_VF_STAGE HUNT want=win map=hazardous tick=365 p1=(219.5,132.0) foe=(220.0241, 131.2416) foe_hp=68.6 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:dead(207,132,hp=0),2:live(220,131,hp=69),3:dead(274,132,hp=0)
+HH_VF_STAGE HUNT want=win map=hazardous tick=455 p1=(220.2,132.0) foe=(219.1568, 131.999) foe_hp=38.6 p1_hp=100.0 stuck=3 live_bots=1 cross=0 bots=1:dead(267,132,hp=0),2:live(219,132,hp=39),3:dead(334,132,hp=0)
+HH_VF_STAGE RESOLVE want=win ok=true map=hazardous outcome=win cause=damage tick=532
+HH_DIAG win hazardous { "ok": true, "map_id": "hazardous", "outcome": "win", "death_cause": "damage", "end_reason": "last_standing", "bot_deaths": [{ "slot": 1, "death_cause": "damage", "hp": 0.0 }, { "slot": 2, "death_cause": "damage", "hp": 0.0 }, { "slot": 3, "death_cause": "damage", "hp": 0.0 }], "p1_tagged_bot": false, "tick": 532, "cycles": 528 }
+HH_VF_STAGE HUNT want=lose map=rooftops tick=5 p1=(72.7,116.0) foe=(456.0, 115.9991) foe_hp=100.0 p1_hp=100.0 stuck=1 live_bots=1 cross=0 bots=1:live(456,116,hp=100)
+HH_VF_STAGE HUNT want=lose map=rooftops tick=95 p1=(284.2,67.8) foe=(456.0, 115.9991) foe_hp=100.0 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:live(456,116,hp=100)
+HH_VF_STAGE HUNT want=lose map=rooftops tick=185 p1=(459.9,115.8) foe=(455.2404, 115.2395) foe_hp=90.0 p1_hp=84.0 stuck=0 live_bots=1 cross=0 bots=1:live(455,115,hp=90)
+HH_VF_STAGE HUNT want=lose map=rooftops tick=275 p1=(452.7,115.3) foe=(445.7404, 115.8864) foe_hp=90.0 p1_hp=34.0 stuck=11 live_bots=1 cross=0 bots=1:live(446,116,hp=90)
+HH_VF_STAGE RESOLVE want=lose ok=true map=rooftops outcome=lose cause=damage tick=354
+HH_DIAG lose rooftops { "ok": true, "map_id": "rooftops", "outcome": "lose", "death_cause": "damage", "end_reason": "p1_down", "bot_deaths": [], "p1_tagged_bot": true, "tick": 354, "cycles": 350 }
+PASS: diag stage hunt

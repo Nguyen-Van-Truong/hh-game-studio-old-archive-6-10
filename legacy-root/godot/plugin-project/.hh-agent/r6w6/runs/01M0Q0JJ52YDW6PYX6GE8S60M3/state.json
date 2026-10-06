@@ -1,0 +1,33 @@
+{
+	"found": false,
+	"game_tree_source": "hh_agent_runtime",
+	"is_playing_scene": true,
+	"key": "ready_ok",
+	"kind": "property",
+	"matched": false,
+	"node_path": "Fixture",
+	"ok": true,
+	"op": "assert",
+	"playing": true,
+	"remote_tree": true,
+	"run_id": "01M0Q0JJ523WAQ8TW4V418P00P",
+	"source": "hh_agent_runtime",
+	"time": {
+		"editor_time_scale": false,
+		"event_count": 0.0,
+		"events_subscribed": true,
+		"fixed_step": true,
+		"frames": 19.0,
+		"frozen": true,
+		"paused": true,
+		"physics_frames": 23.0,
+		"physics_hz": 60.0,
+		"probe_physics": 14.0,
+		"probe_process": 10.0,
+		"seed": 4242.0,
+		"seed_pinned": true,
+		"ticks_msec": 1705.0
+	},
+	"token": "01M0Q0JM0N0T3X2M3F2SQJ6P54",
+	"tree_kind": "remote"
+}

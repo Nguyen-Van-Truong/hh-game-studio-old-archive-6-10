@@ -1,0 +1,4 @@
+.godot/
+.hh-agent/
+addons/
+*.uid

@@ -1,0 +1,2 @@
+{"event":"play.started","run_id":"01M0Q090ZJBAXFFF08S5P9EKKR","scene":"res://r6w7/seed_spike/shot.tscn","ts_ms":118385,"verb":"debug"}
+{"event":"play.stopped","reason":"crash","run_id":"01M0Q090ZJBAXFFF08S5P9EKKR","ts_ms":120442}

@@ -1,0 +1,14 @@
+export declare const PINNED_VERSION_ID: "4.7.1.stable.official.a13da4feb";
+export declare const PINNED_TAG: "4.7.1-stable";
+export declare const PINNED_REGISTRY: "hh-godot-actions/1";
+export declare const REFUSE_VERSION_NEEDLES: readonly ["4.7.2", "4.8"];
+export declare const PINNED_CONSOLE_EXE: "Godot_v4.7.1-stable_win64_console.exe";
+export declare const PINNED_CACHE_DIR: "godot-4.7.1-stable";
+export declare const PINNED_TEMPLATES_TPZ: "Godot_v4.7.1-stable_export_templates.tpz";
+export declare const PINNED_TEMPLATE_VERSION_DIR: "4.7.1.stable";
+export declare function findRepoRoot(start: string): string | undefined;
+export declare function toolingRoot(home: string): string;
+export declare function pinnedConsolePath(home: string): string;
+export declare function pinnedTemplatesTpz(home: string): string;
+export declare function installedTemplatesDir(): string | undefined;
+export declare function versionIsRefused(version: string): boolean;

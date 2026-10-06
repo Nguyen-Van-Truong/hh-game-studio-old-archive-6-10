@@ -1,0 +1,7 @@
+{"name":"schema","ok":true}
+{"count":1,"name":"maps","ok":false}
+{"classes":0,"explosion":0,"fire_spawn":0,"melee_hit":0,"name":"weapons","ok":false}
+{"name":"finish","ok":false,"outcome":"play","winner_shots":0,"winner_slot":2}
+{"hud":"Bot skill regular · delay 10 · aim±10° · budget 8","name":"diff","ok":true}
+{"name":"bound","ok":false,"peak":0}
+{"name":"live","ok":true}

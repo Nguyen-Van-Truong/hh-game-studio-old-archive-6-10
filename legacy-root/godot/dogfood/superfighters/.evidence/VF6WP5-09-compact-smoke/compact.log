@@ -1,0 +1,42 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_VF_BOTS STEP=boot DISPLAY=headless
+HH_VF_BOTS STEP=schema ok=true
+HH_VF_BOTS STEP=map_sync id=rooftops
+HH_VF_BOTS STEP=maps compact
+HH_VF_BOTS STEP=weapons_start nades=3 gun=pistol ammo=12
+HH_VF_BOTS STEP=weapons classes=2
+HH_VF_BOTS STEP=finish_chunk left=1020 outcome=play
+HH_VF_BOTS STEP=finish_chunk left=840 outcome=win
+HH_VF_BOTS STEP=finish_fighter slot=0 team=0 dead=false cause= hp=82 shots=2 x=309 y=164 bot=true
+HH_VF_BOTS STEP=finish_fighter slot=1 team=1 dead=true cause=damage hp=0 shots=2 x=314 y=164 bot=true
+HH_VF_BOTS STEP=finish outcome=win
+HH_VF_BOTS STEP=diff
+HH_VF_BOTS STEP=bound
+HH_VF_BOTS STEP=live_fight bodies=2
+HH_VF_BOTS STEP=live_pause
+HH_VF_BOTS STEP=live
+HH_ASSERT_FAIL GREEDY structured outcome is unproven
+HH_ASSERT_FAIL RECOVER structured outcome is unproven
+HH_VF_BOTS run_id=VF6WP5-20260905-ASIA-SAIGON-09
+HH_VF_BOTS command_id=cmd.vf6-wp5.bots.9
+HH_VF_BOTS DISPLAY=headless
+HH_VF_BOTS SEED=7 MAP=rooftops MODE=vs1 NAME=Skyline Relay
+HH_VF_BOTS STARTED_AT=2026-09-05T13:27:33+07:00 ENDED_AT=2026-09-05T13:37:11+07:00
+HH_VF_BOTS USED_STEP_FIXED=0 USED_APPLY_FRAMES=1234 USED_APPLY_ATTEMPTED=1234 USED_APPLY_SUCCEEDED=1234 USED_PARSE_INPUT_EVENT=0 USED_ACTION_PRESS=0 USED_FORCE_KILL=0 USED_TELEPORT=0 USED_APPLY_EVAL=0
+HH_VF_BOTS SCHEMA=pass SCHEMA_SOURCE=outcome_schema
+HH_VF_BOTS MAPS=pass WEAPONS=pass FINISH=pass GREEDY=unproven RECOVER=unproven DIFF=pass BOUND=pass LIVE=pass
+HH_VF_BOTS MAP_ROW id=rooftops name=Skyline Relay reach=true reason=goal pit=true aim=true combat=true moved=375.9 toward=375.1 goal_dist=8.9 waypoint_dist=9.1 engage=17.6 closest=10.7 pit_blocks=0 pit_reroutes=0 gun=2 melee=8 aim_err=6.7 shot_off=3.4 cause=
+HH_VF_BOTS MAP_ROW id=storage name=Pallet Annex reach=false reason=none pit=false aim=false combat=false moved=0.0 toward=0.0 goal_dist=0.0 waypoint_dist=0.0 engage=0.0 closest=0.0 pit_blocks= pit_reroutes= gun= melee= aim_err=0.0 shot_off=0.0 cause=
+HH_VF_BOTS MAP_ROW id=police name=Signal Court reach=false reason=none pit=false aim=false combat=false moved=0.0 toward=0.0 goal_dist=0.0 waypoint_dist=0.0 engage=0.0 closest=0.0 pit_blocks= pit_reroutes= gun= melee= aim_err=0.0 shot_off=0.0 cause=
+HH_VF_BOTS MAP_ROW id=hazardous name=Vitriol Sump reach=false reason=none pit=false aim=false combat=false moved=0.0 toward=0.0 goal_dist=0.0 waypoint_dist=0.0 engage=0.0 closest=0.0 pit_blocks= pit_reroutes= gun= melee= aim_err=0.0 shot_off=0.0 cause=
+HH_VF_BOTS MAP_ROW id=lantern name=Lantern Cut reach=false reason=none pit=false aim=false combat=false moved=0.0 toward=0.0 goal_dist=0.0 waypoint_dist=0.0 engage=0.0 closest=0.0 pit_blocks= pit_reroutes= gun= melee= aim_err=0.0 shot_off=0.0 cause=
+HH_VF_BOTS MAP_ROW id=gauge name=Gauge Deck reach=false reason=none pit=false aim=false combat=false moved=0.0 toward=0.0 goal_dist=0.0 waypoint_dist=0.0 engage=0.0 closest=0.0 pit_blocks= pit_reroutes= gun= melee= aim_err=0.0 shot_off=0.0 cause=
+HH_VF_BOTS HONESTY BOT_COVERAGE=planner NOT_AI=0 NOT_Y8_PARITY=1 PLANNER_CLASS=assumption DIFF=tuning NO_TELEPORT=1 NO_PERFECT_AIM=1 NO_HIDDEN_STATE=1
+HH_VF_BOTS FORCE_KILL_OFFICIAL=0 TELEPORT_OFFICIAL=0
+HH_VF_BOTS EVIDENCE_DIR=D:\dataDiskD\intellji\hoanhaosocial\hoanhaonew-20-6-2025\hh-game-studio\godot\dogfood\superfighters\.evidence\VF6WP5-09-compact-smoke
+FAIL: Vault Fighters bot planner
+  - GREEDY structured outcome is unproven
+  - RECOVER structured outcome is unproven
+HH_VF_BOTS FINISHED=1
+HH_VF_BOTS PROCESS_EXIT=1

@@ -1,0 +1,54 @@
+﻿critic=HH leftover-0 windowed iso
+model=cursor-grok-4.6-xhigh-fast
+run=VF6WP2-20260901-ASIA-SAIGON-03
+command_id=cmd.vf6-wp2.vs-flow.3
+source_tree_sha256=81c44f5bbe9a4c16c3fdd8599147309edc550228bdec79ed00a5fddcb8d3f55b
+recomputed=match_claim match_freeze match_run 116/116 no drift
+HEAD=2a93dfabaefd9b9aebeb652276cb923f2dfab01b
+iso=.hh-agent/critic-vf6wp2-hh-03/iso
+godot_console=%LOCALAPPDATA%\HHGodotAgent\tooling\godot-4.7.1-stable\bin\Godot_v4.7.1-stable_win64_console.exe
+godot_exe_sha256=35dab11e04ece16a2b93035e65204f4a944a3e00b020d43e54409193379d5eef
+
+windowed_console Start-Process WaitForExit 240s
+  first iso without .godot: SCRIPT ERROR class cache, WINDOW_HOST_EXIT=1 ELAPSED=1.5 leftover=0 (critic iso fault, not product)
+  remint with product .godot cache copied into iso
+  started leftover_iso=0 leftover_product=0
+  elapsed_sec=6.9 WaitForExit=True hung=False
+  WINDOW_HOST_EXIT=0 leftover_iso=0 leftover_product=0
+  log FINISHED=1 PROCESS_EXIT=0 DISPLAY=Windows
+  FIRST vs1=2a/0.32s vs2=2a/0.251s
+  REMATCH=1a/0.067s
+  APPLY=615/615 PARSE_INPUT_EVENT=147 FORCE_KILL=0 TELEPORT=0
+  PLAY outcome=win end_reason=last_standing map_id=fx_melee_close death_cause=damage
+  P1 moved+attacked; P2 moved+attacked; hit=true PIT_FALLBACK=0
+  same-round events: P2 melee hit P1 tick=15; P1 melee hits P2; death cause=damage slot=1 tick=585
+  rematch still: Close Clinch fight HUD, both HP 100, no YOU WIN overlay
+  result still: Last standing / You won / Rematch+Title
+  title_after: clean Vault Fighters title, no overlay leak
+  ObjectDB/WARNING/ERROR: none in leftover-0 stdout/stderr
+
+hunts
+  1 hash leftover-0 outcomes: MATCH leftover-0 6.9s exit 0 leftover 0; pack leftover 0; outcomes match
+  2 KEY_RIGHT, 160 / rooftops fallback: ABSENT in product and iso vs_flow_cases.gd
+  3 both fighters HP/attack same round: YES (P2 startup+hit tick 12-15; P1 hits; P2 death damage)
+  4 stills on disk rematch overlay clean: 6/6 packed+leftover-0; rematch no result overlay
+  5 plan ticked / ObjectDB / -02 reused: NO / NO / NO
+
+run_all: not independently launched (official 1582.5s packed-log-only)
+  packed DIVE APPLY=1253/1253 status=proven
+  packed MATCH MACHINE=pass APPLY=380/382 FORCE_KILL=0 status=proven
+  packed VS2 FIRST=pass LEAK=pass PLAY=pass REMATCH=pass status=proven
+  packed HH_VF_ALL FINISHED=1 PROCESS_EXIT=0
+
+TICK=yes
+product_not_edited=1
+plan_unticked=1
+-02_void_not_reused=1
+
+residual_nits_ok
+  PLAY resolve uses start_fight fixture after first_run already proved title path
+  window P1 end HP 100 despite P2 hit event (headless official 90.66)
+  P2 one punch then P1 farms KO
+  run_all packed-log-only for HH
+  BOT_COVERAGE=smoke NOT_AI=1 NOT_Y8_PARITY=1
+  art still VF7

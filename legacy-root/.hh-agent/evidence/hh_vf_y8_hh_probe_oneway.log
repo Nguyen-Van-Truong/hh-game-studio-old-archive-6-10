@@ -1,0 +1,5 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_PROBE JUMPTHRU map=police plat=(9, 9) stand=(9, 11) flag=true floor0=true y0=180.0 min_y=121.3 top=144.0 crossed=true blocked_under=false dead=false
+HH_PROBE JUMPTHRU map=rooftops plat=(15, 5) stand=(8, 7) flag=true floor0=true y0=116.0 min_y=90.0 top=80.0 crossed=false blocked_under=true dead=false
+HH_PROBE JUMPTHRU map=storage plat=(14, 6) stand=(14, 8) flag=true floor0=true y0=164.0 min_y=105.8 top=96.0 crossed=false blocked_under=true dead=false

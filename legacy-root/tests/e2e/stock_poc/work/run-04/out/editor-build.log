@@ -1,0 +1,72 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[hh_stock_poc] event=listen bind=127.0.0.1 port=50416
+[hh_stock_poc] event=plugin_enter
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (6 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  14% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  28% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  42% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  57% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  71% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+[hh_stock_poc] event=build_slice
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (1 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mreimport[22m | player_placeholder.png[39m[0m
+[  50% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (1 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[hh_stock_poc] event=input_map
+[   0% ] [90m[1msave[22m | Started Saving Scene (4 steps)[39m[0m
+[   0% ] [90m[1msave[22m | Analyzing[39m[0m
+[  20% ] [90m[1msave[22m | Creating Thumbnail[39m[0m
+ERROR: Parameter "t" is null.
+   at: texture_2d_get (./servers/rendering/dummy/storage/texture_storage.h:110)
+   GDScript backtrace (most recent call first):
+       [0] _cmd_save_scene (res://addons/hh_stock_poc/plugin.gd:409)
+       [1] _cmd_build_slice (res://addons/hh_stock_poc/plugin.gd:219)
+       [2] _ensure_player (res://addons/hh_stock_poc/plugin.gd:275)
+       [3] _attach_player_script (res://addons/hh_stock_poc/plugin.gd:315)
+       [4] _wait_fs (res://addons/hh_stock_poc/plugin.gd:535)
+[  80% ] [90m[1msave[22m | Saving Scene[39m[0m
+[92m[ DONE ][39m [1msave[22m
+[0m
+[hh_stock_poc] event=save_scene
+[hh_stock_poc] event=select_player
+[hh_stock_poc] event=select_player
+[   0% ] [90m[1msave[22m | Started Saving Scene (4 steps)[39m[0m
+[   0% ] [90m[1msave[22m | Analyzing[39m[0m
+[  20% ] [90m[1msave[22m | Creating Thumbnail[39m[0m
+ERROR: Parameter "t" is null.
+   at: texture_2d_get (./servers/rendering/dummy/storage/texture_storage.h:110)
+   GDScript backtrace (most recent call first):
+       [0] _cmd_save_scene (res://addons/hh_stock_poc/plugin.gd:409)
+       [1] _dispatch (res://addons/hh_stock_poc/plugin.gd:180)
+       [2] _handle_line (res://addons/hh_stock_poc/plugin.gd:148)
+       [3] _process (res://addons/hh_stock_poc/plugin.gd:56)
+[  80% ] [90m[1msave[22m | Saving Scene[39m[0m
+[92m[ DONE ][39m [1msave[22m
+[0m
+[hh_stock_poc] event=save_scene
+[hh_stock_poc] event=quit

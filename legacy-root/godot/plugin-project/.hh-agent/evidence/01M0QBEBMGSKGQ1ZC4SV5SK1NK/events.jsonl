@@ -1,0 +1,3 @@
+{"event":"play.started","run_id":"01M0QBEBMGSKGQ1ZC4SV5SK1NK","scene":"res://r7w5/play/Play.tscn","ts_ms":25784,"verb":"start"}
+{"code":"E_TIMEOUT","event":"play.stopped","reason":"hang","run_id":"01M0QBEBMGSKGQ1ZC4SV5SK1NK","ts_ms":36600}
+{"event":"play.stopped","reason":"test","run_id":"01M0QBEBMGSKGQ1ZC4SV5SK1NK","ts_ms":46828}

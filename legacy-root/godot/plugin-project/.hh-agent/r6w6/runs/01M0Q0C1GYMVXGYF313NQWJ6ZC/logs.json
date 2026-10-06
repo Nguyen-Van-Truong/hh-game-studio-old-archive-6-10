@@ -1,0 +1,65 @@
+{
+	"items": [
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"has_more\":false,\"items\":[{\"class\":\"Window\",\"name\":\"root\",\"path\":\"/root\"},{\"class\":\"Node\",\"name\":\"HhReloadDriver\",\"path\":\"/root/HhReloadDriver\"},{\"class\":\"Node2D\",\"name\":\"shot\",\"path\":\"/root/shot\"},{\"class\":\"Node2D\",\"name\":\"Fixture\",\"path\":\"/root/shot/Fixture\"},{\"class\":\"Node\",\"name\":\"HHAgentTickProbe\",\"path\":\"/root/shot/HHAgentTickProbe\"},{\"class\":\"ColorRect\",\"name\":\"Panel\",\"path\":\"/root/shot/Fixture/Panel\"}],\"limit\":50,\"next_cursor\":\"\",\"offset\":0,\"ok\":true,\"op\":\"tree\",\"remote_tree\":true,\"run_id\":\"01M0Q0C1GYQCPC548QZTRYVQ07\",\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":false,\"frames\":7,\"frozen\":false,\"paused\":false,\"physics_frames\":14,\"physics_hz\":0,\"probe_physics\":14,\"probe_process\":8,\"seed\":0,\"seed_pinned\":false,\"ticks_msec\":1398},\"token\":\"01M0Q0C1S10JVPMSZKAD2D6NRX\",\"total\":6,\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0C1GYQCPC548QZTRYVQ07",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 218509
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frozen\":true,\"is_playing_scene\":true,\"observed_frozen\":true,\"ok\":true,\"op\":\"freeze\",\"paused\":true,\"physics_hz\":60,\"playing\":true,\"probe_after\":17,\"probe_before\":17,\"probe_physics\":17,\"probe_process\":11,\"remote_tree\":true,\"run_id\":\"01M0Q0C1GYQCPC548QZTRYVQ07\",\"seed\":4242,\"seed_pinned\":true,\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":13,\"frozen\":true,\"paused\":true,\"physics_frames\":20,\"physics_hz\":60,\"probe_physics\":17,\"probe_process\":11,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1481},\"token\":\"01M0Q0C31M92SEGQB6GXWJJ2ZH\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0C1GYQCPC548QZTRYVQ07",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 218605
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"fixture_after\":21,\"fixture_before\":17,\"frames_advanced\":4,\"frozen\":true,\"is_playing_scene\":true,\"matched\":false,\"missed_event\":false,\"ok\":true,\"op\":\"step\",\"paused\":true,\"physics_hz\":60,\"playing\":true,\"probe_after\":21,\"probe_before\":17,\"remote_tree\":true,\"run_id\":\"01M0Q0C1GYQCPC548QZTRYVQ07\",\"seed\":4242,\"seed_pinned\":true,\"source\":\"hh_agent_runtime\",\"stepped\":true,\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":20,\"frozen\":true,\"paused\":true,\"physics_frames\":26,\"physics_hz\":60,\"probe_physics\":21,\"probe_process\":14,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1598},\"token\":\"01M0Q0C34KECDT05Y9S6BGRC93\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0C1GYQCPC548QZTRYVQ07",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 218721
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"fixture_after\":21,\"fixture_before\":17,\"frames_advanced\":4,\"frozen\":true,\"is_playing_scene\":true,\"matched\":false,\"missed_event\":false,\"ok\":true,\"op\":\"step\",\"paused\":true,\"physics_hz\":60,\"playing\":true,\"probe_after\":21,\"probe_before\":17,\"remote_tree\":true,\"run_id\":\"01M0Q0C1GYQCPC548QZTRYVQ07\",\"seed\":4242,\"seed_pinned\":true,\"source\":\"hh_agent_runtime\",\"stepped\":true,\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":20,\"frozen\":true,\"paused\":true,\"physics_frames\":26,\"physics_hz\":60,\"probe_physics\":21,\"probe_process\":14,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1599},\"token\":\"01M0Q0C34KECDT05Y9S6BGRC93\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0C1GYQCPC548QZTRYVQ07",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 218722
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"found\":true,\"got\":\"fail_blue\",\"is_playing_scene\":true,\"key\":\"panel_color\",\"kind\":\"property\",\"matched\":false,\"node_path\":\"Fixture\",\"ok\":true,\"op\":\"assert\",\"playing\":true,\"remote_tree\":true,\"run_id\":\"01M0Q0C1GYQCPC548QZTRYVQ07\",\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":23,\"frozen\":true,\"paused\":true,\"physics_frames\":29,\"physics_hz\":60,\"probe_physics\":21,\"probe_process\":14,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1664},\"token\":\"01M0Q0C38H2CJ1MVEK0EKHGR1R\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0C1GYQCPC548QZTRYVQ07",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 218779
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"found\":true,\"got\":\"fail_blue\",\"is_playing_scene\":true,\"key\":\"panel_color\",\"kind\":\"property\",\"matched\":false,\"node_path\":\"Fixture\",\"ok\":true,\"op\":\"assert\",\"playing\":true,\"remote_tree\":true,\"run_id\":\"01M0Q0C1GYQCPC548QZTRYVQ07\",\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":23,\"frozen\":true,\"paused\":true,\"physics_frames\":29,\"physics_hz\":60,\"probe_physics\":21,\"probe_process\":14,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1665},\"token\":\"01M0Q0C38H2CJ1MVEK0EKHGR1R\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0C1GYQCPC548QZTRYVQ07",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 218780
+		}
+	],
+	"stop_reason": ""
+}

@@ -1,0 +1,102 @@
+zero-touch official parent spawn utc=2026-08-25T02:20:32Z parent_pid=10072 fast=0
+zero-touch official child pid=14260 fast=0
+zero-touch official log start utc=2026-08-25T02:20:32Z pid=14260 fast=0 child=1 argv=['D:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\tests\\bootstrap\\test_zero_touch.py']
+zero-touch official identity utc=2026-08-25T02:21:03Z pid=14260 fast=0 session=01M0VBGPMWMKAGE4R1G3DNX4G5
+zero-touch: tick=4 elapsed=97.3s tools=81 phase=observing heartbeat_age=15.6s observe_age=15.6s sidecar_pid=30176
+zero-touch: tick=8 elapsed=220.1s tools=81 phase=observing heartbeat_age=18.0s observe_age=18.0s sidecar_pid=30176
+zero-touch: tick=12 elapsed=342.8s tools=81 phase=observing heartbeat_age=20.5s observe_age=20.5s sidecar_pid=30176
+zero-touch: tick=16 elapsed=465.7s tools=81 phase=observing heartbeat_age=23.1s observe_age=23.1s sidecar_pid=30176
+zero-touch: tick=20 elapsed=588.5s tools=81 phase=observing heartbeat_age=25.6s observe_age=25.6s sidecar_pid=30176
+zero-touch: tick=24 elapsed=711.3s tools=81 phase=observing heartbeat_age=28.2s observe_age=28.2s sidecar_pid=30176
+zero-touch: tick=28 elapsed=834.2s tools=81 phase=observing heartbeat_age=30.7s observe_age=30.7s sidecar_pid=30176
+zero-touch: tick=32 elapsed=957.2s tools=81 phase=observing heartbeat_age=3.3s observe_age=3.3s sidecar_pid=30176
+zero-touch: tick=36 elapsed=1079.9s tools=81 phase=observing heartbeat_age=5.7s observe_age=5.7s sidecar_pid=30176
+zero-touch: tick=40 elapsed=1202.6s tools=81 phase=observing heartbeat_age=8.2s observe_age=8.2s sidecar_pid=30176
+zero-touch: tick=44 elapsed=1325.5s tools=81 phase=observing heartbeat_age=10.8s observe_age=10.8s sidecar_pid=30176
+zero-touch: tick=48 elapsed=1448.2s tools=81 phase=observing heartbeat_age=13.4s observe_age=13.4s sidecar_pid=30176
+zero-touch: tick=52 elapsed=1571.7s tools=81 phase=observing heartbeat_age=16.4s observe_age=16.4s sidecar_pid=30176
+zero-touch: tick=56 elapsed=1694.6s tools=81 phase=observing heartbeat_age=19.0s observe_age=19.0s sidecar_pid=30176
+zero-touch: tick=60 elapsed=1817.4s tools=81 phase=observing heartbeat_age=21.5s observe_age=21.5s sidecar_pid=30176
+zero-touch: tick=64 elapsed=1940.2s tools=81 phase=observing heartbeat_age=24.0s observe_age=24.0s sidecar_pid=30176
+zero-touch: tick=68 elapsed=2062.9s tools=81 phase=observing heartbeat_age=26.6s observe_age=26.6s sidecar_pid=30176
+zero-touch: tick=72 elapsed=2185.8s tools=81 phase=observing heartbeat_age=29.0s observe_age=29.0s sidecar_pid=30176
+zero-touch: tick=76 elapsed=2308.5s tools=81 phase=observing heartbeat_age=1.4s observe_age=1.4s sidecar_pid=30176
+zero-touch: tick=80 elapsed=2431.1s tools=81 phase=observing heartbeat_age=3.8s observe_age=3.8s sidecar_pid=30176
+zero-touch: tick=84 elapsed=2553.9s tools=81 phase=observing heartbeat_age=6.1s observe_age=6.1s sidecar_pid=30176
+zero-touch: tick=88 elapsed=2676.5s tools=81 phase=observing heartbeat_age=8.5s observe_age=8.5s sidecar_pid=30176
+zero-touch: tick=92 elapsed=2799.2s tools=81 phase=observing heartbeat_age=10.9s observe_age=10.9s sidecar_pid=30176
+zero-touch: tick=96 elapsed=2921.9s tools=81 phase=observing heartbeat_age=13.3s observe_age=13.3s sidecar_pid=30176
+zero-touch: tick=100 elapsed=3044.6s tools=81 phase=observing heartbeat_age=15.7s observe_age=15.7s sidecar_pid=30176
+zero-touch: tick=104 elapsed=3167.3s tools=81 phase=observing heartbeat_age=18.1s observe_age=18.1s sidecar_pid=30176
+zero-touch: tick=108 elapsed=3290.0s tools=81 phase=observing heartbeat_age=20.6s observe_age=20.6s sidecar_pid=30176
+zero-touch: tick=112 elapsed=3412.9s tools=81 phase=observing heartbeat_age=23.4s observe_age=23.4s sidecar_pid=30176
+zero-touch: tick=116 elapsed=3535.8s tools=81 phase=observing heartbeat_age=25.5s observe_age=25.5s sidecar_pid=30176
+zero-touch: tick=120 elapsed=3658.5s tools=81 phase=observing heartbeat_age=27.3s observe_age=27.3s sidecar_pid=30176
+zero-touch: tick=124 elapsed=3781.2s tools=81 phase=observing heartbeat_age=29.2s observe_age=29.2s sidecar_pid=30176
+zero-touch: tick=128 elapsed=3903.9s tools=81 phase=observing heartbeat_age=0.9s observe_age=0.9s sidecar_pid=30176
+zero-touch: tick=132 elapsed=4026.8s tools=81 phase=observing heartbeat_age=3.0s observe_age=3.0s sidecar_pid=30176
+zero-touch: tick=136 elapsed=4149.5s tools=81 phase=observing heartbeat_age=4.8s observe_age=4.8s sidecar_pid=30176
+zero-touch: tick=140 elapsed=4272.1s tools=81 phase=observing heartbeat_age=6.7s observe_age=6.7s sidecar_pid=30176
+zero-touch: tick=144 elapsed=4394.7s tools=81 phase=observing heartbeat_age=8.5s observe_age=8.5s sidecar_pid=30176
+zero-touch: tick=148 elapsed=4517.4s tools=81 phase=observing heartbeat_age=10.4s observe_age=10.4s sidecar_pid=30176
+zero-touch: tick=152 elapsed=4640.1s tools=81 phase=observing heartbeat_age=12.2s observe_age=12.2s sidecar_pid=30176
+zero-touch: tick=156 elapsed=4762.8s tools=81 phase=observing heartbeat_age=14.2s observe_age=14.2s sidecar_pid=30176
+zero-touch: tick=160 elapsed=4885.4s tools=81 phase=observing heartbeat_age=16.1s observe_age=16.1s sidecar_pid=30176
+zero-touch: tick=164 elapsed=5008.1s tools=81 phase=observing heartbeat_age=17.9s observe_age=17.9s sidecar_pid=30176
+zero-touch: tick=168 elapsed=5130.8s tools=81 phase=observing heartbeat_age=19.8s observe_age=19.8s sidecar_pid=30176
+zero-touch: tick=172 elapsed=5253.5s tools=81 phase=observing heartbeat_age=21.8s observe_age=21.8s sidecar_pid=30176
+zero-touch: tick=176 elapsed=5376.2s tools=81 phase=observing heartbeat_age=23.7s observe_age=23.7s sidecar_pid=30176
+FAIL: zero-touch; fast=0; LIVE=proven; DURATION90=proven; ZERO_TOUCH=proven; SELF_PLAN=proven; SELF_PLAY=proven; REPAIR=unused; PAUSE_RESUME=proven; CHECKPOINT/GIT=proven; LEDGER=proven; TIMELINE=proven; VIDEO=proven; REVIEW_PKG=proven; E_INPUT=proven; OUTPUT_RUNS=proven; TEST_GREEN=proven; HOST=unproven; G4_READY=unproven
+  - HOST unproven: Host.create did not use McpStdioExecutor
+  - G4_READY stamp only; missing HOST
+  - HOST not proven
+  - G4_READY not proven
+zero-touch official parent spawn utc=2026-08-25T04:16:10Z parent_pid=37140 fast=0
+zero-touch official child pid=36416 fast=0
+zero-touch official log start utc=2026-08-25T04:16:10Z pid=36416 fast=0 child=1 argv=['D:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\tests\\bootstrap\\test_zero_touch.py']
+zero-touch official identity utc=2026-08-25T04:16:36Z pid=36416 fast=0 session=01M0VJ4AW7KJDCCECK4BR5ZQZ9
+zero-touch: tick=4 elapsed=96.6s tools=83 phase=observing heartbeat_age=15.9s observe_age=15.9s sidecar_pid=7364
+zero-touch: tick=8 elapsed=226.8s tools=83 phase=observing heartbeat_age=23.1s observe_age=23.1s sidecar_pid=7364
+zero-touch: tick=12 elapsed=350.1s tools=83 phase=observing heartbeat_age=25.8s observe_age=25.8s sidecar_pid=7364
+zero-touch: tick=16 elapsed=473.1s tools=83 phase=observing heartbeat_age=28.3s observe_age=28.3s sidecar_pid=7364
+zero-touch: tick=20 elapsed=595.5s tools=83 phase=observing heartbeat_age=30.1s observe_age=30.1s sidecar_pid=7364
+zero-touch: tick=24 elapsed=719.7s tools=83 phase=observing heartbeat_age=3.7s observe_age=3.7s sidecar_pid=7364
+zero-touch: tick=28 elapsed=842.9s tools=83 phase=observing heartbeat_age=6.5s observe_age=6.5s sidecar_pid=7364
+zero-touch: tick=32 elapsed=965.4s tools=83 phase=observing heartbeat_age=8.6s observe_age=8.6s sidecar_pid=7364
+zero-touch: tick=36 elapsed=1089.6s tools=83 phase=observing heartbeat_age=11.9s observe_age=11.9s sidecar_pid=7364
+zero-touch: tick=40 elapsed=1211.3s tools=83 phase=observing heartbeat_age=13.7s observe_age=13.7s sidecar_pid=7364
+zero-touch: tick=44 elapsed=1333.1s tools=83 phase=observing heartbeat_age=14.5s observe_age=14.5s sidecar_pid=7364
+zero-touch: tick=48 elapsed=1454.3s tools=83 phase=observing heartbeat_age=15.4s observe_age=15.4s sidecar_pid=7364
+zero-touch: tick=52 elapsed=1575.5s tools=83 phase=observing heartbeat_age=16.3s observe_age=16.3s sidecar_pid=7364
+zero-touch: tick=56 elapsed=1696.7s tools=83 phase=observing heartbeat_age=17.1s observe_age=17.1s sidecar_pid=7364
+zero-touch: tick=60 elapsed=1817.9s tools=83 phase=observing heartbeat_age=18.0s observe_age=18.0s sidecar_pid=7364
+zero-touch: tick=64 elapsed=1939.1s tools=83 phase=observing heartbeat_age=18.9s observe_age=18.9s sidecar_pid=7364
+zero-touch: tick=68 elapsed=2060.4s tools=83 phase=observing heartbeat_age=19.8s observe_age=19.8s sidecar_pid=7364
+zero-touch: tick=72 elapsed=2181.6s tools=83 phase=observing heartbeat_age=20.7s observe_age=20.7s sidecar_pid=7364
+zero-touch: tick=76 elapsed=2302.8s tools=83 phase=observing heartbeat_age=21.6s observe_age=21.6s sidecar_pid=7364
+zero-touch: tick=80 elapsed=2424.0s tools=83 phase=observing heartbeat_age=22.4s observe_age=22.4s sidecar_pid=7364
+zero-touch: tick=84 elapsed=2545.2s tools=83 phase=observing heartbeat_age=23.3s observe_age=23.3s sidecar_pid=7364
+zero-touch: tick=88 elapsed=2666.4s tools=83 phase=observing heartbeat_age=24.1s observe_age=24.1s sidecar_pid=7364
+zero-touch: tick=92 elapsed=2787.6s tools=83 phase=observing heartbeat_age=25.0s observe_age=25.0s sidecar_pid=7364
+zero-touch: tick=96 elapsed=2908.8s tools=83 phase=observing heartbeat_age=25.8s observe_age=25.8s sidecar_pid=7364
+zero-touch: tick=100 elapsed=3030.0s tools=83 phase=observing heartbeat_age=26.7s observe_age=26.7s sidecar_pid=7364
+zero-touch: tick=104 elapsed=3151.3s tools=83 phase=observing heartbeat_age=27.6s observe_age=27.6s sidecar_pid=7364
+zero-touch: tick=108 elapsed=3272.5s tools=83 phase=observing heartbeat_age=28.5s observe_age=28.5s sidecar_pid=7364
+zero-touch: tick=112 elapsed=3393.7s tools=83 phase=observing heartbeat_age=29.4s observe_age=29.4s sidecar_pid=7364
+zero-touch: tick=116 elapsed=3515.0s tools=83 phase=observing heartbeat_age=30.3s observe_age=30.3s sidecar_pid=7364
+zero-touch: tick=120 elapsed=3636.2s tools=83 phase=observing heartbeat_age=1.0s observe_age=1.0s sidecar_pid=7364
+zero-touch: tick=124 elapsed=3757.4s tools=83 phase=observing heartbeat_age=1.9s observe_age=1.9s sidecar_pid=7364
+zero-touch: tick=128 elapsed=3878.6s tools=83 phase=observing heartbeat_age=2.8s observe_age=2.8s sidecar_pid=7364
+zero-touch: tick=132 elapsed=3999.9s tools=83 phase=observing heartbeat_age=3.7s observe_age=3.7s sidecar_pid=7364
+zero-touch: tick=136 elapsed=4121.1s tools=83 phase=observing heartbeat_age=4.6s observe_age=4.6s sidecar_pid=7364
+zero-touch: tick=140 elapsed=4242.4s tools=83 phase=observing heartbeat_age=5.5s observe_age=5.5s sidecar_pid=7364
+zero-touch: tick=144 elapsed=4363.6s tools=83 phase=observing heartbeat_age=6.3s observe_age=6.3s sidecar_pid=7364
+zero-touch: tick=148 elapsed=4484.8s tools=83 phase=observing heartbeat_age=6.9s observe_age=6.9s sidecar_pid=7364
+zero-touch: tick=152 elapsed=4606.1s tools=83 phase=observing heartbeat_age=7.4s observe_age=7.4s sidecar_pid=7364
+zero-touch: tick=156 elapsed=4727.3s tools=83 phase=observing heartbeat_age=7.8s observe_age=7.8s sidecar_pid=7364
+zero-touch: tick=160 elapsed=4848.6s tools=83 phase=observing heartbeat_age=8.3s observe_age=8.3s sidecar_pid=7364
+zero-touch: tick=164 elapsed=4969.9s tools=83 phase=observing heartbeat_age=8.8s observe_age=8.8s sidecar_pid=7364
+zero-touch: tick=168 elapsed=5091.1s tools=83 phase=observing heartbeat_age=9.2s observe_age=9.2s sidecar_pid=7364
+zero-touch: tick=172 elapsed=5212.3s tools=83 phase=observing heartbeat_age=9.6s observe_age=9.6s sidecar_pid=7364
+zero-touch: tick=176 elapsed=5333.5s tools=83 phase=observing heartbeat_age=10.1s observe_age=10.1s sidecar_pid=7364
+PASS: zero-touch; fast=0; LIVE=proven; DURATION90=proven; ZERO_TOUCH=proven; SELF_PLAN=proven; SELF_PLAY=proven; REPAIR=proven; PAUSE_RESUME=proven; CHECKPOINT/GIT=proven; LEDGER=proven; TIMELINE=proven; VIDEO=proven; REVIEW_PKG=proven; E_INPUT=proven; OUTPUT_RUNS=proven; TEST_GREEN=proven; HOST=proven; G4_READY=proven

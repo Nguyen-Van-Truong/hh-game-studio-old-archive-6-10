@@ -1,0 +1,2 @@
+{"event":"play.started","run_id":"01M0VJ5T3RZFY6CKD3NRSV7YSX","scene":"res://scenes/memory/board.tscn","ts_ms":41784,"verb":"start"}
+{"event":"play.stopped","reason":"test","run_id":"01M0VJ5T3RZFY6CKD3NRSV7YSX","ts_ms":45928}

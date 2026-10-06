@@ -1,0 +1,17 @@
+{
+  "live_tree": "81c44f5bbe9a4c16c3fdd8599147309edc550228bdec79ed00a5fddcb8d3f55b",
+  "claim_tree": "81c44f5bbe9a4c16c3fdd8599147309edc550228bdec79ed00a5fddcb8d3f55b",
+  "freeze_tree": "81c44f5bbe9a4c16c3fdd8599147309edc550228bdec79ed00a5fddcb8d3f55b",
+  "match_claim": true,
+  "match_freeze": true,
+  "file_count": 116,
+  "freeze_count": 116,
+  "missing": [],
+  "mismatch_count": 0,
+  "mismatched": [],
+  "extra_freeze": [],
+  "missing_freeze": [],
+  "godot_hash": "35dab11e04ece16a2b93035e65204f4a944a3e00b020d43e54409193379d5eef",
+  "godot_match": true,
+  "godot_exists": true
+}

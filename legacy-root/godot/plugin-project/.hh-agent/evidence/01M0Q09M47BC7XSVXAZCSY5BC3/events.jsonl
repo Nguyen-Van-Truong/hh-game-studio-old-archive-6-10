@@ -1,0 +1,2 @@
+{"event":"play.started","run_id":"01M0Q09M47BC7XSVXAZCSY5BC3","scene":"res://r6w7/seed_parse/shot.tscn","ts_ms":138045,"verb":"debug"}
+{"code":"E_TIMEOUT","event":"play.stopped","reason":"hang","run_id":"01M0Q09M47BC7XSVXAZCSY5BC3","ts_ms":148003}

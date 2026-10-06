@@ -1,0 +1,78 @@
+{
+	"attempt": 1,
+	"engine": "4.7.1.stable.official.a13da4feb",
+	"evidence_index": [
+		{
+			"bytes": 628,
+			"hash": "3420e1b62c6b4658997d5fa7e31c938f23dcf7362e495ef098843bb19f11f837",
+			"kind": "hashes",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q062RE53MV8VHQ0M0SFPZS/hashes.json"
+		},
+		{
+			"bytes": 289,
+			"hash": "a760b9d1c2618ee30d1895796214c0c990a26227b7a393bafccf55c52b52a4bd",
+			"kind": "logs",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q062RE53MV8VHQ0M0SFPZS/logs.json"
+		},
+		{
+			"bytes": 2,
+			"hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+			"kind": "state",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q062RE53MV8VHQ0M0SFPZS/state.json"
+		},
+		{
+			"bytes": 271,
+			"hash": "81f2f2e2a3199f69de4123247b83d79089be5109cba4ac05b1d37fd1eec0d36a",
+			"kind": "event",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q062RE53MV8VHQ0M0SFPZS/events.json"
+		},
+		{
+			"bytes": 1987,
+			"hash": "1371273f14253a989983ece57c98488d93de6d7c5882412b14620a210fc3c80b",
+			"kind": "report",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q062RE53MV8VHQ0M0SFPZS/report.json"
+		},
+		{
+			"bytes": 1227,
+			"hash": "00b779858764d94b49d95c18d49a302cce93a0c495e65a9fc3bda2ca316997e1",
+			"kind": "html",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q062RE53MV8VHQ0M0SFPZS/report.html"
+		},
+		{
+			"bytes": 1226,
+			"hash": "2185715aa11b004a0b25e4ba9ea904aed5c3ebf9ccee3b0911d0a504ca64de9c",
+			"kind": "evidence",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q062RE53MV8VHQ0M0SFPZS/evidence.json"
+		}
+	],
+	"flaky": false,
+	"hashes": {
+		"commit": {
+			"source": "git",
+			"value": "1015eb00b72417fb11a6e51a478f41f02d05ec17"
+		},
+		"engine": "4.7.1.stable.official.a13da4feb",
+		"invented": false,
+		"project_hash": "a6534665ccbf72fe2e73e1a7c9dfd979900fc5550e40291f0d28d846296520bc",
+		"project_hash_files": [
+			"res://project.godot"
+		],
+		"project_hash_source": "sha256",
+		"tool_hashes": {
+			"hh_agent_runtime.gd": "b7d6ee9af3116ff7a4bcfa77998301f8fb6fc4a5f44ce8b7f427578035a50151",
+			"hh_play_adapter.gd": "af5204c9d6fd3a99aa34e7bb3e24c2519fdc1025ddeca1e1066127ba70684e00",
+			"hh_test_adapter.gd": "66f0aebde85df12c8c237aee842ee1da5d29a81381585bf5959b097eb62ffd1a"
+		}
+	},
+	"html_path": "res://.hh-agent/r6w6/runs/01M0Q062RE53MV8VHQ0M0SFPZS/report.html",
+	"invented_hashes": false,
+	"message": "Play process stopped unexpectedly (hang)",
+	"name": "seed_parse",
+	"play_proven": true,
+	"reason": "crash",
+	"report_path": "res://.hh-agent/r6w6/runs/01M0Q062RE53MV8VHQ0M0SFPZS/report.json",
+	"retry_max": 0,
+	"run_id": "01M0Q062REBVHY88RR1RQF9Z73",
+	"schema": "hh-test/1",
+	"status": "infra_error"
+}

@@ -1,0 +1,84 @@
+{
+	"attempt": 1,
+	"engine": "4.7.1.stable.official.a13da4feb",
+	"evidence_index": [
+		{
+			"bytes": 628,
+			"hash": "3420e1b62c6b4658997d5fa7e31c938f23dcf7362e495ef098843bb19f11f837",
+			"kind": "hashes",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q1BASY4Y0FX2Y44B85PNWM/hashes.json"
+		},
+		{
+			"bytes": 6624,
+			"hash": "c945fdd9eb8f75f7e5c4277a154e3813914d76abe9768f48e5bcb24669259d08",
+			"kind": "logs",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q1BASY4Y0FX2Y44B85PNWM/logs.json"
+		},
+		{
+			"bytes": 581,
+			"hash": "a15806f14ada8d594222dee5548fbd6070ce50b72a84ffec921050de7210e0f4",
+			"kind": "state",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q1BASY4Y0FX2Y44B85PNWM/state.json"
+		},
+		{
+			"bytes": 569,
+			"hash": "0d7db819013cfa53c7216d9b5de28e8ecede2e6c243534dbd3f73e51235dd219",
+			"kind": "event",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q1BASY4Y0FX2Y44B85PNWM/events.json"
+		},
+		{
+			"bytes": 4490,
+			"hash": "67a49a020d1687fb1f7bc1f836fcb2c0429538cb1e4fc7cb5b99de6d27192273",
+			"kind": "screenshot",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q1BASY4Y0FX2Y44B85PNWM/screenshot.png"
+		},
+		{
+			"bytes": 2157,
+			"hash": "e85c8e90c84248a271c800806cb4785c8c3b1bbb68ff0ec7fd6016e5acdaf962",
+			"kind": "report",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q1BASY4Y0FX2Y44B85PNWM/report.json"
+		},
+		{
+			"bytes": 1475,
+			"hash": "b108344644f837975d0ca17898fe175148360471f0c7de4fc0933f4f6cd9f7e4",
+			"kind": "html",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q1BASY4Y0FX2Y44B85PNWM/report.html"
+		},
+		{
+			"bytes": 1440,
+			"hash": "deb5a7714e469770ff5abfe86814f071b4d250ad80a6c20e3588ec6026783543",
+			"kind": "evidence",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q1BASY4Y0FX2Y44B85PNWM/evidence.json"
+		}
+	],
+	"flaky": false,
+	"hashes": {
+		"commit": {
+			"source": "git",
+			"value": "1015eb00b72417fb11a6e51a478f41f02d05ec17"
+		},
+		"engine": "4.7.1.stable.official.a13da4feb",
+		"invented": false,
+		"project_hash": "a6534665ccbf72fe2e73e1a7c9dfd979900fc5550e40291f0d28d846296520bc",
+		"project_hash_files": [
+			"res://project.godot"
+		],
+		"project_hash_source": "sha256",
+		"tool_hashes": {
+			"hh_agent_runtime.gd": "b7d6ee9af3116ff7a4bcfa77998301f8fb6fc4a5f44ce8b7f427578035a50151",
+			"hh_play_adapter.gd": "af5204c9d6fd3a99aa34e7bb3e24c2519fdc1025ddeca1e1066127ba70684e00",
+			"hh_test_adapter.gd": "66f0aebde85df12c8c237aee842ee1da5d29a81381585bf5959b097eb62ffd1a"
+		}
+	},
+	"html_path": "res://.hh-agent/r6w6/runs/01M0Q1BASY4Y0FX2Y44B85PNWM/report.html",
+	"invented_hashes": false,
+	"message": "test ok",
+	"name": "seed_clip",
+	"play_proven": true,
+	"reason": "ok",
+	"report_path": "res://.hh-agent/r6w6/runs/01M0Q1BASY4Y0FX2Y44B85PNWM/report.json",
+	"retry_max": 0,
+	"run_id": "01M0Q1BASY2GRJE0CFM1FDQDR6",
+	"schema": "hh-test/1",
+	"status": "pass"
+}

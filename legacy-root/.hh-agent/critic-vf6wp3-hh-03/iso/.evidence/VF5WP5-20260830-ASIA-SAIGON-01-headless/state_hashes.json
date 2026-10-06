@@ -1,0 +1,17 @@
+{
+	"display": "Vitriol Sump",
+	"map_id": "hazardous",
+	"mode": "vs2",
+	"replay": {
+		"pairs": [
+			{
+				"hash": "0662b4e8c3551854d0c8d4249ff999fd8bf545077831585a5317fe9cd69bb60d",
+				"id": "hazardous",
+				"match": true
+			}
+		],
+		"source": "catalog reload hash twice",
+		"verdict": "match"
+	},
+	"seed": 15
+}

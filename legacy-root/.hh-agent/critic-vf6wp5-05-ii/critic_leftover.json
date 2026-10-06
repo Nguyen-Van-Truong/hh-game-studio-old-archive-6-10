@@ -1,0 +1,18 @@
+﻿{
+    "check_exit":  0,
+    "log_finished":  1,
+    "godot_total_after":  0,
+    "console_pid":  63216,
+    "freeze_after":  "MATCH",
+    "leftover_before":  0,
+    "iso_path_hits_after":  0,
+    "started_at":  "2026-09-04T16:46:45+07:00",
+    "ended_at":  "2026-09-04T17:12:17+07:00",
+    "after_check":  0,
+    "leftover_after":  0,
+    "elapsed_sec":  1532,
+    "worker_pid":  40492,
+    "leftover_before_godot":  0,
+    "freeze":  "dd0d1e4603ad02a4f154741a5f25261faf43ad12f316719448f5e00b2c8f5aaa",
+    "both_gone":  true
+}

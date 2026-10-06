@@ -1,0 +1,3 @@
+{"kind":"runtime","line":0,"message":"game_view:setup_complete","path":"","run_id":"01M0PAB8G67EAMWKYHQH58XWXX","stack":[],"tree_kind":"remote","ts_ms":15910}
+{"kind":"runtime","line":0,"message":"game_view:window_size (1152, 648)","path":"","run_id":"01M0PAB8G67EAMWKYHQH58XWXX","stack":[],"tree_kind":"remote","ts_ms":15911}
+{"kind":"runtime","line":0,"message":"play process stopped unexpectedly","path":"res://r6w1/play.tscn","run_id":"01M0PAB8G67EAMWKYHQH58XWXX","stack":[],"tree_kind":"editor","ts_ms":19385}

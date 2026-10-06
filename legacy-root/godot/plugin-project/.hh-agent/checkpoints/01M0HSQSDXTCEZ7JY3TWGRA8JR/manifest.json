@@ -1,0 +1,20 @@
+{
+  "checkpoint_id": "01M0HSQSDXTCEZ7JY3TWGRA8JR",
+  "command_id": "01M0HSQSDGRZBGGDA2X1TNZBZ9",
+  "created_at": "2026-08-21T09:16:54.846Z",
+  "project_root": "D:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\godot\\plugin-project",
+  "git_ref": "refs/hh-ckpt/01M0HSQSDXTCEZ7JY3TWGRA8JR",
+  "git_head": "6cd7f3220e9a9caa1edd442c2fb2290dc79b7cdf",
+  "files": [
+    {
+      "rel": "r3w6/floor.png",
+      "sha256": "b1ff9c8ea3a780bad09b346c423d2d0e46815926879b18e841d928376a946640",
+      "missing": false
+    }
+  ],
+  "referenced_by": [
+    "r3w6/floor.png.import",
+    "r3w6/main.tscn"
+  ],
+  "hard_delete_blocked": true
+}

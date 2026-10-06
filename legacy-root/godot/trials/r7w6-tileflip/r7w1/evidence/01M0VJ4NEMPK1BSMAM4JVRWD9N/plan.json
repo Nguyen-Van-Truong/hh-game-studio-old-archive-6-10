@@ -1,0 +1,534 @@
+{
+	"acceptance": [
+		{
+			"id": "acc01",
+			"task_ids": [
+				"verify_define_acc01",
+				"produce_script",
+				"verify_run_acc01",
+				"checkpoint_slice"
+			],
+			"text": "keyboard cursor plus accept flips a tile"
+		},
+		{
+			"id": "acc02",
+			"task_ids": [
+				"verify_define_acc02",
+				"produce_script",
+				"verify_run_acc02",
+				"checkpoint_slice"
+			],
+			"text": "matching pair increments matches"
+		},
+		{
+			"id": "acc03",
+			"task_ids": [
+				"verify_define_acc03",
+				"produce_script",
+				"verify_run_acc03",
+				"checkpoint_slice"
+			],
+			"text": "two matching pairs set won on the 2x2 board"
+		},
+		{
+			"id": "acc04",
+			"task_ids": [
+				"verify_define_acc04",
+				"produce_script",
+				"verify_run_acc04",
+				"checkpoint_slice"
+			],
+			"text": "Play session uses hh_agent_runtime"
+		}
+	],
+	"acyclic": true,
+	"assumptions": [],
+	"blockers": [],
+	"cards": [
+		{
+			"id": "verify_define_acc01",
+			"kind": "test",
+			"summary": "test test.define ← acc01"
+		},
+		{
+			"id": "verify_define_acc02",
+			"kind": "test",
+			"summary": "test test.define ← acc02"
+		},
+		{
+			"id": "verify_define_acc03",
+			"kind": "test",
+			"summary": "test test.define ← acc03"
+		},
+		{
+			"id": "verify_define_acc04",
+			"kind": "test",
+			"summary": "test test.define ← acc04"
+		},
+		{
+			"id": "produce_art",
+			"kind": "produce",
+			"summary": "produce asset.preview ← "
+		},
+		{
+			"id": "produce_audio",
+			"kind": "produce",
+			"summary": "produce audio.preview ← "
+		},
+		{
+			"id": "produce_scene",
+			"kind": "produce",
+			"summary": "produce scene.read ← "
+		},
+		{
+			"id": "produce_script",
+			"kind": "produce",
+			"summary": "produce script.validate ← acc01,acc02,acc03,acc04"
+		},
+		{
+			"id": "verify_run_acc01",
+			"kind": "verify",
+			"summary": "verify test.run ← acc01"
+		},
+		{
+			"id": "verify_run_acc02",
+			"kind": "verify",
+			"summary": "verify test.run ← acc02"
+		},
+		{
+			"id": "verify_run_acc03",
+			"kind": "verify",
+			"summary": "verify test.run ← acc03"
+		},
+		{
+			"id": "verify_run_acc04",
+			"kind": "verify",
+			"summary": "verify test.run ← acc04"
+		},
+		{
+			"id": "checkpoint_slice",
+			"kind": "checkpoint",
+			"summary": "checkpoint git.checkpoint ← acc01,acc02,acc03,acc04"
+		}
+	],
+	"complete": true,
+	"ok": true,
+	"run_id": "01M0VJ4NEMPK1BSMAM4JVRWD9N",
+	"schema": "hh-plan/1",
+	"status": "ready",
+	"tasks": [
+		{
+			"acceptance": [
+				"acc01"
+			],
+			"budget": {
+				"commands": 4,
+				"minutes": 5
+			},
+			"checkpoint": "",
+			"commands": [
+				"test.define"
+			],
+			"criterion": "keyboard cursor plus accept flips a tile",
+			"deps": [],
+			"files": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/tests/acc01.hh-test.json"
+			],
+			"id": "verify_define_acc01",
+			"kind": "test",
+			"outputs": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/tests/acc01.hh-test.json"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [],
+			"verify": "test.define"
+		},
+		{
+			"acceptance": [
+				"acc02"
+			],
+			"budget": {
+				"commands": 4,
+				"minutes": 5
+			},
+			"checkpoint": "",
+			"commands": [
+				"test.define"
+			],
+			"criterion": "matching pair increments matches",
+			"deps": [],
+			"files": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/tests/acc02.hh-test.json"
+			],
+			"id": "verify_define_acc02",
+			"kind": "test",
+			"outputs": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/tests/acc02.hh-test.json"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [],
+			"verify": "test.define"
+		},
+		{
+			"acceptance": [
+				"acc03"
+			],
+			"budget": {
+				"commands": 4,
+				"minutes": 5
+			},
+			"checkpoint": "",
+			"commands": [
+				"test.define"
+			],
+			"criterion": "two matching pairs set won on the 2x2 board",
+			"deps": [],
+			"files": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/tests/acc03.hh-test.json"
+			],
+			"id": "verify_define_acc03",
+			"kind": "test",
+			"outputs": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/tests/acc03.hh-test.json"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [],
+			"verify": "test.define"
+		},
+		{
+			"acceptance": [
+				"acc04"
+			],
+			"budget": {
+				"commands": 4,
+				"minutes": 5
+			},
+			"checkpoint": "",
+			"commands": [
+				"test.define"
+			],
+			"criterion": "Play session uses hh_agent_runtime",
+			"deps": [],
+			"files": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/tests/acc04.hh-test.json"
+			],
+			"id": "verify_define_acc04",
+			"kind": "test",
+			"outputs": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/tests/acc04.hh-test.json"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [],
+			"verify": "test.define"
+		},
+		{
+			"acceptance": [],
+			"budget": {
+				"commands": 6,
+				"minutes": 15
+			},
+			"checkpoint": "",
+			"commands": [
+				"asset.import"
+			],
+			"deps": [
+				"verify_define_acc01",
+				"verify_define_acc02",
+				"verify_define_acc03",
+				"verify_define_acc04"
+			],
+			"files": [
+				"res://art/memory/tile.png"
+			],
+			"id": "produce_art",
+			"kind": "produce",
+			"outputs": [
+				"res://art/memory/tile.png"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [],
+			"verify": "asset.preview"
+		},
+		{
+			"acceptance": [],
+			"budget": {
+				"commands": 6,
+				"minutes": 15
+			},
+			"checkpoint": "",
+			"commands": [
+				"audio.player"
+			],
+			"deps": [
+				"verify_define_acc01",
+				"verify_define_acc02",
+				"verify_define_acc03",
+				"verify_define_acc04"
+			],
+			"files": [
+				"res://audio/memory/flip.wav"
+			],
+			"id": "produce_audio",
+			"kind": "produce",
+			"outputs": [
+				"res://audio/memory/flip.wav"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [],
+			"verify": "audio.preview"
+		},
+		{
+			"acceptance": [],
+			"budget": {
+				"commands": 8,
+				"minutes": 10
+			},
+			"checkpoint": "",
+			"commands": [
+				"scene.create",
+				"node.add"
+			],
+			"deps": [
+				"verify_define_acc01",
+				"verify_define_acc02",
+				"verify_define_acc03",
+				"verify_define_acc04"
+			],
+			"files": [
+				"res://scenes/memory/board.tscn"
+			],
+			"id": "produce_scene",
+			"kind": "produce",
+			"outputs": [
+				"res://scenes/memory/board.tscn"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [
+				"res://scenes/memory/board.tscn"
+			],
+			"verify": "scene.read"
+		},
+		{
+			"acceptance": [
+				"acc01",
+				"acc02",
+				"acc03",
+				"acc04"
+			],
+			"budget": {
+				"commands": 8,
+				"minutes": 10
+			},
+			"checkpoint": "",
+			"commands": [
+				"script.write",
+				"script.attach"
+			],
+			"deps": [
+				"produce_scene"
+			],
+			"files": [
+				"res://scripts/memory/board.gd"
+			],
+			"id": "produce_script",
+			"kind": "produce",
+			"outputs": [
+				"res://scripts/memory/board.gd"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [
+				"res://scenes/memory/board.tscn"
+			],
+			"verify": "script.validate"
+		},
+		{
+			"acceptance": [
+				"acc01"
+			],
+			"budget": {
+				"commands": 6,
+				"minutes": 8
+			},
+			"checkpoint": "",
+			"commands": [
+				"test.run"
+			],
+			"deps": [
+				"produce_script",
+				"produce_scene",
+				"verify_define_acc01"
+			],
+			"files": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/reports/acc01.json"
+			],
+			"id": "verify_run_acc01",
+			"kind": "verify",
+			"outputs": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/reports/acc01.json"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [
+				"res://scenes/memory/board.tscn"
+			],
+			"verify": "test.run"
+		},
+		{
+			"acceptance": [
+				"acc02"
+			],
+			"budget": {
+				"commands": 6,
+				"minutes": 8
+			},
+			"checkpoint": "",
+			"commands": [
+				"test.run"
+			],
+			"deps": [
+				"produce_script",
+				"produce_scene",
+				"verify_define_acc02"
+			],
+			"files": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/reports/acc02.json"
+			],
+			"id": "verify_run_acc02",
+			"kind": "verify",
+			"outputs": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/reports/acc02.json"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [
+				"res://scenes/memory/board.tscn"
+			],
+			"verify": "test.run"
+		},
+		{
+			"acceptance": [
+				"acc03"
+			],
+			"budget": {
+				"commands": 6,
+				"minutes": 8
+			},
+			"checkpoint": "",
+			"commands": [
+				"test.run"
+			],
+			"deps": [
+				"produce_script",
+				"produce_scene",
+				"verify_define_acc03"
+			],
+			"files": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/reports/acc03.json"
+			],
+			"id": "verify_run_acc03",
+			"kind": "verify",
+			"outputs": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/reports/acc03.json"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [
+				"res://scenes/memory/board.tscn"
+			],
+			"verify": "test.run"
+		},
+		{
+			"acceptance": [
+				"acc04"
+			],
+			"budget": {
+				"commands": 6,
+				"minutes": 8
+			},
+			"checkpoint": "",
+			"commands": [
+				"test.run"
+			],
+			"deps": [
+				"produce_script",
+				"produce_scene",
+				"verify_define_acc04"
+			],
+			"files": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/reports/acc04.json"
+			],
+			"id": "verify_run_acc04",
+			"kind": "verify",
+			"outputs": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/reports/acc04.json"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [
+				"res://scenes/memory/board.tscn"
+			],
+			"verify": "test.run"
+		},
+		{
+			"acceptance": [
+				"acc01",
+				"acc02",
+				"acc03",
+				"acc04"
+			],
+			"budget": {
+				"commands": 2,
+				"minutes": 2
+			},
+			"checkpoint": "git.checkpoint",
+			"commands": [
+				"git.checkpoint"
+			],
+			"deps": [
+				"verify_run_acc01",
+				"verify_run_acc02",
+				"verify_run_acc03",
+				"verify_run_acc04"
+			],
+			"files": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/checkpoint.json"
+			],
+			"id": "checkpoint_slice",
+			"kind": "checkpoint",
+			"outputs": [
+				"r7w1/evidence/01M0VJ4NEMPK1BSMAM4JVRWD9N/checkpoint.json"
+			],
+			"rollback": "git.revert_checkpoint",
+			"scene_leases": [
+				"res://scenes/memory/board.tscn"
+			],
+			"verify": "git.checkpoint"
+		}
+	],
+	"traces": [
+		{
+			"brief": "acc01",
+			"checkpoint": "checkpoint_slice",
+			"command": "script.write",
+			"task": "produce_script",
+			"test": "test.run:acc01"
+		},
+		{
+			"brief": "acc02",
+			"checkpoint": "checkpoint_slice",
+			"command": "script.write",
+			"task": "produce_script",
+			"test": "test.run:acc02"
+		},
+		{
+			"brief": "acc03",
+			"checkpoint": "checkpoint_slice",
+			"command": "script.write",
+			"task": "produce_script",
+			"test": "test.run:acc03"
+		},
+		{
+			"brief": "acc04",
+			"checkpoint": "checkpoint_slice",
+			"command": "script.write",
+			"task": "produce_script",
+			"test": "test.run:acc04"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_PATH map=rooftops pads=[[4, 7], [28, 7], [54, 7]] walk=117
+HH_PATH rooftops p0_to_p1 ok=true partial=false exp=7 n=7 start=4,7 goal=28,7 cells=4,7,10,6,16,4,17,4,23,5,28,4,28,7
+HH_PATH rooftops p1_to_p0 ok=true partial=false exp=8 n=7 start=28,7 goal=4,7 cells=28,7,23,6,17,4,16,4,10,5,10,6,4,7
+HH_PATH map=storage pads=[[13, 10], [26, 10], [59, 10]] walk=128
+HH_PATH storage p0_to_p1 ok=true partial=false exp=4 n=4 start=13,10 goal=26,10 cells=13,10,14,10,20,9,26,10
+HH_PATH storage p1_to_p0 ok=true partial=false exp=4 n=4 start=26,10 goal=13,10 cells=26,10,20,9,14,10,13,10
+HH_PATH map=police pads=[[4, 7], [59, 11], [14, 9]] walk=129
+HH_PATH police p0_to_p1 ok=true partial=false exp=35 n=28 start=4,7 goal=59,11 cells=4,7,5,7,6,7,7,7,7,11,13,9,13,11,17,9,17,11,18,11,19,11,20,11,26,10,30,11,36,11,37,11,38,11,39,11,40,11,41,11,42,11,43,11,44,11,50,10,56,11,57,11,58,11,59,11
+HH_PATH police p1_to_p0 ok=true partial=false exp=48 n=25 start=59,11 goal=4,7 cells=59,11,53,8,49,7,43,6,42,6,41,6,40,6,39,6,38,6,37,6,36,6,35,6,34,6,33,6,32,6,32,8,26,9,26,10,20,11,14,9,8,7,7,7,6,7,5,7,4,7
+HH_PATH map=hazardous pads=[[4, 8], [18, 8], [58, 8]] walk=152
+HH_PATH hazardous p0_to_p1 ok=true partial=false exp=15 n=15 start=4,8 goal=18,8 cells=4,8,5,8,6,8,7,8,8,8,9,8,10,8,11,8,12,8,13,8,14,8,15,8,16,8,17,8,18,8
+HH_PATH hazardous p1_to_p0 ok=true partial=false exp=15 n=15 start=18,8 goal=4,8 cells=18,8,17,8,16,8,15,8,14,8,13,8,12,8,11,8,10,8,9,8,8,8,7,8,6,8,5,8,4,8
+HH_PATH map=lantern pads=[[1, 6], [43, 6], [20, 8]] walk=105
+HH_PATH lantern p0_to_p1 ok=false partial=true exp=56 n=25 start=1,6 goal=43,6 cells=1,6,4,7,10,8,11,8,12,8,13,8,14,8,15,8,16,8,17,8,18,8,19,8,20,8,21,8,22,8,23,8,24,8,25,8,26,8,27,8,28,8,29,8,30,8,31,8,32,8
+HH_PATH lantern p1_to_p0 ok=true partial=false exp=47 n=33 start=43,6 goal=1,6 cells=43,6,41,7,41,8,41,9,41,10,38,11,32,8,31,8,30,8,29,8,28,8,27,8,26,8,25,8,24,8,23,8,22,8,21,8,20,8,19,8,18,8,17,8,16,8,15,8,14,8,13,8,12,8,11,8,10,8,4,6,3,6,2,6,1,6
+HH_PATH map=gauge pads=[[1, 6], [18, 11], [59, 11]] walk=141
+HH_PATH gauge p0_to_p1 ok=true partial=false exp=33 n=14 start=1,6 goal=18,11 cells=1,6,4,7,4,8,4,9,4,10,10,11,11,11,12,11,13,11,14,11,15,11,16,11,17,11,18,11
+HH_PATH gauge p1_to_p0 ok=true partial=false exp=11 n=11 start=18,11 goal=1,6 cells=18,11,17,11,16,11,15,11,14,11,13,11,12,11,11,11,10,11,4,8,1,6

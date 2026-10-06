@@ -1,0 +1,4 @@
+{"event":"play.stopped","reason":"crash","run_id":"01M0PEG1SZMPQBTF29HTB7F2PF","ts_ms":9825}
+{"event":"play.started","run_id":"01M0PEG1SZMPQBTF29HTB7F2PF","scene":"res://r6w2/probe.tscn","ts_ms":10102,"verb":"debug"}
+{"event":"play.stopped","reason":"test","run_id":"01M0PEG1SZMPQBTF29HTB7F2PF","ts_ms":13257}
+{"event":"play.stopped","reason":"test","run_id":"01M0PEG1SZMPQBTF29HTB7F2PF","ts_ms":13821}

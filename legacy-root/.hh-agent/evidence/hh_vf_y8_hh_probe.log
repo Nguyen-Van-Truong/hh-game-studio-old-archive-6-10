@@ -1,0 +1,14 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_PROBE ONE_WAY flag=true cell=(15, 5) y0=112.7 min_y=112.7 top=80.0 crossed=false dead=false cause=
+HH_PROBE DROP_THROUGH y0=94.0 y1=246.5 top=80.0 dropped=true
+HH_PROBE POLICE_SPAWN x=104.0 y=275.2 dead=false cause=
+HH_PROBE POLICE_WALK_LEFT frames=2 x=103.6 y=285.1 dead=true cause=pit
+HH_PROBE POLICE_WALK_RIGHT frames=9 x=120.6 y=285.1 dead=true cause=pit pit_inside=true
+HH_PROBE POLICE_INTERIOR_HOLES n=12 x=22 y=283.2 cause=pit,x=24 y=283.2 cause=pit,x=26 y=283.2 cause=pit,x=28 y=283.2 cause=pit,x=30 y=283.2 cause=pit,x=32 y=283.2 cause=pit,x=34 y=283.2 cause=pit,x=36 y=283.2 cause=pit,x=38 y=283.2 cause=pit,x=40 y=283.2 cause=pit,x=42 y=283.2 cause=pit,x=44 y=283.2 cause=pit
+HH_PROBE BULLET_THRU_EQ foe_hp=100.0 bullets=1 p1_y=281.8 foe_y=238.5 top=80.0
+HH_PROBE NADE_HOLD during_count=0 nades_during=3 after_count=0 nades_after=3
+HH_PROBE STAND_UZI melee=fists gun=pistol ammo=12
+HH_PROBE CROUCH_UZI melee=fists gun=pistol ammo=12
+HH_PROBE UZI_AUTO shots=4 ammo=20 foe_hp=93.0 bullets=3
+HH_PROBE TITLE text=Vault Fighters | 2D arena deathmatch — last standing wins | P1 arrows · N melee · hold M aim/release fire · hold comma throw · Esc pause | P2 WASD · 1 melee · hold 2 fire · hold 3 throw · double-tap to sprint trademark=false

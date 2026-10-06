@@ -1,0 +1,28 @@
+{
+  "schema": "hh-g2-visible-e2e/1",
+  "g2_signed": false,
+  "screenshots": "SKIP",
+  "video": "SKIP",
+  "human_start": "hh-godot-g2.bat",
+  "scene": "res://r4w6/visible.tscn",
+  "checkpoint_command_id": "01M0MK2JC8AHD8Q5R8GYTZTXRQ",
+  "checkpoint_ref": "01M0MK2JD6YSSRSF489QWY3HX4",
+  "checkpoint_ok": true,
+  "checkpoint_error": "",
+  "pause": "human Pause was not on; probe move applied",
+  "replay_ok": true,
+  "replay_error": "",
+  "alternatives": [
+    {
+      "action": "play.start",
+      "native_ui": "Editor Play (F5) / play current scene",
+      "reason": "E_UNVERIFIED",
+      "paper_ack": false
+    }
+  ],
+  "gaps": [
+    "play.start is Alternative (E_UNVERIFIED / not dispatched)",
+    "screenshots=SKIP video=SKIP; no dummy PNG",
+    "this harness does not sign G2"
+  ]
+}

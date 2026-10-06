@@ -1,0 +1,29 @@
+MANIFEST 69627552c7d042a0f337c62b0dbb6f41adff94a84dfeaf6a9f20749c13f53952
+LAYOUT fa69fa57b90f9b0d2fab239916afc6631084cc4c323939acfce2c4324a39efc5
+CONTACT f941090a2838f03b0671a8d7a3e6c1646ea684a643f1c880fd760d7f26605833
+GEN bef005169aa4a46a13dd1f57ca82f82b7fafe2205c3f6474e29fc1b4a708329d
+RUN_ART e9431b6fa2d8c2c5497557c421cfac34e16df77cad0a51df01cba002ddb697fe
+HARNESS f8aeec48cc34c554d5bd99b1740b176466d30d4069d507b259a9e3b8cb7ef62e
+NOTICE 16cf71b7025c3e2da49e023609da5c695699d57588bf1a0c9745247d32da3ae7
+--- assets ---
+tileset_vault    original   ee1260fc42e9c1f205fcadcc7ffccbba053aaba6179544f6906fa2f04655624a
+actor_player     original   df7c2c7e91781a4442fe803295b95f75d49ba7c163655d75697659eec623dc9a
+actor_warden     original   12c0ca119093a00e1396b49338cb63a30736ffd77b53c23660dfda4a73563d32
+item_key         original   0bfe9307865e504308ab5b6608711e4b45d4348eaba1e3d611bf626bb430c4c0
+prop_door        original   3bb74483886107ca971aa5112cd5f93d1f48d8fcad9160bd5a5442d1b94bb058
+item_relic       original   d28a5d21d5622cd8538ac0a1f15f7cfbacc94cc693c258ea8584239ac49ee505
+ui_icon_key      original   e9a026fe6275e6c620f4b55b527e233e7a61adb825bb4f3ad42463af2bf73a14
+vfx_interact     original   9f1ea40bdc5d2145faa47257bf9cdde0cd303264c8f3c94a056d854cb0b7cc2a
+sfx_pickup       original   3d91fbb3ede76845727f48eb15e98eed32b51484db692fac837de6d54d385443
+sfx_door         original   7ef2680b420942626533d9b10b51dd09fefd42a05d3d4d5eb6fa0812b78412a3
+sfx_caught       original   4b1957e4182da7b0fc6cffc96eb04cb291a2806303cd9371b12dfabea5432d0a
+sfx_win          original   05d2b6fdd8f0eed98539173c1c739aca006ea9ac15a600b77967ef82106c97cb
+sfx_lose         original   15987fa7893997756a9d2ad893a50a2eca885149ff2a20228660a3c19ff917f8
+sfx_interact     original   db17a95a53deba1c0b3df9e3da8cef2c649a9857d781411e93ee1089a5969649
+music_vault      original   3d1ed8e8b82d91afdc297145b1790485c18aa4dc24727c79e8d2eef12eb9d257
+contact_sheet    original   f941090a2838f03b0671a8d7a3e6c1646ea684a643f1c880fd760d7f26605833
+font_ui          OFL-1.1    bundled-godot-4.7.1.stable.official.a13da4feb
+--- anim ---
+assets/anim/actor_player.tres 5a20d8a5a03613b5ade475bff971794639b9942a621cb2de97e7cb4b96688cf9
+assets/anim/actor_warden.tres 61001aa86051ba9dec58928925dabab9a7dd1c11cc07d79a029453a0da47d821
+assets/anim/vfx_interact.tres 449f7884c4b8f9f7c4f83b58250904c96425080b9dd08e6cd2fe66aa6f14c7c0

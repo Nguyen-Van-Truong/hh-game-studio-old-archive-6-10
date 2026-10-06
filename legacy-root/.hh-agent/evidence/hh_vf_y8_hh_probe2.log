@@ -1,0 +1,22 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_PROBE LAND step20 map=rooftops spawn_y=112.0 y=116.0 on_floor=true dead=false cause= kill=276.0
+HH_PROBE LAND phys20 map=rooftops y=112.0 on_floor=false dead=false cause=
+HH_PROBE LAND step20 map=storage spawn_y=128.0 y=164.0 on_floor=true dead=false cause= kill=212.0
+HH_PROBE LAND phys20 map=storage y=128.0 on_floor=false dead=false cause=
+HH_PROBE LAND step20 map=police spawn_y=176.0 y=180.0 on_floor=true dead=false cause= kill=276.0
+HH_PROBE LAND phys20 map=police y=176.0 on_floor=false dead=false cause=
+HH_PROBE LAND step20 map=hazardous spawn_y=128.0 y=132.0 on_floor=true dead=false cause= kill=276.0
+HH_PROBE LAND phys20 map=hazardous y=128.0 on_floor=false dead=false cause=
+HH_PROBE ONE_WAY flag=true cell=(38, 4) floor0=true y0=180.0 min_y=121.8 top=64.0 crossed=false dead=false
+HH_PROBE STAND_ON_EQ y0=52.0 y1=52.0 top=64.0 floor0=true floor1=true dropped=false
+HH_PROBE POLICE_SPAWN x=104.0 y=180.0 floor=true dead=false cause=
+HH_PROBE POLICE_IDLE40 extra=20 y=180.0 dead=false cause=
+HH_PROBE POLICE_WALK_LEFT frames=28 x=32.2 y=279.2 dead=true cause=pit
+HH_PROBE POLICE_WALK_RIGHT frames=200 x=331.0 y=180.0 floor=true dead=false cause= pit_inside=false
+HH_PROBE POLICE_INTERIOR_HOLES n=0 
+HH_PROBE NADE_HOLD floor=true outcome=play dead=false during_count=0 nades_during=3 after_count=1 nades_after=2
+HH_PROBE STAND_UZI floor=true melee=fists gun=pistol ammo=12
+HH_PROBE CROUCH_UZI floor=true crouched=true melee=fists gun=uzi ammo=24
+HH_PROBE UZI_AUTO shots=4 ammo=20 foe_hp=79.0 bullets=1
+HH_PROBE TITLE text=Vault Fighters | 2D arena deathmatch — last standing wins | P1 arrows · N melee · hold M aim/release fire · hold comma throw · Esc pause | P2 WASD · 1 melee · hold 2 fire · hold 3 throw · double-tap to sprint trademark=false

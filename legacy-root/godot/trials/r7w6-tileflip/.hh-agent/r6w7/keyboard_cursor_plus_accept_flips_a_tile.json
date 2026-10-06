@@ -1,0 +1,50 @@
+{
+	"attempts": [
+		{
+			"loop": 1,
+			"ok": true,
+			"reason": "ok",
+			"report_path": "res://.hh-agent/r6w6/runs/01M0VJ5T3RVR1R6DF32PEFKCAX/report.json",
+			"status": "pass"
+		}
+	],
+	"file": "res://art/memory/tile.png",
+	"inspect_keys": [
+		"scene",
+		"assert_key",
+		"assert_op",
+		"assert_value_string",
+		"assert_value_int",
+		"assert_value_bool",
+		"assert_signal",
+		"perf_budget_ms",
+		"scripts",
+		"missing_paths",
+		"areas",
+		"colors",
+		"controls",
+		"anims",
+		"reason",
+		"status"
+	],
+	"kind": "missing_asset",
+	"loops": 1,
+	"name": "keyboard_cursor_plus_accept_flips_a_tile",
+	"node": "",
+	"patches": [
+		{
+			"applied": [
+				{
+					"ok": true,
+					"op": "asset.create",
+					"path": "res://art/memory/tile.png"
+				}
+			],
+			"edited_test": false,
+			"kind": "missing_asset"
+		}
+	],
+	"retest_status": "pass",
+	"root_cause": "assigned resource path does not exist: res://art/memory/tile.png",
+	"schema": "hh-repair/1"
+}

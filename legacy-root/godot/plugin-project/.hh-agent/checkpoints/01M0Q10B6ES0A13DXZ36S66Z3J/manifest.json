@@ -1,0 +1,17 @@
+{
+  "checkpoint_id": "01M0Q10B6ES0A13DXZ36S66Z3J",
+  "command_id": "01M0Q10B624VKXMTHS5X9VJ4R7",
+  "created_at": "2026-08-23T10:00:07.255Z",
+  "project_root": "D:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\godot\\plugin-project",
+  "git_ref": "",
+  "git_head": "",
+  "files": [
+    {
+      "rel": "r6w7/c2/seed_parse/shot.tscn",
+      "sha256": "missing",
+      "missing": true
+    }
+  ],
+  "referenced_by": [],
+  "hard_delete_blocked": false
+}

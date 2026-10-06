@@ -1,0 +1,49 @@
+{
+  "schema": "hh-git-ckpt/1",
+  "checkpoint_id": "01M0VJ66Q4AMZ0SX20EXVPZH4K",
+  "command_id": "01M0VJ63GWNYFXV42R9Y2DPBNK",
+  "created_at": "2026-08-25T04:17:25.002Z",
+  "project": "project",
+  "run_id": "01M0VJ63GWNYFXV42R9Y2DPBNK",
+  "branch": "agent/project/01M0VJ63GWNYFXV42R9Y2DPBNK",
+  "git_commit": "208b017ec037d1328d52ed963b113fb6bbca77ed",
+  "git_ref": "refs/hh-ckpt/01M0VJ66Q4AMZ0SX20EXVPZH4K",
+  "git_real": true,
+  "repo_rel": "",
+  "files": [
+    {
+      "rel": "scenes/memory/board.tscn",
+      "git_path": "scenes/memory/board.tscn",
+      "sha256": "bf30c3c23fabf7ca348da895667406a05c842ac46f775d66a5bb210f6216d21d"
+    },
+    {
+      "rel": "scripts/memory/board.gd",
+      "git_path": "scripts/memory/board.gd",
+      "sha256": "fd520ded00a771e92148ffeaa40a2729123fe18ecfb9ecd9f4c7c3119acebd02"
+    }
+  ],
+  "assets": [
+    {
+      "path": "scenes/memory/board.tscn",
+      "size": 449,
+      "sha256": "bf30c3c23fabf7ca348da895667406a05c842ac46f775d66a5bb210f6216d21d",
+      "lfs": false
+    },
+    {
+      "path": "scripts/memory/board.gd",
+      "size": 3514,
+      "sha256": "fd520ded00a771e92148ffeaa40a2729123fe18ecfb9ecd9f4c7c3119acebd02",
+      "lfs": false
+    }
+  ],
+  "dirty_user": [
+    "project.godot",
+    "art",
+    "r7w1",
+    "r7w3",
+    "r7w6"
+  ],
+  "untracked_assets": [],
+  "lfs_threshold": 65536,
+  "lfs_available": true
+}

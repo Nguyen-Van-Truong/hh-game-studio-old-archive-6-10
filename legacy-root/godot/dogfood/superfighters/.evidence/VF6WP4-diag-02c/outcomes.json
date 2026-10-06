@@ -1,0 +1,168 @@
+{
+	"apply": {
+		"attempted": 224,
+		"succeeded": 224,
+		"used_action_press": 0,
+		"used_apply_eval": 0,
+		"used_apply_frames": 224,
+		"used_force_kill": 0,
+		"used_parse_input_event": 224,
+		"used_step_fixed": 0,
+		"used_teleport": 0
+	},
+	"distinct": {
+		"source": "Survival play leaves Stage checkpoint untouched",
+		"stage_hash_after": "a94ea313475a85dff94945f19d6acc0cd4d3abc6ecd6c69ae0476e18b67b98e7",
+		"stage_hash_before": "a94ea313475a85dff94945f19d6acc0cd4d3abc6ecd6c69ae0476e18b67b98e7",
+		"stage_index": 0,
+		"survival_mode": "survival",
+		"verdict": "pass"
+	},
+	"live": {
+		"events_len": 43,
+		"soak_elapsed": 2.03299999237061,
+		"soak_required": 2,
+		"source": "title Survival click + live apply_frames + rematch clears director",
+		"timeline_len": 5,
+		"title_visible_after": true,
+		"verdict": "fail"
+	},
+	"load": {
+		"map_id": "rooftops",
+		"mode": "survival",
+		"score": 0,
+		"source": "title Survival click; rooftops catalog start; no Stage continue",
+		"verdict": "pass"
+	},
+	"pause": {
+		"verdict": "fail"
+	},
+	"restart": {
+		"bot_min_hp": 100.0,
+		"cleared": true,
+		"death_cause": "pit",
+		"end_reason": "p1_down",
+		"lost": true,
+		"score_shown": 1,
+		"source": "combat damage KO; bot fought; rematch is a new run",
+		"used_pit": false,
+		"verdict": "pass"
+	},
+	"schema": {
+		"loop_class": "approximation",
+		"score_class": "approximation",
+		"source": "data/sim/survival.json",
+		"verdict": "pass",
+		"wave_class": "approximation"
+	},
+	"score": {
+		"first": 1,
+		"kills": 0,
+		"last": 1,
+		"last_wave": 0,
+		"samples": 16,
+		"score_from_combo": 0,
+		"score_from_kills": 0,
+		"score_from_survive": 1,
+		"score_from_wave": 0,
+		"source": "kill/combo/wave-clear on live rooftops melee; survive ticks are bonus",
+		"verdict": "fail"
+	},
+	"soak_elapsed": 2.03299999237061,
+	"soak_required": 2,
+	"spawn": {
+		"cap_denied_living": 1,
+		"cap_living_bots": 6,
+		"cap_pickups": 12,
+		"last_deny_reason": "wave_target",
+		"living_seen": [
+			1
+		],
+		"max_living_bots": 1,
+		"max_pickups": 4,
+		"refused": 2,
+		"refused_cap": 0,
+		"source": "live director spawn after kills; cap deny while 6 alive",
+		"verdict": "fail",
+		"wave_table": [
+			{
+				"deny": "",
+				"from_combo": 0,
+				"from_kills": 0,
+				"from_survive": 0,
+				"from_wave": 0,
+				"kills": 0,
+				"living": 1,
+				"refused_cap": 0,
+				"score": 0,
+				"source": "fight_start",
+				"tick": 0,
+				"wave": 0
+			}
+		],
+		"waves_seen": [
+			0
+		],
+		"weapon_respawns": 0
+	},
+	"timeline": [
+		{
+			"at": "fight_start",
+			"living_bots": 1,
+			"map_id": "rooftops",
+			"mode": "survival",
+			"outcome": "play",
+			"score": 0,
+			"tick": 0,
+			"wave": 0
+		},
+		{
+			"at": "distinct",
+			"living_bots": 1,
+			"map_id": "rooftops",
+			"mode": "survival",
+			"outcome": "play",
+			"score": 1,
+			"stage_hash": "a94ea313475a85dff94945f19d6acc0cd4d3abc6ecd6c69ae0476e18b67b98e7",
+			"tick": 90,
+			"wave": 0
+		},
+		{
+			"at": "score_spawn",
+			"from_kills": 0,
+			"kills": 0,
+			"living_bots": 1,
+			"map_id": "rooftops",
+			"max_bots": 1,
+			"mode": "survival",
+			"outcome": "lose",
+			"score": 1,
+			"tick": 106,
+			"wave": 0
+		},
+		{
+			"at": "soak",
+			"elapsed": 2.03299999237061,
+			"living_bots": 1,
+			"map_id": "rooftops",
+			"max_bots": 1,
+			"mode": "survival",
+			"outcome": "lose",
+			"required": 2,
+			"score": 0,
+			"tick": 36,
+			"wave": 0
+		},
+		{
+			"at": "gameover",
+			"cause": "pit",
+			"living_bots": 1,
+			"map_id": "rooftops",
+			"mode": "survival",
+			"outcome": "lose",
+			"score": 1,
+			"tick": 82,
+			"wave": 0
+		}
+	]
+}

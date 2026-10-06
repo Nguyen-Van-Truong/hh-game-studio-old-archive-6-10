@@ -1,0 +1,18 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_DIAG start map=police bots=3
+HH_VF_STAGE HUNT want=win map=police tick=5 p1=(72.7,116.0) foe=(232.0, 147.9991) foe_hp=100.0 p1_hp=100.0 stuck=1 live_bots=3 cross=0 bots=1:live(232,148,hp=100),2:live(952,119,hp=100),3:live(248,148,hp=100)
+HH_VF_STAGE HUNT want=win map=police tick=95 p1=(235.8,147.8) foe=(231.9986, 147.9989) foe_hp=80.0 p1_hp=84.0 stuck=0 live_bots=3 cross=0 bots=1:live(232,148,hp=80),2:live(814,98,hp=100),3:live(249,148,hp=90)
+HH_VF_STAGE HUNT want=win map=police tick=185 p1=(227.5,147.8) foe=(231.7736, 147.2519) foe_hp=40.0 p1_hp=84.0 stuck=0 live_bots=3 cross=0 bots=1:live(232,147,hp=40),2:live(596,100,hp=100),3:live(251,147,hp=70)
+HH_VF_STAGE HUNT want=win map=police tick=275 p1=(229.8,147.8) foe=(228.722, 147.996) foe_hp=10.0 p1_hp=86.5 stuck=0 live_bots=3 cross=0 bots=1:live(229,148,hp=10),2:live(409,68,hp=100),3:live(251,148,hp=70)
+HH_VF_STAGE HUNT want=win map=police tick=365 p1=(249.2,147.8) foe=(254.5518, 147.9989) foe_hp=40.0 p1_hp=92.5 stuck=0 live_bots=2 cross=0 bots=1:dead(286,148,hp=0),2:live(393,86,hp=100),3:live(255,148,hp=40)
+HH_VF_STAGE HUNT want=win map=police tick=455 p1=(266.5,147.8) foe=(393.0, 86.0) foe_hp=100.0 p1_hp=98.5 stuck=0 live_bots=1 cross=0 bots=1:dead(346,180,hp=0),2:live(393,86,hp=100),3:dead(260,147,hp=0)
+HH_VF_STAGE HUNT want=win map=police tick=545 p1=(294.8,166.5) foe=(393.0, 86.0) foe_hp=100.0 p1_hp=84.0 stuck=19 live_bots=1 cross=0 bots=1:dead(395,180,hp=0),2:live(393,86,hp=100),3:dead(320,180,hp=0)
+HH_VF_STAGE HUNT want=win map=police tick=635 p1=(294.8,166.5) foe=(393.0, 86.0) foe_hp=100.0 p1_hp=84.0 stuck=109 live_bots=1 cross=0 bots=1:dead(395,180,hp=0),2:live(393,86,hp=100),3:dead(380,180,hp=0)
+HH_VF_STAGE HUNT want=win map=police tick=725 p1=(294.8,166.5) foe=(393.0, 86.0) foe_hp=100.0 p1_hp=88.5 stuck=199 live_bots=1 cross=0 bots=1:dead(395,180,hp=0),2:live(393,86,hp=100),3:dead(395,180,hp=0)
+HH_VF_STAGE HUNT want=win map=police tick=815 p1=(294.8,166.5) foe=(393.0, 86.0) foe_hp=100.0 p1_hp=94.5 stuck=289 live_bots=1 cross=0 bots=1:dead(395,180,hp=0),2:live(393,86,hp=100),3:dead(395,180,hp=0)
+HH_VF_STAGE HUNT want=win map=police tick=905 p1=(294.8,166.5) foe=(393.0, 86.0) foe_hp=100.0 p1_hp=100.0 stuck=379 live_bots=1 cross=0 bots=1:dead(395,180,hp=0),2:live(393,86,hp=100),3:dead(395,180,hp=0)
+HH_VF_STAGE HUNT want=win map=police tick=995 p1=(294.8,166.5) foe=(393.0, 86.0) foe_hp=100.0 p1_hp=100.0 stuck=469 live_bots=1 cross=0 bots=1:dead(395,180,hp=0),2:live(393,86,hp=100),3:dead(395,180,hp=0)
+HH_VF_STAGE HUNT want=win map=police tick=1085 p1=(294.8,166.5) foe=(393.0, 86.0) foe_hp=100.0 p1_hp=100.0 stuck=559 live_bots=1 cross=0 bots=1:dead(395,180,hp=0),2:live(393,86,hp=100),3:dead(395,180,hp=0)
+HH_VF_STAGE HUNT want=win map=police tick=1175 p1=(294.8,166.5) foe=(393.0, 86.0) foe_hp=100.0 p1_hp=100.0 stuck=649 live_bots=1 cross=0 bots=1:dead(395,180,hp=0),2:live(393,86,hp=100),3:dead(395,180,hp=0)
+HH_VF_STAGE HUNT want=win map=police tick=1265 p1=(294.8,166.5) foe=(393.0, 86.0) foe_hp=100.0 p1_hp=100.0 stuck=739 live_bots=1 cross=0 bots=1:dead(395,180,hp=0),2:live(393,86,hp=100),3:dead(395,180,hp=0)

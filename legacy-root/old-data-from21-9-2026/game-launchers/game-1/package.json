@@ -1,0 +1,7 @@
+{
+  "name": "@hoanhao-local/game-1-launcher",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ../../../../game-hoanhao/games/game-1 run dev"
+  }
+}

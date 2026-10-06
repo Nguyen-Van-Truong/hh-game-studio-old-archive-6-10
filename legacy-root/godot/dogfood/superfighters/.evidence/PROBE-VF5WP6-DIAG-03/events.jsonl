@@ -1,0 +1,17 @@
+{"kind":"roster","ok":true}
+{"kind":"cycle","ok":true,"wrap":"rooftops"}
+{"kind":"load","n":6,"ok":true}
+{"kind":"routes","ok":true}
+{"kind":"camera","ok":true}
+{"kind":"cover","ok":true}
+{"kind":"cargo","ok":true}
+{"kind":"door","ok":true}
+{"kind":"rotor","ok":true}
+{"kind":"toxic","ok":true}
+{"kind":"water","ok":false,"wet":false}
+{"boards":0,"kind":"lift","ok":false}
+{"kind":"lantern","ok":true,"zones":3}
+{"kind":"gauge","ok":false,"zones":1}
+{"kind":"p2bot","ok":true}
+{"kind":"live","ok":true}
+{"kind":"replay","ok":true}

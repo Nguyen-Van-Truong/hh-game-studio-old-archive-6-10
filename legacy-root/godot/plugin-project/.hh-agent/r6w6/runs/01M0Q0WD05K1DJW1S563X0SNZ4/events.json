@@ -1,0 +1,36 @@
+{
+	"items": [
+		{
+			"attempt": 0,
+			"kind": "run_begin",
+			"ms": 32058,
+			"name": "seed_mask",
+			"scene": "res://r6w7/c1/seed_mask/shot.tscn"
+		},
+		{
+			"kind": "step",
+			"ms": 32401,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 33697,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 33813,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 33930,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 33985,
+			"ok": true
+		}
+	]
+}

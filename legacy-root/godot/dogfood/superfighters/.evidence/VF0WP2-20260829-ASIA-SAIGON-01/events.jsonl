@@ -1,0 +1,6 @@
+{"ts":"2026-08-29T08:24:00+07:00","event":"official_headless_start","command_id":"cmd.vf0-wp2.headless-teardown.1","seed":1,"script":"res://tests/run_all.gd","verbose":true}
+{"ts":"2026-08-29T08:24:02+07:00","event":"official_headless_pass","loop":1,"exit":0,"leftover":0,"leak_phrases":0}
+{"ts":"2026-08-29T08:24:04+07:00","event":"official_headless_pass","loop":2,"exit":0,"leftover":0,"leak_phrases":0}
+{"ts":"2026-08-29T08:24:06+07:00","event":"official_headless_pass","loop":3,"exit":0,"leftover":0,"leak_phrases":0}
+{"ts":"2026-08-29T08:21:00+07:00","event":"window_hygiene_start","command_id":"cmd.vf0-wp2.window-hygiene.1","script":"res://tests/run_window_hygiene.gd","test_driven":false}
+{"ts":"2026-08-29T08:21:03+07:00","event":"window_hygiene_pass","exit":0,"sessions":20,"music":"on","sfx":"on","display":"Windows","size":"1280x720","audio_driver":"WASAPI","leftover":0,"objectdb_leak_phrases":0}

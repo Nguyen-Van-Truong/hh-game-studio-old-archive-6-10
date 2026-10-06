@@ -1,0 +1,18 @@
+﻿Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_DIAG start map=rooftops bots=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=5 p1=(72.7,116.0) foe=(456.0, 115.9991) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=95 p1=(284.2,67.8) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=185 p1=(458.7,115.8) foe=(455.1303, 115.2537) hp=84.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=275 p1=(462.0,115.8) foe=(458.1808, 115.9988) hp=84.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=365 p1=(454.7,115.8) foe=(460.3616, 115.9988) hp=84.7 stuck=0
+HH_VF_STAGE RESOLVE want=win ok=true map=rooftops outcome=win cause=damage tick=400
+HH_DIAG win rooftops { "ok": true, "map_id": "rooftops", "outcome": "win", "death_cause": "damage", "end_reason": "last_standing", "bot_deaths": [{ "slot": 1, "death_cause": "damage", "hp": 0.0 }], "p1_tagged_bot": false, "tick": 400, "cycles": 396 }
+HH_VF_STAGE HUNT want=lose map=rooftops tick=5 p1=(72.7,116.0) foe=(456.0, 115.9991) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=lose map=rooftops tick=95 p1=(284.2,67.8) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=lose map=rooftops tick=185 p1=(459.9,115.8) foe=(455.2404, 115.2395) hp=84.0 stuck=0
+HH_VF_STAGE HUNT want=lose map=rooftops tick=275 p1=(452.7,115.3) foe=(445.7404, 115.8864) hp=34.0 stuck=11
+HH_VF_STAGE RESOLVE want=lose ok=true map=rooftops outcome=lose cause=damage tick=354
+HH_DIAG lose rooftops { "ok": true, "map_id": "rooftops", "outcome": "lose", "death_cause": "damage", "end_reason": "p1_down", "bot_deaths": [], "p1_tagged_bot": true, "tick": 354, "cycles": 350 }
+PASS: diag stage hunt
+

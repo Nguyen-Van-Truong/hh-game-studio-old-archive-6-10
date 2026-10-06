@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://b2exv57esvwqk"]
+
+[node name="review" type="Node2D" unique_id=1136954642]
+metadata/hh_agent_uid = "hhuid_6264183_2"
+metadata/_hh_agent_uid = "hhuid_6264183_2"
+
+[node name="ReviewSprite" type="Node2D" parent="." unique_id=826669493]
+metadata/hh_agent_uid = "hhuid_6263980_1"
+metadata/_hh_agent_uid = "hhuid_6263980_1"

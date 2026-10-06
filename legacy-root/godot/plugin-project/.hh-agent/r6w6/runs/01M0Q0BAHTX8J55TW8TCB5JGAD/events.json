@@ -1,0 +1,36 @@
+{
+	"items": [
+		{
+			"attempt": 0,
+			"kind": "run_begin",
+			"ms": 193446,
+			"name": "seed_sig",
+			"scene": "res://r6w7/seed_sig/shot.tscn"
+		},
+		{
+			"kind": "step",
+			"ms": 193724,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 194995,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 195114,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 195225,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 195270,
+			"ok": true
+		}
+	]
+}

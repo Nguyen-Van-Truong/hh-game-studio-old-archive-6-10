@@ -1,0 +1,18 @@
+{
+	"commit": {
+		"source": "git",
+		"value": "1015eb00b72417fb11a6e51a478f41f02d05ec17"
+	},
+	"engine": "4.7.1.stable.official.a13da4feb",
+	"invented": false,
+	"project_hash": "a6534665ccbf72fe2e73e1a7c9dfd979900fc5550e40291f0d28d846296520bc",
+	"project_hash_files": [
+		"res://project.godot"
+	],
+	"project_hash_source": "sha256",
+	"tool_hashes": {
+		"hh_agent_runtime.gd": "b7d6ee9af3116ff7a4bcfa77998301f8fb6fc4a5f44ce8b7f427578035a50151",
+		"hh_play_adapter.gd": "af5204c9d6fd3a99aa34e7bb3e24c2519fdc1025ddeca1e1066127ba70684e00",
+		"hh_test_adapter.gd": "66f0aebde85df12c8c237aee842ee1da5d29a81381585bf5959b097eb62ffd1a"
+	}
+}

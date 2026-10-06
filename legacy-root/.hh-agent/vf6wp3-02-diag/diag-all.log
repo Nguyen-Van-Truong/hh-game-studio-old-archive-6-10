@@ -1,0 +1,34 @@
+﻿Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_DIAG start map=rooftops bots=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=5 p1=(72.7,116.0) foe=(456.0, 115.9991) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=95 p1=(284.2,67.8) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=185 p1=(458.7,115.8) foe=(455.1303, 115.2537) hp=84.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=275 p1=(462.0,115.8) foe=(458.1808, 115.9988) hp=84.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=365 p1=(454.7,115.8) foe=(460.3616, 115.9988) hp=84.7 stuck=0
+HH_VF_STAGE RESOLVE want=win ok=true map=rooftops outcome=win cause=damage tick=400
+HH_DIAG win rooftops { "ok": true, "map_id": "rooftops", "outcome": "win", "death_cause": "damage", "end_reason": "last_standing", "bot_deaths": [{ "slot": 1, "death_cause": "damage", "hp": 0.0 }], "p1_tagged_bot": false, "tick": 400, "cycles": 396 }
+HH_DIAG start map=storage bots=2
+HH_VF_STAGE HUNT want=win map=storage tick=5 p1=(216.4,135.1) foe=(424.0, 135.0833) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=storage tick=95 p1=(416.9,163.8) foe=(422.9168, 163.9989) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=storage tick=185 p1=(429.2,163.8) foe=(423.1418, 163.2519) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=storage tick=275 p1=(414.9,163.8) foe=(421.8292, 163.996) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=storage tick=365 p1=(547.0,164.0) foe=(952.0, 163.9811) hp=100.0 stuck=12
+HH_VF_STAGE HUNT want=win map=storage tick=455 p1=(659.0,95.1) foe=(952.0, 163.9811) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=storage tick=545 p1=(711.0,19.1) foe=(952.0, 163.9811) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=storage tick=635 p1=(928.3,14.9) foe=(952.0, 163.9811) hp=84.0 stuck=0
+HH_VF_STAGE HUNT want=win map=storage tick=725 p1=(942.2,163.8) foe=(947.4167, 163.9973) hp=68.0 stuck=0
+HH_VF_STAGE HUNT want=win map=storage tick=815 p1=(946.2,163.8) foe=(947.4191, 163.9962) hp=68.0 stuck=3
+HH_VF_STAGE RESOLVE want=win ok=true map=storage outcome=win cause=damage tick=880
+HH_DIAG win storage { "ok": true, "map_id": "storage", "outcome": "win", "death_cause": "damage", "end_reason": "last_standing", "bot_deaths": [{ "slot": 1, "death_cause": "damage", "hp": 0.0 }, { "slot": 2, "death_cause": "damage", "hp": 0.0 }], "p1_tagged_bot": false, "tick": 880, "cycles": 876 }
+HH_DIAG start map=police bots=3
+HH_VF_STAGE HUNT want=win map=police tick=5 p1=(72.7,116.0) foe=(232.0, 147.9991) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=police tick=95 p1=(231.5,179.8) foe=(232.0, 147.9991) hp=84.0 stuck=0
+HH_VF_STAGE HUNT want=win map=police tick=185 p1=(238.5,179.8) foe=(232.0, 147.9991) hp=84.0 stuck=0
+HH_VF_STAGE HUNT want=win map=police tick=275 p1=(238.5,179.8) foe=(232.0, 147.9991) hp=86.2 stuck=0
+HH_VF_STAGE HUNT want=win map=police tick=365 p1=(238.5,179.8) foe=(232.0, 147.9991) hp=92.2 stuck=0
+HH_VF_STAGE HUNT want=win map=police tick=455 p1=(238.5,179.8) foe=(232.0, 147.9991) hp=98.2 stuck=0
+HH_VF_STAGE HUNT want=win map=police tick=545 p1=(238.5,179.8) foe=(232.0, 147.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=police tick=635 p1=(238.5,179.8) foe=(232.0, 147.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=police tick=725 p1=(238.5,179.8) foe=(232.0, 147.9991) hp=100.0 stuck=0
+

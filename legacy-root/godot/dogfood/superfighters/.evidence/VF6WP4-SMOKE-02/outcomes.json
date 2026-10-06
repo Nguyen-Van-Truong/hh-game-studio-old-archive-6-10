@@ -1,0 +1,139 @@
+{
+	"apply": {
+		"attempted": 1006,
+		"succeeded": 976,
+		"used_action_press": 0,
+		"used_apply_eval": 0,
+		"used_apply_frames": 976,
+		"used_force_kill": 0,
+		"used_parse_input_event": 236,
+		"used_step_fixed": 0,
+		"used_teleport": 0
+	},
+	"distinct": {
+		"source": "Survival play leaves Stage checkpoint untouched",
+		"stage_hash_after": "a94ea313475a85dff94945f19d6acc0cd4d3abc6ecd6c69ae0476e18b67b98e7",
+		"stage_hash_before": "a94ea313475a85dff94945f19d6acc0cd4d3abc6ecd6c69ae0476e18b67b98e7",
+		"stage_index": 0,
+		"survival_mode": "survival",
+		"verdict": "pass"
+	},
+	"live": {
+		"verdict": "unproven"
+	},
+	"load": {
+		"map_id": "rooftops",
+		"mode": "survival",
+		"score": 0,
+		"source": "title Survival click; no Stage continue",
+		"verdict": "pass"
+	},
+	"pause": {
+		"score0": 7,
+		"score1": 7,
+		"source": "pause freezes director; resume continues the same run",
+		"tick0": 450,
+		"tick1": 450,
+		"tick2": 451,
+		"verdict": "pass"
+	},
+	"restart": {
+		"verdict": "unproven"
+	},
+	"schema": {
+		"loop_class": "approximation",
+		"score_class": "approximation",
+		"source": "data/sim/survival.json",
+		"verdict": "pass",
+		"wave_class": "approximation"
+	},
+	"score": {
+		"first": 1,
+		"last": 7,
+		"samples": 360,
+		"source": "time/kill score never decreases during a run",
+		"verdict": "pass"
+	},
+	"soak_elapsed": 8.46099996566772,
+	"soak_required": 8,
+	"spawn": {
+		"cap_living_bots": 6,
+		"cap_pickups": 12,
+		"max_living_bots": 1,
+		"max_pickups": 4,
+		"refused": 3,
+		"source": "director budget never exceeds entity caps",
+		"verdict": "pass",
+		"weapon_respawns": 0
+	},
+	"timeline": [
+		{
+			"at": "fight_start",
+			"living_bots": 1,
+			"map_id": "rooftops",
+			"mode": "survival",
+			"outcome": "play",
+			"score": 0,
+			"tick": 0,
+			"wave": 0
+		},
+		{
+			"at": "distinct",
+			"living_bots": 1,
+			"map_id": "rooftops",
+			"mode": "survival",
+			"outcome": "play",
+			"score": 1,
+			"stage_hash": "a94ea313475a85dff94945f19d6acc0cd4d3abc6ecd6c69ae0476e18b67b98e7",
+			"tick": 90,
+			"wave": 0
+		},
+		{
+			"at": "score_spawn",
+			"living_bots": 1,
+			"map_id": "rooftops",
+			"max_bots": 1,
+			"mode": "survival",
+			"outcome": "play",
+			"score": 7,
+			"tick": 450,
+			"wave": 0
+		},
+		{
+			"at": "pause",
+			"living_bots": 1,
+			"map_id": "rooftops",
+			"mode": "survival",
+			"outcome": "play",
+			"score": 7,
+			"tick": 451,
+			"tick0": 450,
+			"tick2": 451,
+			"wave": 0
+		},
+		{
+			"at": "soak",
+			"elapsed": 8.46099996566772,
+			"living_bots": 1,
+			"map_id": "rooftops",
+			"max_bots": 1,
+			"mode": "survival",
+			"outcome": "play",
+			"required": 8,
+			"score": 9,
+			"tick": 591,
+			"wave": 0
+		},
+		{
+			"at": "gameover",
+			"cause": "damage",
+			"living_bots": 1,
+			"map_id": "rooftops",
+			"mode": "survival",
+			"outcome": "lose",
+			"score": 16,
+			"tick": 976,
+			"wave": 0
+		}
+	]
+}

@@ -1,0 +1,8 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_DIAG plant path=user://vf_stage/progress_vf6wp3_diag_reset.json score=30
+HH_DIAG title visible=true phase=title reset_txt=Reset Stage confirm_vis=false score=30
+HH_DIAG click_target global=(380.0, 392.0) canvas=(380.0, 392.0) rect=[P: (380.0, 392.0), S: (280.0, 48.0)] size=(280.0, 48.0) vis=[P: (0.0, 0.0), S: (1280.0, 720.0)]
+HH_DIAG after_reset_click armed=true confirm_vis=true confirm_txt=Confirm Reset score=30
+HH_DIAG after_confirm score=0 idx=0 awarded=[] confirm_vis=false phase=title
+HH_DIAG RESET_CLICK PASS

@@ -1,0 +1,13 @@
+﻿critic=HH leftover-0 windowed iso
+iso_pid=816 exit_seen=process_gone
+started=2026-08-31T10:36:55+07:00 ended=2026-08-31T10:43:05+07:00
+display=Windows fail_count=0 APPLY=5523/5523
+source_tree_sha256=4f997c429b731071375b137cfc16bc5002b42afa921b4cc8a6a6b0e44595d1ff
+outcomes_equal_pack=True
+lip_alive=True lose_visible=False toxic_acid=True
+tactic_cinder_pickup_id=4 used_give_weapon=False held_weapon=pistol pipe_fired=True floor_cause=pit
+dive_y=179.999145507813 acid_at_kill=True cause=damage
+godot_leftover_after=0
+product_path_leftover=0
+plan_vf5wp5=[ ]
+TICK=yes

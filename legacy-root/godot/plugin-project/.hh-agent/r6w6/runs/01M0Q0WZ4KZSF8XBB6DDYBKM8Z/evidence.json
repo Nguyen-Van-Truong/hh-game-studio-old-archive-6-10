@@ -1,0 +1,40 @@
+{
+	"index": [
+		{
+			"bytes": 628,
+			"hash": "3420e1b62c6b4658997d5fa7e31c938f23dcf7362e495ef098843bb19f11f837",
+			"kind": "hashes",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0WZ4KZSF8XBB6DDYBKM8Z/hashes.json"
+		},
+		{
+			"bytes": 4995,
+			"hash": "d6228fb1ae02a97a1ebe7e45984dc7211fda8f9b0a4fb2f5c26aff94f8edc74c",
+			"kind": "logs",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0WZ4KZSF8XBB6DDYBKM8Z/logs.json"
+		},
+		{
+			"bytes": 725,
+			"hash": "d46a390da438c28fd8e9665de8caf3325451b768db2bee38711c092fef3f4550",
+			"kind": "state",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0WZ4KZSF8XBB6DDYBKM8Z/state.json"
+		},
+		{
+			"bytes": 445,
+			"hash": "0fbad947dcc848f9b07a5228c1afd40015aa88d3c96e85444876c40276f58463",
+			"kind": "event",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0WZ4KZSF8XBB6DDYBKM8Z/events.json"
+		},
+		{
+			"bytes": 1964,
+			"hash": "84086de8756ff43a9986d98b8e2e6303812b429eb2583098c1a16adf9967de9e",
+			"kind": "report",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0WZ4KZSF8XBB6DDYBKM8Z/report.json"
+		},
+		{
+			"bytes": 1222,
+			"hash": "5a767a0b3a3693b676d7849db2f6cdec9cb6e58bcb82b1ab99d32b6f5847882a",
+			"kind": "html",
+			"uri": "res://.hh-agent/r6w6/runs/01M0Q0WZ4KZSF8XBB6DDYBKM8Z/report.html"
+		}
+	]
+}

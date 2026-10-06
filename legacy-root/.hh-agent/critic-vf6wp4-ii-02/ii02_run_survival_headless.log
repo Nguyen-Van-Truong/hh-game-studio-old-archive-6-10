@@ -1,0 +1,88 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_VF_SURVIVAL STEP=boot DISPLAY=headless
+HH_VF_SURVIVAL STEP=records
+HH_VF_SURVIVAL STEP=title
+HH_VF_SURVIVAL WAVE_TABLE wave=0 living=1 kills=0 score=0 src=fight_start from=k0/c0/w0/s0
+HH_VF_SURVIVAL STEP=distinct
+HH_VF_SURVIVAL STEP=score_spawn
+HH_VF_SURVIVAL HUNT_ROSTER tick=91 wave=0 kills=0 living=1 score=1 src=k0/c0/w0/s1 deny=wave_target/0 stuck=1 p1=(72.7,116.0) foe=(456.0, 115.9991) foe_hp=100.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=181 wave=0 kills=0 living=1 score=3 src=k0/c0/w0/s3 deny=wave_target/0 stuck=0 p1=(463.0,116.0) foe=(448.9441, 109.9512) foe_hp=90.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=271 wave=0 kills=0 living=1 score=4 src=k0/c0/w0/s4 deny=wave_target/0 stuck=89 p1=(462.2,116.0) foe=(448.9284, 112.9027) foe_hp=40.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=361 wave=0 kills=0 living=1 score=6 src=k0/c0/w0/s6 deny=wave_target/0 stuck=85 p1=(460.1,116.0) foe=(448.7035, 115.8) foe_hp=14.0
+HH_VF_SURVIVAL WAVE_TABLE wave=1 living=1 kills=1 score=206 src=hunt from=k100/c0/w100/s6
+HH_VF_SURVIVAL HUNT_ROSTER tick=451 wave=1 kills=1 living=1 score=207 src=k100/c0/w100/s7 deny=wave_target/0 stuck=1 p1=(481.4,115.8) foe=(520.0, 99.81345) foe_hp=100.0
+HH_VF_SURVIVAL WAVE_TABLE wave=1 living=2 kills=1 score=207 src=hunt from=k100/c0/w100/s7
+HH_VF_SURVIVAL HUNT_ROSTER tick=541 wave=1 kills=1 living=2 score=209 src=k100/c0/w100/s9 deny=wave_target/0 stuck=0 p1=(507.9,115.8) foe=(520.8203, 115.9786) foe_hp=80.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=631 wave=1 kills=1 living=2 score=210 src=k100/c0/w100/s10 deny=wave_target/0 stuck=11 p1=(509.4,115.8) foe=(522.3656, 115.7429) foe_hp=20.0
+HH_VF_SURVIVAL WAVE_TABLE wave=2 living=2 kills=2 score=436 src=hunt from=k200/c0/w225/s11
+HH_VF_SURVIVAL HUNT_ROSTER tick=721 wave=2 kills=2 living=2 score=437 src=k200/c0/w225/s12 deny=wave_target/0 stuck=101 p1=(509.7,112.6) foe=(424.0, 115.9999) foe_hp=100.0
+HH_VF_SURVIVAL WAVE_TABLE wave=2 living=3 kills=2 score=437 src=hunt from=k200/c0/w225/s12
+HH_VF_SURVIVAL HUNT_ROSTER tick=811 wave=2 kills=2 living=3 score=438 src=k200/c0/w225/s13 deny=wave_target/0 stuck=0 p1=(444.9,115.9) foe=(423.6534, 115.7019) foe_hp=90.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=901 wave=2 kills=2 living=3 score=440 src=k200/c0/w225/s15 deny=wave_target/0 stuck=1 p1=(435.9,115.9) foe=(422.6237, 115.9309) foe_hp=60.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=991 wave=2 kills=2 living=3 score=441 src=k200/c0/w225/s16 deny=wave_target/0 stuck=8 p1=(434.8,115.9) foe=(422.1604, 115.841) foe_hp=30.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=1081 wave=2 kills=2 living=3 score=443 src=k200/c0/w225/s18 deny=wave_target/0 stuck=2 p1=(430.4,115.9) foe=(421.1097, 115.9508) foe_hp=10.0
+HH_VF_SURVIVAL WAVE_TABLE wave=3 living=3 kills=3 score=693 src=hunt from=k300/c0/w375/s18
+HH_VF_SURVIVAL WAVE_ROW i=0 wave=0 living=1 kills=0 score=0 source=fight_start
+HH_VF_SURVIVAL WAVE_ROW i=1 wave=1 living=1 kills=1 score=206 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=2 wave=1 living=2 kills=1 score=207 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=3 wave=2 living=2 kills=2 score=436 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=4 wave=2 living=3 kills=2 score=437 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=5 wave=3 living=3 kills=3 score=693 source=hunt
+HH_VF_SURVIVAL STEP=pause
+HH_VF_SURVIVAL STEP=soak
+HH_VF_SURVIVAL HUNT_ROSTER tick=1098 wave=3 kills=3 living=3 score=693 src=k300/c0/w375/s18 deny=wave_target/0 stuck=1 p1=(431.8,115.9) foe=(392.0, 115.9998) foe_hp=100.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=1138 wave=3 kills=3 living=3 score=693 src=k300/c0/w375/s18 deny=wave_target/0 stuck=1 p1=(423.5,115.9) foe=(392.0, 115.9998) foe_hp=100.0
+HH_VF_SURVIVAL WAVE_TABLE wave=3 living=4 kills=3 score=694 src=hunt from=k300/c0/w375/s19
+HH_VF_SURVIVAL HUNT_ROSTER tick=1178 wave=3 kills=3 living=4 score=694 src=k300/c0/w375/s19 deny=wave_target/0 stuck=1 p1=(411.9,115.9) foe=(391.783, 115.813) foe_hp=90.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=1218 wave=3 kills=3 living=4 score=695 src=k300/c0/w375/s20 deny=wave_target/0 stuck=1 p1=(404.5,115.9) foe=(391.2472, 115.8787) foe_hp=70.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=1258 wave=3 kills=3 living=4 score=695 src=k300/c0/w375/s20 deny=wave_target/0 stuck=1 p1=(402.6,115.9) foe=(390.6862, 115.8733) foe_hp=40.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=1298 wave=3 kills=3 living=4 score=696 src=k300/c0/w375/s21 deny=wave_target/0 stuck=1 p1=(402.7,115.9) foe=(390.2823, 115.8766) foe_hp=20.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=1338 wave=3 kills=3 living=4 score=697 src=k300/c0/w375/s22 deny=wave_target/0 stuck=1 p1=(402.7,115.9) foe=(390.2332, 115.8026) foe_hp=10.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=1378 wave=3 kills=3 living=4 score=697 src=k300/c0/w375/s22 deny=wave_target/0 stuck=1 p1=(401.2,115.9) foe=(390.2332, 115.8026) foe_hp=10.0
+HH_VF_SURVIVAL WAVE_TABLE wave=4 living=4 kills=4 score=973 src=hunt from=k400/c0/w550/s23
+HH_VF_SURVIVAL HUNT_ROSTER tick=1418 wave=4 kills=4 living=4 score=973 src=k400/c0/w550/s23 deny=wave_target/0 stuck=1 p1=(406.7,115.9) foe=(456.0, 115.9998) foe_hp=100.0
+HH_VF_SURVIVAL WAVE_TABLE wave=4 living=5 kills=4 score=974 src=hunt from=k400/c0/w550/s24
+HH_VF_SURVIVAL HUNT_ROSTER tick=1458 wave=4 kills=4 living=5 score=974 src=k400/c0/w550/s24 deny=wave_target/0 stuck=1 p1=(442.4,115.9) foe=(457.0666, 115.5753) foe_hp=80.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=1498 wave=4 kills=4 living=5 score=974 src=k400/c0/w550/s24 deny=wave_target/0 stuck=1 p1=(451.9,115.9) foe=(459.1796, 115.9964) foe_hp=60.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=1538 wave=4 kills=4 living=5 score=975 src=k400/c0/w550/s25 deny=wave_target/0 stuck=1 p1=(447.1,115.9) foe=(459.4951, 115.725) foe_hp=40.0
+HH_VF_SURVIVAL HUNT_ROSTER tick=1578 wave=4 kills=4 living=5 score=976 src=k400/c0/w550/s26 deny=wave_target/0 stuck=1 p1=(448.4,115.9) foe=(459.5882, 115.8239) foe_hp=20.0
+HH_VF_SURVIVAL WAVE_TABLE wave=5 living=5 kills=5 score=1276 src=hunt from=k500/c0/w750/s26
+HH_VF_SURVIVAL HUNT_ROSTER tick=1618 wave=5 kills=5 living=5 score=1276 src=k500/c0/w750/s26 deny=wave_target/0 stuck=1 p1=(446.5,115.9) foe=(488.0, 115.9998) foe_hp=100.0
+HH_VF_SURVIVAL WAVE_TABLE wave=5 living=6 kills=5 score=1277 src=hunt from=k500/c0/w750/s27
+HH_VF_SURVIVAL HUNT_ROSTER tick=1658 wave=5 kills=5 living=6 score=1277 src=k500/c0/w750/s27 deny=wave_target/0 stuck=1 p1=(448.7,115.6) foe=(488.0, 115.9998) foe_hp=100.0
+HH_VF_SURVIVAL SOAK_SEC=600 ELAPSED=600.01 MAX_BOTS=6 REMATCH=0 KILLS=5 WAVE=5 REFUSED_CAP=1
+HH_VF_SURVIVAL WAVE_ROW i=0 wave=0 living=1 kills=0 score=0 source=fight_start
+HH_VF_SURVIVAL WAVE_ROW i=1 wave=1 living=1 kills=1 score=206 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=2 wave=1 living=2 kills=1 score=207 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=3 wave=2 living=2 kills=2 score=436 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=4 wave=2 living=3 kills=2 score=437 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=5 wave=3 living=3 kills=3 score=693 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=6 wave=3 living=4 kills=3 score=694 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=7 wave=4 living=4 kills=4 score=973 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=8 wave=4 living=5 kills=4 score=974 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=9 wave=5 living=5 kills=5 score=1276 source=hunt
+HH_VF_SURVIVAL WAVE_ROW i=10 wave=5 living=6 kills=5 score=1277 source=hunt
+HH_VF_SURVIVAL FINALIZE kills=5 wave=5 max_bots=6 refused_cap=1 deny=living_cap/6 roster=true cap=true
+HH_VF_SURVIVAL STEP=restart
+HH_VF_SURVIVAL HUNT tick=1698 p1=(450.5,115.8) foe=(488.0, 115.9998) p1_hp=100.0 foe_hp=100.0 bots=6 stuck=1 pit=false tagged=false
+HH_VF_SURVIVAL HUNT tick=1788 p1=(476.4,115.9) foe=(475.8795, 115.8501) p1_hp=40.0 foe_hp=70.0 bots=6 stuck=38 pit=false tagged=true
+HH_VF_SURVIVAL RESOLVE lose ok=true cause=damage outcome=lose tick=1812 cycles=115 bot_min_hp=50.0 pit=false
+HH_VF_SURVIVAL run_id=VF6WP4-20260903-ASIA-SAIGON-02
+HH_VF_SURVIVAL command_id=cmd.vf6-wp4.survival.2
+HH_VF_SURVIVAL DISPLAY=headless
+HH_VF_SURVIVAL SEED=7 MAP=rooftops MODE=survival NAME=Skyline Relay
+HH_VF_SURVIVAL STARTED_AT=2026-09-03T12:27:47+07:00 ENDED_AT=2026-09-03T12:39:45+07:00
+HH_VF_SURVIVAL USED_STEP_FIXED=0 USED_APPLY_FRAMES=1812 USED_APPLY_ATTEMPTED=1842 USED_APPLY_SUCCEEDED=1812 USED_PARSE_INPUT_EVENT=1965 USED_ACTION_PRESS=0 USED_FORCE_KILL=0 USED_TELEPORT=0 USED_APPLY_EVAL=0
+HH_VF_SURVIVAL SCHEMA=pass SCHEMA_SOURCE=outcome_schema
+HH_VF_SURVIVAL LOAD=pass MODE=survival MAP=rooftops
+HH_VF_SURVIVAL DISTINCT=pass STAGE_HASH_STABLE=true
+HH_VF_SURVIVAL SCORE=pass FIRST=1 LAST=1278 KILLS=5 WAVE=5 FROM_KILLS=500 FROM_COMBO=0 FROM_WAVE=750 FROM_SURVIVE=18 SOURCE=kill/combo/wave-clear
+HH_VF_SURVIVAL SPAWN=pass MAX_BOTS=6 CAP=6 REFUSED_CAP=1 DENY=living_cap DENY_LIVING=6 LIVING_SEEN=[1, 2, 3, 4, 5, 6]
+HH_VF_SURVIVAL PAUSE=pass RESTART=pass LIVE=pass SOAK_SEC=600 ELAPSED=600.01 TIMELINE=6 EVENTS=2593
+HH_VF_SURVIVAL HONESTY BOT_COVERAGE=smoke NOT_AI=1 NOT_Y8_PARITY=1 SURVIVAL_SHIPPED=1 TITLE_SURVIVAL_SHIPPED=1 SURVIVAL_AS_STAGE=0 LOOP=approximation
+HH_VF_SURVIVAL FORCE_KILL_OFFICIAL=0 TELEPORT_OFFICIAL=0
+HH_VF_SURVIVAL EVIDENCE_DIR=D:\dataDiskD\intellji\hoanhaosocial\hoanhaonew-20-6-2025\hh-game-studio\.hh-agent\critic-vf6wp4-ii-02\evidence-headless
+PASS: Vault Fighters survival director
+HH_VF_SURVIVAL FINISHED=1
+HH_VF_SURVIVAL PROCESS_EXIT=0

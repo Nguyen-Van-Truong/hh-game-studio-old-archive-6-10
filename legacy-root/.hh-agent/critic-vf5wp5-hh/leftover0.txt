@@ -1,0 +1,11 @@
+﻿critic=HH leftover-0 windowed iso
+iso_pid=40328 exit_seen=process_gone
+banner_apply=4126 outcomes_apply=5394
+outcomes_equal_pack=True
+still_hashes_equal_pack=True
+pipe_fired=True
+godot_leftover_after=
+0
+product_path_leftover=0
+plan_vf5wp5=[ ]
+TICK=yes

@@ -1,0 +1,8 @@
+{"kind":"prop_spawn","payload":{"id":"signal_cover_wood","kind":"breakable","spec":"crate_breakable","uid":1,"x":504000,"y":184000},"phase":"prop_own","tick":0}
+{"kind":"prop_spawn","payload":{"id":"signal_cover_glass","kind":"breakable","spec":"pane_glass","uid":2,"x":392000,"y":152000},"phase":"prop_own","tick":0}
+{"kind":"mover_spawn","payload":{"id":"signal_door","kind":"door","spec":"gate_door","uid":1,"x":408000,"y":184000},"phase":"world_move","tick":0}
+{"kind":"mover_spawn","payload":{"id":"signal_door_plate","kind":"trigger","spec":"call_plate","uid":2,"x":300000,"y":189000},"phase":"world_move","tick":0}
+{"kind":"mover_spawn","payload":{"id":"signal_lift","kind":"platform","spec":"shaft_lift","uid":3,"x":736000,"y":196000},"phase":"world_move","tick":0}
+{"kind":"mover_spawn","payload":{"id":"signal_lift_plate","kind":"trigger","spec":"call_plate","uid":4,"x":704000,"y":189000},"phase":"world_move","tick":0}
+{"kind":"env_spawn","payload":{"id":"signal_rotor","kind":"rotor","spec":"mill_rotor","uid":1,"x":120000,"y":184000},"phase":"world_env","tick":0}
+{"kind":"kick_start","payload":{"attacker":0,"seed":7,"seq":1,"style":"kick","weapon":"kick"},"phase":"melee","tick":13}

@@ -1,0 +1,2 @@
+{"kind":"runtime","line":0,"message":" ERROR: Resource file not found: res:// (expected type: Script)","path":"","run_id":"01M0PEYFJ2P3MJH00M05YKTP9F","stack":[],"tree_kind":"remote","ts_ms":7996}
+{"kind":"runtime","line":0,"message":"watchdog hang: no debugger heartbeat","path":"res://r6w2/probe.tscn","run_id":"01M0PEYFJ2P3MJH00M05YKTP9F","stack":[],"tree_kind":"remote","ts_ms":17869}

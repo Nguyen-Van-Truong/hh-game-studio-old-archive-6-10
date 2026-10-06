@@ -1,0 +1,18 @@
+critic=HH leftover-0 windowed iso
+iso_pid=8044 exit_seen=process_gone
+started=2026-08-31T12:14:33+07:00 ended=2026-08-31T12:21:21+07:00 stills_done=2026-08-31T12:23:16+07:00
+display=Windows fail_count=0 APPLY=5523/5523
+source_tree_sha256=b04556d6b3980a6411112e7967c7261cf583e1d062565f3df0f9f544acefffee
+freeze_file=2026-08-31T11:30:56+07:00 official_started_at=2026-08-31T11:31:08+07:00
+SOURCE_FILES_after_freeze=0
+outcomes_equal_pack=True
+lip_alive=True lose_visible=False toxic_acid=True
+tactic_cinder_pickup_id=4 used_give_weapon=False held_weapon=pistol pipe_fired=True floor_cause=pit
+dive_y=179.999145507813 acid_at_kill=True cause=damage
+stills_bitwise_match=title,pipes,crossing,cargo,lip,toxic
+stills_setup_flake=pack34969_iso34959
+godot_leftover_after=0
+product_path_leftover=0
+run_all=read_packed_log_only DIVE=1253/1253 SEWER=4255/4255
+plan_vf5wp5=[ ]
+TICK=yes

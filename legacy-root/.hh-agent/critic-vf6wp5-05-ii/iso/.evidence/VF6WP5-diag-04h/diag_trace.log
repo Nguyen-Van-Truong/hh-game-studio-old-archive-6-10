@@ -1,0 +1,29 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_TRACE start bot=456,112 foe=72,112 path_ok=true cells=28,7,27,7,26,7,25,7,24,7,23,6,23,5,22,4,21,4,20,4,19,4,18,4,17,4,16,4,15,4,14,4,13,4,12,4,11,4,10,5,10,6,9,7,8,7,7,7,6,7,5,7,4,7
+HH_TRACE t=20 pos=420,113 cell=26,7 foe=72,116 d=348 ladder=false climb=false floor=false intent=attack nxt=25,7 pitb=0 pits=0 gun=0
+HH_TRACE t=40 pos=376,77 cell=23,4 foe=72,116 d=306 ladder=true climb=true floor=false intent=attack nxt=22,4 pitb=3 pits=0 gun=0
+HH_TRACE t=60 pos=359,47 cell=22,2 foe=72,116 d=295 ladder=false climb=false floor=false intent=attack nxt=22,4 pitb=6 pits=0 gun=0
+HH_TRACE t=80 pos=337,52 cell=21,4 foe=72,116 d=273 ladder=false climb=false floor=false intent=attack nxt=21,4 pitb=18 pits=0 gun=0
+HH_TRACE t=100 pos=332,39 cell=20,2 foe=72,116 d=272 ladder=false climb=false floor=false intent=attack nxt=20,4 pitb=24 pits=0 gun=0
+HH_TRACE t=120 pos=299,51 cell=18,4 foe=72,116 d=236 ladder=false climb=false floor=false intent=attack nxt=18,4 pitb=24 pits=0 gun=0
+HH_TRACE t=140 pos=264,53 cell=16,4 foe=72,116 d=202 ladder=false climb=false floor=false intent=attack nxt=16,4 pitb=24 pits=0 gun=0
+HH_TRACE t=160 pos=232,56 cell=14,4 foe=72,116 d=171 ladder=false climb=false floor=false intent=hunt nxt=14,4 pitb=24 pits=0 gun=0
+HH_TRACE t=180 pos=199,59 cell=12,4 foe=72,116 d=139 ladder=false climb=false floor=false intent=hunt nxt=12,4 pitb=24 pits=0 gun=0
+HH_TRACE t=200 pos=181,42 cell=11,2 foe=72,116 d=132 ladder=false climb=false floor=false intent=hunt nxt=11,4 pitb=28 pits=0 gun=0
+HH_TRACE t=220 pos=168,86 cell=10,5 foe=72,116 d=100 ladder=true climb=true floor=false intent=hunt nxt=10,6 pitb=28 pits=0 gun=0
+HH_TRACE t=240 pos=168,86 cell=10,5 foe=72,116 d=100 ladder=true climb=true floor=false intent=attack nxt=10,6 pitb=28 pits=0 gun=0
+HH_TRACE t=260 pos=168,86 cell=10,5 foe=72,116 d=100 ladder=true climb=true floor=false intent=attack nxt=10,6 pitb=28 pits=0 gun=0
+HH_TRACE t=280 pos=168,86 cell=10,5 foe=72,116 d=100 ladder=true climb=true floor=false intent=attack nxt=10,6 pitb=28 pits=0 gun=0
+HH_TRACE t=300 pos=168,86 cell=10,5 foe=72,116 d=100 ladder=true climb=true floor=false intent=attack nxt=10,6 pitb=28 pits=0 gun=0
+HH_TRACE t=320 pos=168,91 cell=10,5 foe=72,116 d=99 ladder=true climb=true floor=false intent=attack nxt=9,7 pitb=30 pits=0 gun=0
+HH_TRACE t=340 pos=168,86 cell=10,5 foe=72,116 d=100 ladder=true climb=true floor=false intent=hunt nxt=9,7 pitb=52 pits=0 gun=0
+HH_TRACE t=360 pos=168,82 cell=10,5 foe=72,116 d=102 ladder=true climb=true floor=false intent=hunt nxt=9,7 pitb=74 pits=0 gun=0
+HH_TRACE t=380 pos=168,86 cell=10,5 foe=72,116 d=100 ladder=true climb=true floor=false intent=hunt nxt=10,6 pitb=92 pits=0 gun=0
+HH_TRACE t=400 pos=168,91 cell=10,5 foe=72,116 d=99 ladder=true climb=true floor=false intent=hunt nxt=10,6 pitb=110 pits=0 gun=0
+HH_TRACE t=420 pos=168,91 cell=10,5 foe=72,116 d=99 ladder=true climb=true floor=false intent=hunt nxt=9,7 pitb=130 pits=0 gun=0
+HH_TRACE t=440 pos=168,86 cell=10,5 foe=72,116 d=100 ladder=true climb=true floor=false intent=hunt nxt=9,7 pitb=152 pits=0 gun=0
+HH_TRACE t=460 pos=168,86 cell=10,5 foe=72,116 d=100 ladder=true climb=true floor=false intent=hunt nxt=10,6 pitb=172 pits=0 gun=0
+HH_TRACE t=480 pos=168,91 cell=10,5 foe=72,116 d=99 ladder=true climb=true floor=false intent=hunt nxt=10,6 pitb=190 pits=0 gun=0
+HH_TRACE t=500 pos=168,91 cell=10,5 foe=72,116 d=99 ladder=true climb=true floor=false intent=hunt nxt=9,7 pitb=210 pits=0 gun=0
+HH_TRACE t=520 pos=168,86 cell=10,5 foe=72,116 d=100 ladder=true climb=true floor=false intent=hunt nxt=9,7 pitb=232 pits=0 gun=0

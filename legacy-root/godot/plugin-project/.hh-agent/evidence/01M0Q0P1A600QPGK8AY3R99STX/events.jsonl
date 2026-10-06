@@ -1,0 +1,2 @@
+{"event":"play.started","run_id":"01M0Q0P1A600QPGK8AY3R99STX","scene":"res://r6w7/c3/seed_anim/shot.tscn","ts_ms":200489,"verb":"debug"}
+{"event":"play.stopped","reason":"crash","run_id":"01M0Q0P1A600QPGK8AY3R99STX","ts_ms":202319}

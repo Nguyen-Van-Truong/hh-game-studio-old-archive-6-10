@@ -1,0 +1,57 @@
+{
+	"command_id": "cmd.vf6-wp1.match-machine.4",
+	"display": "headless",
+	"ended_at": "2026-09-01T15:40:48+07:00",
+	"ended_unix": 1788252048.441,
+	"epsilon": 0.001,
+	"fail_count": 20,
+	"godot": {
+		"build": "official",
+		"hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+		"hex": 263937,
+		"major": 4,
+		"minor": 7,
+		"patch": 1,
+		"status": "stable",
+		"string": "4.7.1-stable (official)",
+		"timestamp": 0
+	},
+	"map_id": "police",
+	"mode": "vs2",
+	"os_name": "Windows",
+	"outcomes": {
+		"FF": "pass",
+		"LIVE": "unproven",
+		"LOSE": "fail",
+		"MACHINE": "pass",
+		"PAUSE": "fail",
+		"QUIT": "fail",
+		"REPLAY": "match",
+		"RESTART": "fail",
+		"SCHEMA": "pass",
+		"SEED": "pass",
+		"SIGNAL": "pass",
+		"TIE": "fail",
+		"USED_APPLY_FRAMES": 44,
+		"USED_FORCE_KILL": 0,
+		"WIN": "fail"
+	},
+	"run_id": "VF6WP1-20260901-ASIA-SAIGON-04",
+	"schema": "vault-fighters.vf6-wp1.run.v1",
+	"screens": {
+		"live": {
+			"title": ""
+		},
+		"setup": ""
+	},
+	"seed": 7,
+	"started_at": "2026-09-01T15:39:37+07:00",
+	"started_unix": 1788251977.894,
+	"tick_hz": 60,
+	"timezone": "Asia/Saigon",
+	"viewport": {
+		"h": 720.0,
+		"w": 1280.0
+	},
+	"wp": "VF6-WP1"
+}

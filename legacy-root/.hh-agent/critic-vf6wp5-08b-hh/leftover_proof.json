@@ -1,0 +1,13 @@
+{
+    "leftover":  0,
+    "after_check":  0,
+    "after_headless":  0,
+    "path":  "d:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\.hh-agent\\critic-vf6wp5-08b-hh\\iso",
+    "counted_iso_path":  "d:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\.hh-agent\\critic-vf6wp5-08b-hh\\iso",
+    "scan":  "Win32_Process Name~Godot; CommandLine contains critic-vf6wp5-08b-hh (HH iso only; never product --path)",
+    "engine_exe":  "C:\\Users\\truon\\AppData\\Local\\HHGodotAgent\\tooling\\godot-4.7.1-stable\\bin\\Godot_v4.7.1-stable_win64.exe",
+    "headless_host_exit":  0,
+    "headless_elapsed_sec":  3375.1,
+    "host":  "System.Diagnostics.Process.WaitForExit",
+    "note":  "critic HH leftover-0 on iso --path only; host exit not banners"
+}

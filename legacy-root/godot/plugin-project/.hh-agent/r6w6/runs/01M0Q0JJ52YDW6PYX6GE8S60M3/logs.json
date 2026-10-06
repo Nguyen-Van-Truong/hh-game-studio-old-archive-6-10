@@ -1,0 +1,45 @@
+{
+	"items": [
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"has_more\":false,\"items\":[{\"class\":\"Window\",\"name\":\"root\",\"path\":\"/root\"},{\"class\":\"Node\",\"name\":\"HhReloadDriver\",\"path\":\"/root/HhReloadDriver\"},{\"class\":\"Node2D\",\"name\":\"shot\",\"path\":\"/root/shot\"},{\"class\":\"Node2D\",\"name\":\"Fixture\",\"path\":\"/root/shot/Fixture\"},{\"class\":\"Node\",\"name\":\"HHAgentTickProbe\",\"path\":\"/root/shot/HHAgentTickProbe\"}],\"limit\":50,\"next_cursor\":\"\",\"offset\":0,\"ok\":true,\"op\":\"tree\",\"remote_tree\":true,\"run_id\":\"01M0Q0JJ523WAQ8TW4V418P00P\",\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":false,\"frames\":0,\"frozen\":false,\"paused\":false,\"physics_frames\":8,\"physics_hz\":0,\"probe_physics\":8,\"probe_process\":1,\"seed\":0,\"seed_pinned\":false,\"ticks_msec\":1426},\"token\":\"01M0Q0JJG3NPBPN975VJ0H6P6C\",\"total\":5,\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0JJ523WAQ8TW4V418P00P",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 87998
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frozen\":true,\"is_playing_scene\":true,\"observed_frozen\":true,\"ok\":true,\"op\":\"freeze\",\"paused\":true,\"physics_hz\":60,\"playing\":true,\"probe_after\":10,\"probe_before\":10,\"probe_physics\":10,\"probe_process\":7,\"remote_tree\":true,\"run_id\":\"01M0Q0JJ523WAQ8TW4V418P00P\",\"seed\":4242,\"seed_pinned\":true,\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":9,\"frozen\":true,\"paused\":true,\"physics_frames\":13,\"physics_hz\":60,\"probe_physics\":10,\"probe_process\":7,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1522},\"token\":\"01M0Q0JKSR4HXPXV2P2BEZQ4G8\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0JJ523WAQ8TW4V418P00P",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 88100
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"fixture_after\":14,\"fixture_before\":10,\"frames_advanced\":4,\"frozen\":true,\"is_playing_scene\":true,\"matched\":false,\"missed_event\":false,\"ok\":true,\"op\":\"step\",\"paused\":true,\"physics_hz\":60,\"playing\":true,\"probe_after\":14,\"probe_before\":10,\"remote_tree\":true,\"run_id\":\"01M0Q0JJ523WAQ8TW4V418P00P\",\"seed\":4242,\"seed_pinned\":true,\"source\":\"hh_agent_runtime\",\"stepped\":true,\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":15,\"frozen\":true,\"paused\":true,\"physics_frames\":19,\"physics_hz\":60,\"probe_physics\":14,\"probe_process\":10,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1622},\"token\":\"01M0Q0JKWWCMW6SY0XKQXTS9RD\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0JJ523WAQ8TW4V418P00P",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 88221
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"found\":false,\"is_playing_scene\":true,\"key\":\"ready_ok\",\"kind\":\"property\",\"matched\":false,\"node_path\":\"Fixture\",\"ok\":true,\"op\":\"assert\",\"playing\":true,\"remote_tree\":true,\"run_id\":\"01M0Q0JJ523WAQ8TW4V418P00P\",\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":19,\"frozen\":true,\"paused\":true,\"physics_frames\":23,\"physics_hz\":60,\"probe_physics\":14,\"probe_process\":10,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1705},\"token\":\"01M0Q0JM0N0T3X2M3F2SQJ6P54\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0JJ523WAQ8TW4V418P00P",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 88297
+		}
+	],
+	"stop_reason": ""
+}

@@ -1,0 +1,2 @@
+{"kind":"runtime","line":6,"message":"SCRIPT ERROR: Cannot call method 'get_path' on a null value. | at: _ready (res://r6w1/ok.gd:6)","path":"res://r6w1/ok.gd","run_id":"01M0PBE4FJVTB6S2TETJ92BV84","stack":[{"function":"at: _ready (res://r6w1/ok.gd:6)","line":0,"path":""}],"tree_kind":"editor","ts_ms":7243}
+{"kind":"runtime","line":6,"message":"at: _ready (res://r6w1/ok.gd:6)","path":"res://r6w1/ok.gd","run_id":"01M0PBE4FJVTB6S2TETJ92BV84","stack":[],"tree_kind":"editor","ts_ms":7244}

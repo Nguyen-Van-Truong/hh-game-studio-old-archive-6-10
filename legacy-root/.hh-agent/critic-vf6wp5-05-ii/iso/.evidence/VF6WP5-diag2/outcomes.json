@@ -1,0 +1,137 @@
+{
+	"apply": {
+		"attempted": 998,
+		"succeeded": 998,
+		"used_apply_eval": 0,
+		"used_apply_frames": 998,
+		"used_force_kill": 0,
+		"used_step_fixed": 0,
+		"used_teleport": 0
+	},
+	"bound": {
+		"expansions_peak": 10,
+		"intents": 24,
+		"source": "same seed intent trace + expansion cap",
+		"verdict": "pass"
+	},
+	"diff": {
+		"hud": "Bot skill regular · delay 10 · aim±10° · budget 8",
+		"source": "HUD StageLine + bots.json knobs",
+		"verdict": "pass"
+	},
+	"finish": {
+		"damage_deaths": 2,
+		"living": 1,
+		"outcome": "win",
+		"pit_deaths": 0,
+		"source": "vs1 gauge think until last standing",
+		"verdict": "pass"
+	},
+	"greedy": {},
+	"live": {
+		"screens": {
+			"fight": "",
+			"pause": "",
+			"title": ""
+		},
+		"source": "window stills; headless may omit png",
+		"verdict": "pass"
+	},
+	"map_rows": {
+		"rooftops": {
+			"aim_error_deg": 0.0,
+			"aim_ok": true,
+			"dead": false,
+			"death_cause": "",
+			"display": "Skyline Relay",
+			"expansions_peak": 10,
+			"fire_blocks": 0,
+			"force_kill": 0,
+			"gun_used": 0,
+			"map_id": "rooftops",
+			"melee_used": 0,
+			"moved": 80.9000396728516,
+			"perfect_aim_shots": 0,
+			"pit_blocks": 216,
+			"pit_ok": true,
+			"profile_id": "regular",
+			"reach_ok": true,
+			"teleport": 0,
+			"toward": -80.501953125
+		}
+	},
+	"maps": {
+		"rows": {
+			"rooftops": {
+				"aim_error_deg": 0.0,
+				"aim_ok": true,
+				"dead": false,
+				"death_cause": "",
+				"display": "Skyline Relay",
+				"expansions_peak": 10,
+				"fire_blocks": 0,
+				"force_kill": 0,
+				"gun_used": 0,
+				"map_id": "rooftops",
+				"melee_used": 0,
+				"moved": 80.9000396728516,
+				"perfect_aim_shots": 0,
+				"pit_blocks": 216,
+				"pit_ok": true,
+				"profile_id": "regular",
+				"reach_ok": true,
+				"teleport": 0,
+				"toward": -80.501953125
+			}
+		},
+		"source": "seeded vs1 think()+apply_frames on catalog maps",
+		"verdict": "pass"
+	},
+	"recover": {},
+	"schema": {
+		"profiles": [
+			"recruit",
+			"regular",
+			"veteran"
+		],
+		"source": "data/sim/bots.json + BotRules.validate",
+		"verdict": "pass"
+	},
+	"timeline": [
+		{
+			"at": "map_rooftops_start",
+			"goal_x": 520.0,
+			"goal_y": 112.0,
+			"map_id": "rooftops",
+			"outcome": "play",
+			"tick": 0
+		},
+		{
+			"aim_ok": true,
+			"at": "map_rooftops_end",
+			"cause": "",
+			"map_id": "rooftops",
+			"moved": 80.9000396728516,
+			"outcome": "play",
+			"pit_ok": true,
+			"reach_ok": true,
+			"tick": 240
+		},
+		{
+			"at": "weapons_start",
+			"map_id": "storage",
+			"outcome": "play",
+			"tick": 0
+		}
+	],
+	"weapons": {
+		"classes": 1,
+		"gun_used": 240,
+		"melee_used": 0,
+		"nade_used": 0,
+		"perfect_aim_shots": 0,
+		"shots_with_error": 240,
+		"source": "live think on storage",
+		"verdict": "fail"
+	}
+}

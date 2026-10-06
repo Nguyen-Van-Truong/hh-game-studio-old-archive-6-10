@@ -1,0 +1,13 @@
+{
+  "claim": "eaddfebe0fb320a2bd64a2df473dcccdd7fc42fcd13d3672bcf99a4699b0f5d6",
+  "freeze_tree": "eaddfebe0fb320a2bd64a2df473dcccdd7fc42fcd13d3672bcf99a4699b0f5d6",
+  "now_tree": "eaddfebe0fb320a2bd64a2df473dcccdd7fc42fcd13d3672bcf99a4699b0f5d6",
+  "match_claim": true,
+  "match_freeze": true,
+  "file_count_now": 116,
+  "file_count_freeze": 116,
+  "missing": [],
+  "drift_files": [],
+  "extra_now": [],
+  "extra_freeze": []
+}

@@ -1,0 +1,29 @@
+zero-touch fast log start utc=2026-08-25T01:24:31Z pid=2572 fast=1 child=0 argv=['tests/bootstrap/test_zero_touch.py']
+zero-touch: tick=4 elapsed=12.0s tools=41 phase=held_after_decision sidecar_pid=13396
+FAIL: zero-touch; fast=1; LIVE=proven; DURATION90=unproven; ZERO_TOUCH=proven; SELF_PLAN=proven; SELF_PLAY=proven; REPAIR=unproven; PAUSE_RESUME=proven; CHECKPOINT/GIT=unproven; LEDGER=proven; TIMELINE=proven; VIDEO=proven; REVIEW_PKG=proven; E_INPUT=proven; OUTPUT_RUNS=proven; TEST_GREEN=unproven; HOST=proven; G4_READY=unproven
+  - REPAIR needs fail then godot.test repair then pass (fail then pass; not Host increment) or unused when capable and nothing failed (fail_before=True patch_idx=None pass_after=False kind='' canned=False capable=True)
+  - CHECKPOINT/GIT nested git commits=2 checkpoint_ok=True after_pass=False (need count >= 2 and a checkpoint after a green test.run; do not stamp because params.message says after green)
+  - TEST_GREEN needs game acceptance pass with got match on flips/matches/won, not ready_ok-only / Fixture / pair-walk tape / flips-only (keys=['flips', 'matches', 'won'] passed=[] ready_only=False fixture=False pair_walk=False defined_full=True)
+  - REPAIR not proven
+  - CHECKPOINT/GIT not proven
+  - TEST_GREEN not proven
+zero-touch fast log start utc=2026-08-25T01:26:04Z pid=37804 fast=1 child=0 argv=['tests/bootstrap/test_zero_touch.py']
+zero-touch: tick=4 elapsed=11.0s tools=37 phase=held_after_decision sidecar_pid=30212
+zero-touch: tick=8 elapsed=19.0s tools=56 phase=held_after_decision sidecar_pid=30212
+PASS: zero-touch; fast=1; LIVE=proven; DURATION90=unproven; ZERO_TOUCH=proven; SELF_PLAN=proven; SELF_PLAY=proven; REPAIR=unused; PAUSE_RESUME=proven; CHECKPOINT/GIT=proven; LEDGER=proven; TIMELINE=proven; VIDEO=proven; REVIEW_PKG=proven; E_INPUT=proven; OUTPUT_RUNS=proven; TEST_GREEN=proven; HOST=proven; G4_READY=unproven
+zero-touch fast log start utc=2026-08-25T01:49:47Z pid=16640 fast=1 child=0 argv=['tests/bootstrap/test_zero_touch.py']
+zero-touch: tick=4 elapsed=14.0s tools=30 phase=held_after_decision sidecar_pid=32080
+zero-touch: tick=8 elapsed=22.0s tools=79 phase=held_after_decision sidecar_pid=32080
+PASS: zero-touch; fast=1; LIVE=proven; DURATION90=unproven; ZERO_TOUCH=proven; SELF_PLAN=proven; SELF_PLAY=proven; REPAIR=unused; PAUSE_RESUME=proven; CHECKPOINT/GIT=proven; LEDGER=proven; TIMELINE=proven; VIDEO=proven; REVIEW_PKG=proven; E_INPUT=proven; OUTPUT_RUNS=proven; TEST_GREEN=proven; HOST=proven; G4_READY=unproven
+zero-touch fast log start utc=2026-08-25T02:04:16Z pid=34340 fast=1 child=0 argv=['tests/bootstrap/test_zero_touch.py']
+zero-touch: tick=4 elapsed=19.4s tools=18 phase=held_after_decision sidecar_pid=18324
+zero-touch: tick=8 elapsed=27.4s tools=65 phase=held_after_decision sidecar_pid=18324
+PASS: zero-touch; fast=1; LIVE=proven; DURATION90=unproven; ZERO_TOUCH=proven; SELF_PLAN=proven; SELF_PLAY=proven; REPAIR=unused; PAUSE_RESUME=proven; CHECKPOINT/GIT=proven; LEDGER=proven; TIMELINE=proven; VIDEO=proven; REVIEW_PKG=proven; E_INPUT=proven; OUTPUT_RUNS=proven; TEST_GREEN=proven; HOST=proven; G4_READY=unproven
+zero-touch fast log start utc=2026-08-25T03:53:37Z pid=36844 fast=1 child=0 argv=['tests/bootstrap/test_zero_touch.py']
+zero-touch: tick=4 elapsed=10.0s tools=42 phase=held_after_decision sidecar_pid=7284
+zero-touch: tick=8 elapsed=18.0s tools=78 phase=held_after_decision sidecar_pid=7284
+PASS: zero-touch; fast=1; LIVE=proven; DURATION90=unproven; ZERO_TOUCH=proven; SELF_PLAN=proven; SELF_PLAY=proven; REPAIR=unused; PAUSE_RESUME=proven; CHECKPOINT/GIT=proven; LEDGER=proven; TIMELINE=proven; VIDEO=proven; REVIEW_PKG=proven; E_INPUT=proven; OUTPUT_RUNS=proven; TEST_GREEN=proven; HOST=proven; G4_READY=unproven
+zero-touch fast log start utc=2026-08-25T04:07:35Z pid=36684 fast=1 child=0 argv=['tests/bootstrap/test_zero_touch.py']
+zero-touch: tick=4 elapsed=10.0s tools=43 phase=held_after_decision sidecar_pid=20004
+zero-touch: tick=8 elapsed=18.0s tools=78 phase=held_after_decision sidecar_pid=20004
+PASS: zero-touch; fast=1; LIVE=proven; DURATION90=unproven; ZERO_TOUCH=proven; SELF_PLAN=proven; SELF_PLAY=proven; REPAIR=unused; PAUSE_RESUME=proven; CHECKPOINT/GIT=proven; LEDGER=proven; TIMELINE=proven; VIDEO=proven; REVIEW_PKG=proven; E_INPUT=proven; OUTPUT_RUNS=proven; TEST_GREEN=proven; HOST=proven; G4_READY=unproven

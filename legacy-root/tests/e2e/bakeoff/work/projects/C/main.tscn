@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dwrerbratcte5"]
+
+[ext_resource type="Script" uid="uid://ctycj2q3k7wms" path="res://main.gd" id="1_main"]
+[ext_resource type="Script" uid="uid://dg3havko31uk7" path="res://bakeoff_child.gd" id="2_0xm2m"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_h2yge"]
+
+[node name="Root" type="Node2D" unique_id=2080531946]
+script = ExtResource("1_main")
+
+[node name="ChildA" type="Node2D" parent="." unique_id=1018764596]
+material = SubResource("CanvasItemMaterial_h2yge")
+position = Vector2(32, 64)
+script = ExtResource("2_0xm2m")
+
+[node name="ChildB" type="Node2D" parent="ChildA" unique_id=332956925]

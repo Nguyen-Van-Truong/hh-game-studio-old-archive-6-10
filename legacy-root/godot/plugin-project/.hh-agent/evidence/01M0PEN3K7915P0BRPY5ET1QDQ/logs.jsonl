@@ -1,0 +1,2 @@
+{"kind":"runtime","line":0,"message":"play process stopped unexpectedly","path":"res://r6w2/probe.tscn","run_id":"01M0PEN3K7915P0BRPY5ET1QDQ","stack":[],"tree_kind":"editor","ts_ms":9996}
+{"kind":"runtime","line":0,"message":"watchdog hang: no debugger heartbeat","path":"res://r6w2/probe.tscn","run_id":"01M0PEN3K7915P0BRPY5ET1QDQ","stack":[],"tree_kind":"remote","ts_ms":20266}

@@ -1,0 +1,24 @@
+HH_CRITIC_START leftover=0 FAST_unset=1 official=python tests/bootstrap/test_kho_bi_an_playtest.py
+PASS: R8-WP5 Kho Bi An playtest; RUNS=proven; SOAK=proven; STUCK=proven; PERF=unproven; VISUAL=proven; CLEAN=proven
+  path=start?key?door?relic?win pin=4.7.1-stable run_id=01R8WP5PTT00000000KBA00001 sidecar=none leftover_godot=0
+  godot_wall_s=604.1 soak_wall_s=600.0 not_g5=1
+  official=godot --windowed --path godot/dogfood/kho-bi-an --script res://tests/run_playtest.gd
+  hashes=.hh-agent/evidence/01R8WP5PTT00000000KBA00001/hashes.txt
+RUN_ID 01R8WP5PTT00000000KBA00001
+PIN 4.7.1.stable.official.a13da4feb
+PATH start?key?door?relic?win
+NOT_G5 1
+SESSION 7a3eb81ad4d5519c028f4e1e90cf498076e6a8e4a2b72c74db9f8b49c47db927
+STATE 6e9d564294200ba287122038227a0384500735ad4700ae89259d168a0955418a
+SAVE 97857d78310abc30669076a8fa0c41f48cde0862a0bf4f6383da2dea8a771902
+PLAYER 5d3d690f66f726bb24b3f03d514bb819c79a96ce325effd8e0b914b67b5c3ff5
+WARDEN 00018556f2ab06d324e2ea804f344a6d9657bf12faefb44d3cdbc04d1281a217
+RUN_PLAYTEST 9cda0814b1b3968139910a72fda77b77f0ed6dd245d3e1a09c9e521d85b95a2b
+RUN_ALL 59bc8bfdccd702f755cefb38cb11cf50d4a53bba3d7fb00be8a38b9792dfa5d5
+HARNESS 98af68d7f2a720794e5efcc2e3583d20f8264f524e1fee94cb13d9a0d69f452d
+ASSUMPTIONS 36add5bdb36bd3ff67e30ff617246eb9aa3a07387585cbba79b6d0add293c384
+BACKLOG 233e9a88fe8c96fc75ba4355f0b9fa19b4465f7f3c0561d376e1d2e40ea565a9
+REPORT 5499bf52279aaa26349c92dd130a8db703f94715a14185ffff2c02f019c360c9
+SHOT kho_bi_an_r8wp5_pause_1280x720.png 7b8a37828e9004975294a8cc20b72b278340176d8c5840bb031b69d7320c7e31
+SHOT kho_bi_an_r8wp5_play_1280x720.png dee03350bb566fe21f042ebfe566fe61b8568f3e5fed88629a91e8cd42b2d08b
+HH_CRITIC_WALL_S=613.8 EXIT=0 leftover_after=0

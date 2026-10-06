@@ -1,0 +1,3 @@
+{"event":"play.started","run_id":"01M0PACK1DTQZW26V6J6ZJ479D","scene":"res://r6w1/play.tscn","ts_ms":16293,"verb":"start"}
+{"event":"play.stopped","reason":"crash","run_id":"01M0PACK1DTQZW26V6J6ZJ479D","ts_ms":20977}
+{"event":"play.stopped","reason":"test","run_id":"01M0PACK1DTQZW26V6J6ZJ479D","ts_ms":21339}

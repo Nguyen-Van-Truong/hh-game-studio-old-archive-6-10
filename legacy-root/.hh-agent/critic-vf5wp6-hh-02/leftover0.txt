@@ -1,0 +1,27 @@
+critic=HH leftover-0 windowed iso remint-02
+model=cursor-grok-4.6-xhigh-fast
+iso_path=.hh-agent/critic-vf5wp6-hh-02/iso
+evidence=.hh-agent/critic-vf5wp6-hh-02/ev-w
+started=2026-08-31T15:56:16+07:00 ended=2026-08-31T15:59:08+07:00 process_end=2026-08-31T15:59:51+07:00
+display=Windows fail_count=0 EXIT=0
+APPLY_banner=2752/2752 APPLY_outcomes=3695/3695
+RUN_ID=VF5WP6-20260831-ASIA-SAIGON-02 COMMAND_ID=cmd.vf5-wp6.vs-roster.2
+source_tree_sha256=0198623cb85fc03f787bc5480899dcfb5fb2fed93364008c323b2d5b38ffdc1a
+rehash_before=MATCH rehash_after=MATCH FILE_COUNT=50
+SOURCE_FILES_mtime_latest=2026-08-31T15:14:30 official_started_at=2026-08-31T15:18:46
+SOURCE_FILES_after_official=0 SOURCE_FILES_after_leftover0=0
+outcomes_equal_pack=True
+water_wet_before=False water_wet_after=True env_id=cut_gutter_00
+dx_dry=40.6666564941406 dx_wet=23.8166809082031 walk_ratio=0.585656234405076
+measure_ticks_dry=16 measure_ticks_wet=16 hold_time_cheat=no
+rotor_give_weapon=False jammed=True shots=1 held=pistol
+hud=Skyline Relay,Pallet Annex,Signal Court,Vitriol Sump,Lantern Cut,Gauge Deck
+wrap=gauge->rooftops source=map_btn.pressed emit=_on_map_cycle_direct=no
+leftover_proof_in_pack=yes
+godot_leftover_after_window=0
+product_path_leftover=0
+godot_any_after=0
+stills_bitwise_match=title,rooftops,storage,lantern,gauge,lantern_water
+stills_flake=setup,police,hazardous,gauge_lift
+plan_vf5wp6=[ ]
+TICK=yes

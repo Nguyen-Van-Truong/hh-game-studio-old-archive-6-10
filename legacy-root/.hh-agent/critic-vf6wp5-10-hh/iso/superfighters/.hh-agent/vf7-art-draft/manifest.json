@@ -1,0 +1,334 @@
+{
+  "schema": "vf7-art-draft/1",
+  "logical_tile_px": 16,
+  "sheet_cell_logical_px": [
+    28,
+    30
+  ],
+  "actor_target_logical_px": [
+    14,
+    24
+  ],
+  "poses": [
+    "idle",
+    "walk_a",
+    "walk_b",
+    "jump",
+    "fall",
+    "crouch",
+    "aim",
+    "melee",
+    "throw",
+    "roll",
+    "dive",
+    "climb",
+    "dead"
+  ],
+  "roster": [
+    {
+      "id": "brassline",
+      "label": "Brassline",
+      "body": "#d9913d",
+      "trim": "#4f2d28",
+      "face": "#f5c58b",
+      "gear": "helmet"
+    },
+    {
+      "id": "mistral",
+      "label": "Mistral",
+      "body": "#48b7ad",
+      "trim": "#173f4b",
+      "face": "#d89272",
+      "gear": "scarf"
+    },
+    {
+      "id": "nightjar",
+      "label": "Nightjar",
+      "body": "#8b78d6",
+      "trim": "#24243f",
+      "face": "#b97758",
+      "gear": "cape"
+    },
+    {
+      "id": "cobalt",
+      "label": "Cobalt",
+      "body": "#e16b7d",
+      "trim": "#3d2238",
+      "face": "#e8ad7e",
+      "gear": "visor"
+    }
+  ],
+  "files": [
+    {
+      "path": "generate_art.py",
+      "sha256": "b66f82bc079270639b68cc8b134f48a8ce17c00b756baf8ca9e4ddd9c1d31e5e",
+      "bytes": 6688
+    },
+    {
+      "path": "sprites/brassline/aim.svg",
+      "sha256": "8caa39ff4150d8e6da8b800970681353e500974abe2f09d6ba393d100b1f5227",
+      "bytes": 662
+    },
+    {
+      "path": "sprites/brassline/climb.svg",
+      "sha256": "e2eb9934876cdd3bff474109304b77828064007b3d8f18576310eb7338b0fad2",
+      "bytes": 606
+    },
+    {
+      "path": "sprites/brassline/crouch.svg",
+      "sha256": "4dc9dda015580cff0f66c69289907832983a218d1e921bf614f7aa9348bd796d",
+      "bytes": 607
+    },
+    {
+      "path": "sprites/brassline/dead.svg",
+      "sha256": "01413e090a18383750db09498c72b83da2bdef356d13552fb3b0adf53817c738",
+      "bytes": 487
+    },
+    {
+      "path": "sprites/brassline/dive.svg",
+      "sha256": "0fb5bf7567eed5dc3b4141437457abcd7e5eb431b332da2acd979e91393f33b6",
+      "bytes": 612
+    },
+    {
+      "path": "sprites/brassline/fall.svg",
+      "sha256": "d1ac7b479a4b8d58f50d1b1122310ff4528c02fdb8f3d8d690af804ac576be04",
+      "bytes": 605
+    },
+    {
+      "path": "sprites/brassline/idle.svg",
+      "sha256": "a7e44c8adfe075e2a601c8dd862ba9d90922b077c5090893884653296f3a8be2",
+      "bytes": 605
+    },
+    {
+      "path": "sprites/brassline/jump.svg",
+      "sha256": "391ea9cb98c432416dd960b86b924937c08bb37d56c4b068d7e25bf2037307cd",
+      "bytes": 605
+    },
+    {
+      "path": "sprites/brassline/melee.svg",
+      "sha256": "c502b4ee52817024179e825ea9408a54b2eed8cf7748a448587cc9642183ea89",
+      "bytes": 664
+    },
+    {
+      "path": "sprites/brassline/roll.svg",
+      "sha256": "00d621914dc5f8d145108406e79bf5e293a128de70b6c99201007dc3e31d446d",
+      "bytes": 618
+    },
+    {
+      "path": "sprites/brassline/throw.svg",
+      "sha256": "25aed78ed44fc22f9f66fc746cdfe9ddbbe743da352d25a56eb4da1b991ece11",
+      "bytes": 659
+    },
+    {
+      "path": "sprites/brassline/walk_a.svg",
+      "sha256": "4a92a785ac4ea09e4444e1650a7e949c5aa8a51445f44695516879f681a1bcc3",
+      "bytes": 607
+    },
+    {
+      "path": "sprites/brassline/walk_b.svg",
+      "sha256": "f98a336c2e4082e9316acc399a9719e9407f523ca6dcaa30d5d7a0741d9e3c09",
+      "bytes": 607
+    },
+    {
+      "path": "sprites/cobalt/aim.svg",
+      "sha256": "2e888fdc86c374cadc341e5ecef0eeb43882b8ee83abd07bbb6d41686a60c6a9",
+      "bytes": 654
+    },
+    {
+      "path": "sprites/cobalt/climb.svg",
+      "sha256": "a7d22bfc4479c4d89c352e374a49ed46a052e22e8d2e121f4af543c22fbe45d1",
+      "bytes": 598
+    },
+    {
+      "path": "sprites/cobalt/crouch.svg",
+      "sha256": "0822f0d04d41da8590c466fd3ce34485564bbaa5df531d28d485819b86861b9b",
+      "bytes": 599
+    },
+    {
+      "path": "sprites/cobalt/dead.svg",
+      "sha256": "fe25ffe10a386a1fa52d82c90caf9ba4f5cf624dfb754b6d882a75ddccc08bd2",
+      "bytes": 484
+    },
+    {
+      "path": "sprites/cobalt/dive.svg",
+      "sha256": "5f939efea3e76f3285d11336ca6090174b8baa0d435f9160cdd765fc638c4c65",
+      "bytes": 604
+    },
+    {
+      "path": "sprites/cobalt/fall.svg",
+      "sha256": "e41d6bb4f854371aa7675eb750b42011283abc6caffa9dad86966d7fb0fa6afd",
+      "bytes": 597
+    },
+    {
+      "path": "sprites/cobalt/idle.svg",
+      "sha256": "0134e470747e918db15585abaf770057761318520ff496b0022065d90cdcbd32",
+      "bytes": 597
+    },
+    {
+      "path": "sprites/cobalt/jump.svg",
+      "sha256": "213d757e67acba7828911d208edd73a6d7d0091be3df6f3395175ceb3ffa39aa",
+      "bytes": 597
+    },
+    {
+      "path": "sprites/cobalt/melee.svg",
+      "sha256": "ab7f460640e42d81209eb941e8a3f7fac5691dbdcef272a195b32347e911cb95",
+      "bytes": 656
+    },
+    {
+      "path": "sprites/cobalt/roll.svg",
+      "sha256": "c5043e8890dd9d4ca0a93e1bc0fe6511b8f664a971562cb47fd411ec755c3807",
+      "bytes": 610
+    },
+    {
+      "path": "sprites/cobalt/throw.svg",
+      "sha256": "1cc74044c49e10a70e0b3cab87da07c713c4d23f2aedc9d5e12dc12edd36f335",
+      "bytes": 651
+    },
+    {
+      "path": "sprites/cobalt/walk_a.svg",
+      "sha256": "1068922b7353a16d162dde3bd5d20c81caef4b54273b38a20cf9094ab14a3fe9",
+      "bytes": 599
+    },
+    {
+      "path": "sprites/cobalt/walk_b.svg",
+      "sha256": "61c503d0c2c8901e7b12df9b50cb8b285b7efa5e65097332f54340aac4e00930",
+      "bytes": 599
+    },
+    {
+      "path": "sprites/mistral/aim.svg",
+      "sha256": "f78632a7788deb87de28675de52ee50a4d24d3ac730a644b6e325923ce92c1a7",
+      "bytes": 705
+    },
+    {
+      "path": "sprites/mistral/climb.svg",
+      "sha256": "2ee4a0ec724401cf8bf6e93e61f55350db8cda001529aa55f08909926fa7c139",
+      "bytes": 649
+    },
+    {
+      "path": "sprites/mistral/crouch.svg",
+      "sha256": "65ccc40035cef0da4f42a1846ad2065d56018245f3dbce28af15dbcf947879ba",
+      "bytes": 650
+    },
+    {
+      "path": "sprites/mistral/dead.svg",
+      "sha256": "a6a3cb6f57a43a4378bd2e2c25f1f67c4a21c0c8e9308bc361f57e5c2c02fad5",
+      "bytes": 535
+    },
+    {
+      "path": "sprites/mistral/dive.svg",
+      "sha256": "d0581b0e0ffe20711667e0c06f8ef1ee4de806c65436253c0b60b1fd6eefbddd",
+      "bytes": 655
+    },
+    {
+      "path": "sprites/mistral/fall.svg",
+      "sha256": "2d67b913f3a8d72011ae1e5812ba93fb12da369ac3d5010e8bde8e45e3484c8e",
+      "bytes": 648
+    },
+    {
+      "path": "sprites/mistral/idle.svg",
+      "sha256": "973b633474634262880f0ddb20ce8d6a3436d949332283290ed0f17e816d8d5d",
+      "bytes": 648
+    },
+    {
+      "path": "sprites/mistral/jump.svg",
+      "sha256": "4d43f3a84bf5b50a8809032618460397124c09af8c159979ed29aa71db99d76f",
+      "bytes": 648
+    },
+    {
+      "path": "sprites/mistral/melee.svg",
+      "sha256": "2ea6f1110ecd8b8ac28b98a8d63875c87f5fd343630846ed7c7857bfa7249f73",
+      "bytes": 707
+    },
+    {
+      "path": "sprites/mistral/roll.svg",
+      "sha256": "5404375446d6e83d91abbce255685a459bbcffbfc70a9298c8318579e7cfec2e",
+      "bytes": 661
+    },
+    {
+      "path": "sprites/mistral/throw.svg",
+      "sha256": "47cdfff7d8506f0eb0d9c22dd206d94e914545084c2edf4f67ac6ea992d3a86a",
+      "bytes": 702
+    },
+    {
+      "path": "sprites/mistral/walk_a.svg",
+      "sha256": "fb3bcbafb39e9e3f9259a14bb500e6a929edc0c206181c3f67b2b57d0a837ce6",
+      "bytes": 650
+    },
+    {
+      "path": "sprites/mistral/walk_b.svg",
+      "sha256": "82e313b72c30f8f0549454fcc251cc6d7066d0d355932f58c31b62e642f02fc9",
+      "bytes": 650
+    },
+    {
+      "path": "sprites/nightjar/aim.svg",
+      "sha256": "e2aa38252de6a987222c65e4071522fb9bc59744eecbdb9530d543fac8f3329c",
+      "bytes": 712
+    },
+    {
+      "path": "sprites/nightjar/climb.svg",
+      "sha256": "904050ff89330574ff1485929affa4a79a92e530865cd5fcf32239450ae55b39",
+      "bytes": 656
+    },
+    {
+      "path": "sprites/nightjar/crouch.svg",
+      "sha256": "0f5d0865a6f85008aa1f2ff153a278b937545d505e43d1514fce34673da297f7",
+      "bytes": 657
+    },
+    {
+      "path": "sprites/nightjar/dead.svg",
+      "sha256": "beed954cd7cca3247afc1e367a40ad3d5be9f9fe89f54e8cb1190aadd9ea7b99",
+      "bytes": 542
+    },
+    {
+      "path": "sprites/nightjar/dive.svg",
+      "sha256": "67601df38b2103fdb2e60c26dd2d28a99623370f7d22e39c084e09a1f2c5c5a3",
+      "bytes": 662
+    },
+    {
+      "path": "sprites/nightjar/fall.svg",
+      "sha256": "13c18f9119c563f5e9e4ffb3be00121f6f193490fa46750baf515d0cbc8f7ba3",
+      "bytes": 655
+    },
+    {
+      "path": "sprites/nightjar/idle.svg",
+      "sha256": "ff6b6ea62d507bf12432837b90d220014d56238c7bd29f4bb2f497f32f0c366d",
+      "bytes": 655
+    },
+    {
+      "path": "sprites/nightjar/jump.svg",
+      "sha256": "fd95ec5f4ff88b349fd98786a5a33648d526020e54fbcdba49eda2bd34cea5bc",
+      "bytes": 655
+    },
+    {
+      "path": "sprites/nightjar/melee.svg",
+      "sha256": "80f88a9989361834f5cdf99b48baf3ee159546e7778ad8ae17287bc8a58154f3",
+      "bytes": 714
+    },
+    {
+      "path": "sprites/nightjar/roll.svg",
+      "sha256": "46b6297f5ddceb1c2be94a27908c58d45225b1ac582f709e29e40f498e604391",
+      "bytes": 668
+    },
+    {
+      "path": "sprites/nightjar/throw.svg",
+      "sha256": "94634c43a763829b13bbb35a35295665d9490fdd421ae4d4be933bec28ae7c58",
+      "bytes": 709
+    },
+    {
+      "path": "sprites/nightjar/walk_a.svg",
+      "sha256": "53b13e122e302a31dc424e2fccaa84df82723bb53a4a76ee2d29dd307141b38d",
+      "bytes": 657
+    },
+    {
+      "path": "sprites/nightjar/walk_b.svg",
+      "sha256": "67ee3286d88ab491e342019f8f1aadfdaccb2721f16cf2c5635fcb14082fb903",
+      "bytes": 657
+    },
+    {
+      "path": "vf7_fighter_contact_sheet.svg",
+      "sha256": "1877dbbcff647600eb41461892494e75792f8a4293dbd3fecdd13dca6c293b57",
+      "bytes": 30580
+    }
+  ],
+  "generated_by": "hand-authored deterministic SVG; clean-room; no reference asset input"
+}

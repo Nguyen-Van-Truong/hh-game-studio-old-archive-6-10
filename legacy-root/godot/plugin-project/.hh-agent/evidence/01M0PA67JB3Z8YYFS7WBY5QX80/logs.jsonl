@@ -1,0 +1,2 @@
+{"kind":"runtime","line":0,"message":" ERROR: Attempt to open script 'res://r6w1/parse_boom.gd' resulted in error 'File not found'.","path":"","run_id":"01M0PA67JB3Z8YYFS7WBY5QX80","stack":[],"tree_kind":"editor","ts_ms":10493}
+{"kind":"runtime","line":0,"message":" ERROR: Failed loading resource: res://r6w1/parse_boom.gd.","path":"","run_id":"01M0PA67JB3Z8YYFS7WBY5QX80","stack":[],"tree_kind":"editor","ts_ms":10494}

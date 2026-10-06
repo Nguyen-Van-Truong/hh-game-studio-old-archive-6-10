@@ -1,0 +1,66 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+ERROR: Parse JSON failed. Error at line 0: Unknown error getting token
+   at: parse_string (core/io/json.cpp:629)
+   GDScript backtrace (most recent call first):
+       [0] _configured (res://addons/beckett/core/client_config.gd:140)
+       [1] detect (res://addons/beckett/core/client_config.gd:151)
+       [2] _refresh_clients (res://addons/beckett/panel/panel.gd:1203)
+       [3] _refresh (res://addons/beckett/panel/panel.gd:1186)
+       [4] _ready (res://addons/beckett/panel/panel.gd:118)
+       [5] _enter_tree (res://addons/beckett/plugin.gd:70)
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (38 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   2% ] [90m[1mupdate_scripts_classes[22m | BeckettClientConfig[39m[0m
+[   5% ] [90m[1mupdate_scripts_classes[22m | BeckettEffort[39m[0m
+[   7% ] [90m[1mupdate_scripts_classes[22m | BeckettHttpServer[39m[0m
+[  10% ] [90m[1mupdate_scripts_classes[22m | BeckettJobs[39m[0m
+[  12% ] [90m[1mupdate_scripts_classes[22m | BeckettJsonRpc[39m[0m
+[  15% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  17% ] [90m[1mupdate_scripts_classes[22m | BeckettReflect[39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | BeckettRuntimeBridge[39m[0m
+[  23% ] [90m[1mupdate_scripts_classes[22m | BeckettToolRegistry[39m[0m
+[  25% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  28% ] [90m[1mupdate_scripts_classes[22m | BeckettPrompts[39m[0m
+[  30% ] [90m[1mupdate_scripts_classes[22m | BeckettResources[39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  35% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  38% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  41% ] [90m[1mupdate_scripts_classes[22m | BeckettTestCase[39m[0m
+[  43% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  46% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  48% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  51% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  53% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  56% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  58% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  61% ] [90m[1mupdate_scripts_classes[22m | BeckettAnalysisTools[39m[0m
+[  64% ] [90m[1mupdate_scripts_classes[22m | BeckettBatchTools[39m[0m
+[  66% ] [90m[1mupdate_scripts_classes[22m | BeckettCSharpTools[39m[0m
+[  69% ] [90m[1mupdate_scripts_classes[22m | BeckettProjectTools[39m[0m
+[  71% ] [90m[1mupdate_scripts_classes[22m | BeckettReflectionTools[39m[0m
+[  74% ] [90m[1mupdate_scripts_classes[22m | BeckettResourceTools[39m[0m
+[  76% ] [90m[1mupdate_scripts_classes[22m | BeckettRuntimeObserveTools[39m[0m
+[  79% ] [90m[1mupdate_scripts_classes[22m | BeckettRunTools[39m[0m
+[  82% ] [90m[1mupdate_scripts_classes[22m | BeckettSceneTools[39m[0m
+[  84% ] [90m[1mupdate_scripts_classes[22m | BeckettScriptTools[39m[0m
+[  87% ] [90m[1mupdate_scripts_classes[22m | BeckettSignalTools[39m[0m
+[  89% ] [90m[1mupdate_scripts_classes[22m | BeckettTemplateTools[39m[0m
+[  92% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  94% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m

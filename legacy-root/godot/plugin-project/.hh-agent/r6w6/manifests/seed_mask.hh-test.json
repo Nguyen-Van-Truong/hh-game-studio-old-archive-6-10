@@ -1,0 +1,22 @@
+{
+	"assert_key": "world_ok",
+	"assert_kind": "property",
+	"assert_node_path": "Fixture",
+	"assert_op": "eq",
+	"assert_value_bool": true,
+	"flaky_is_not_pass": true,
+	"mode": "debug",
+	"name": "seed_mask",
+	"path": "res://r6w7/c3/seed_mask/seed_mask.hh-test.json",
+	"scene": "res://r6w7/c3/seed_mask/shot.tscn",
+	"schema": "hh-test/1",
+	"step_frames": 4.0,
+	"steps": [
+		"setup",
+		"run",
+		"assert",
+		"teardown"
+	],
+	"suite": "r6w7",
+	"teardown_stop": true
+}

@@ -1,0 +1,16 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_TRACE map=gauge start bot=296,96 foe=24,96 path_ok=true n=21 cells=18,11,17,11,16,11,15,11,14,11,13,11,12,11,11,11,10,11,9,11,8,11,7,11,6,11,5,11,4,10,4,9,4,8,4,7,3,6,2,6,1,6
+HH_TRACE t=40 pos=241,180 cell=15,11 foe=24,100 d=231 ladder=false climb=false floor=true hang=false vx=-170 vy=0 intent=attack nxt=14,11 gun=0
+HH_TRACE t=80 pos=179,180 cell=11,11 foe=24,100 d=174 ladder=false climb=false floor=true hang=false vx=-170 vy=0 intent=attack nxt=10,11 gun=0
+HH_TRACE t=120 pos=72,141 cell=4,8 foe=24,100 d=63 ladder=true climb=true floor=false hang=false vx=0 vy=-140 intent=hunt nxt=4,7 gun=0
+HH_TRACE t=160 pos=72,104 cell=4,6 foe=24,100 d=48 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=3,6 gun=0
+HH_TRACE t=200 pos=72,104 cell=4,6 foe=24,100 d=48 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=3,6 gun=0
+HH_TRACE t=240 pos=72,104 cell=4,6 foe=23,99 d=49 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=3,6 gun=1
+HH_TRACE t=280 pos=72,104 cell=4,6 foe=23,100 d=50 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=3,6 gun=2
+HH_TRACE t=320 pos=72,104 cell=4,6 foe=22,100 d=50 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=3,6 gun=3
+HH_TRACE t=360 pos=72,104 cell=4,6 foe=20,99 d=52 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=3,6 gun=5
+HH_TRACE t=400 pos=72,104 cell=4,6 foe=367,180 d=305 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=3,6 gun=6
+HH_TRACE t=440 pos=72,104 cell=4,6 foe=367,180 d=305 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=3,6 gun=6
+HH_TRACE t=480 pos=72,104 cell=4,6 foe=367,180 d=305 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=3,6 gun=6
+HH_TRACE t=520 pos=72,104 cell=4,6 foe=367,180 d=305 ladder=true climb=true floor=false hang=false vx=0 vy=0 intent=attack nxt=3,6 gun=6

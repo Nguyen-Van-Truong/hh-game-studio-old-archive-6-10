@@ -1,0 +1,15 @@
+{
+	"items": [
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "watchdog hang: no debugger heartbeat",
+			"path": "res://r6w7/seed_parse/shot.tscn",
+			"run_id": "01M0Q09M47BC7XSVXAZCSY5BC3",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 147997
+		}
+	],
+	"stop_reason": "hang"
+}

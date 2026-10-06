@@ -1,0 +1,61 @@
+{
+	"items": [
+		{
+			"attempt": 0,
+			"kind": "run_begin",
+			"ms": 46317,
+			"name": "keyboard_cursor_plus_accept_flips_a_tile",
+			"scene": "res://scenes/memory/board.tscn"
+		},
+		{
+			"kind": "step",
+			"ms": 46530,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 49426,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 49579,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 49772,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 49886,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 50074,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 50220,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 50393,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 50694,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 50870,
+			"ok": true
+		}
+	]
+}

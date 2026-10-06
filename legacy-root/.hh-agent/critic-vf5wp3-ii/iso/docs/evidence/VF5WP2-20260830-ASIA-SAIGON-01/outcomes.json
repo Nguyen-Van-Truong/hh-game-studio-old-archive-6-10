@@ -1,0 +1,116 @@
+{
+	"apply": {
+		"attempted": 1157,
+		"succeeded": 1157,
+		"used_action_press": 0,
+		"used_apply_frames": 1157,
+		"used_parse_input_event": 0,
+		"used_step_fixed": 0
+	},
+	"bot": {
+		"dead": false,
+		"hits": {
+			"east_bridge": true,
+			"mid_deck": true
+		},
+		"routed_dead": false,
+		"slot": 1,
+		"source": "apply_frames on vs1 bot slot; short BotBrain after route",
+		"verdict": "pass"
+	},
+	"cover": {
+		"blocked_before": true,
+		"breaks": 1,
+		"source": "P2 melee vs sky_cover_wood on mid deck",
+		"verdict": "pass",
+		"wood_alive": false
+	},
+	"elev": {
+		"elevations": 4,
+		"source": "MapGraph platform y-rows",
+		"verdict": "pass"
+	},
+	"fallback": {
+		"dead": false,
+		"on_floor": true,
+		"source": "apply_frames short walk stays on west deck",
+		"verdict": "pass"
+	},
+	"live": {
+		"hud": "Skyline Relay",
+		"source": "HUD + title display Skyline Relay",
+		"verdict": "pass"
+	},
+	"name": {
+		"display": "Skyline Relay",
+		"source": "catalog + ArenaSpec Skyline Relay",
+		"verdict": "pass"
+	},
+	"p1": {
+		"dead": false,
+		"hits": {
+			"mid_deck": true,
+			"west_bridge": true,
+			"west_deck": true
+		},
+		"source": "apply_frames P1 climb west ladder then mid deck",
+		"verdict": "pass"
+	},
+	"p2": {
+		"dead": false,
+		"hits": {
+			"east_bridge": true,
+			"mid_deck": true
+		},
+		"source": "apply_frames P2 climb east ladder",
+		"verdict": "pass"
+	},
+	"pit": {
+		"cause": "pit",
+		"dead": true,
+		"source": "apply_frames walk past west ladder into open gap",
+		"verdict": "pass"
+	},
+	"replay": {
+		"pairs": [
+			{
+				"hash": "cf239af9cab6238e343e26ffed814cd810dbcddb1286a135732b1a4ee99bfc3e",
+				"id": "rooftops",
+				"match": true
+			}
+		],
+		"source": "catalog reload hash twice",
+		"verdict": "match"
+	},
+	"zone": {
+		"missing": [],
+		"source": "MapGraph reach from all spawns",
+		"verdict": "pass",
+		"zones": [
+			{
+				"graph": true,
+				"id": "west_deck"
+			},
+			{
+				"graph": true,
+				"id": "mid_deck"
+			},
+			{
+				"graph": true,
+				"id": "east_deck"
+			},
+			{
+				"graph": true,
+				"id": "west_bridge"
+			},
+			{
+				"graph": true,
+				"id": "east_bridge"
+			},
+			{
+				"graph": true,
+				"id": "west_spire"
+			}
+		]
+	}
+}

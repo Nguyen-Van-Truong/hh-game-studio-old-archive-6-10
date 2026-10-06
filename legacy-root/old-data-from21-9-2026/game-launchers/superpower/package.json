@@ -1,0 +1,9 @@
+{
+  "name": "@hoanhao-local/superpower-launcher",
+  "private": true,
+  "hh_readiness_path": "/superpower/",
+  "hh_readiness_identity": "data-app=\"hh-superpower-lab\"",
+  "scripts": {
+    "dev": "npm --prefix ../../../../game-hoanhao/games/superpower run dev"
+  }
+}

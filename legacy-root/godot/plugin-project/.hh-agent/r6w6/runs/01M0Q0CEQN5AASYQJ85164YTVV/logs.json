@@ -1,0 +1,55 @@
+{
+	"items": [
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"has_more\":false,\"items\":[{\"class\":\"Window\",\"name\":\"root\",\"path\":\"/root\"},{\"class\":\"Node\",\"name\":\"HhReloadDriver\",\"path\":\"/root/HhReloadDriver\"},{\"class\":\"Node2D\",\"name\":\"shot\",\"path\":\"/root/shot\"},{\"class\":\"Node2D\",\"name\":\"Fixture\",\"path\":\"/root/shot/Fixture\"},{\"class\":\"Node\",\"name\":\"HHAgentTickProbe\",\"path\":\"/root/shot/HHAgentTickProbe\"}],\"limit\":50,\"next_cursor\":\"\",\"offset\":0,\"ok\":true,\"op\":\"tree\",\"remote_tree\":true,\"run_id\":\"01M0Q0CEQN43C097EB97SM9PVP\",\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":false,\"frames\":8,\"frozen\":false,\"paused\":false,\"physics_frames\":13,\"physics_hz\":0,\"probe_physics\":13,\"probe_process\":9,\"seed\":0,\"seed_pinned\":false,\"ticks_msec\":1356},\"token\":\"01M0Q0CEZG96QK7NMMKZCQCDSV\",\"total\":5,\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0CEQN43C097EB97SM9PVP",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 232014
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frozen\":true,\"is_playing_scene\":true,\"observed_frozen\":true,\"ok\":true,\"op\":\"freeze\",\"paused\":true,\"physics_hz\":60,\"playing\":true,\"probe_after\":18,\"probe_before\":18,\"probe_physics\":18,\"probe_process\":14,\"remote_tree\":true,\"run_id\":\"01M0Q0CEQN43C097EB97SM9PVP\",\"seed\":4242,\"seed_pinned\":true,\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":16,\"frozen\":true,\"paused\":true,\"physics_frames\":21,\"physics_hz\":60,\"probe_physics\":18,\"probe_process\":14,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1473},\"token\":\"01M0Q0CG7N0QQ3X9HGGMME526Z\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0CEQN43C097EB97SM9PVP",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 232127
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"fixture_after\":22,\"fixture_before\":18,\"frames_advanced\":4,\"frozen\":true,\"is_playing_scene\":true,\"matched\":false,\"missed_event\":false,\"ok\":true,\"op\":\"step\",\"paused\":true,\"physics_hz\":60,\"playing\":true,\"probe_after\":22,\"probe_before\":18,\"remote_tree\":true,\"run_id\":\"01M0Q0CEQN43C097EB97SM9PVP\",\"seed\":4242,\"seed_pinned\":true,\"source\":\"hh_agent_runtime\",\"stepped\":true,\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":23,\"frozen\":true,\"paused\":true,\"physics_frames\":28,\"physics_hz\":60,\"probe_physics\":22,\"probe_process\":17,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1590},\"token\":\"01M0Q0CGB5YHS3RCYBPDYPW7BV\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0CEQN43C097EB97SM9PVP",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 232241
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"found\":true,\"got\":0,\"is_playing_scene\":true,\"key\":\"spike_ms\",\"kind\":\"property\",\"matched\":true,\"node_path\":\"Fixture\",\"ok\":true,\"op\":\"assert\",\"playing\":true,\"remote_tree\":true,\"run_id\":\"01M0Q0CEQN43C097EB97SM9PVP\",\"source\":\"hh_agent_runtime\",\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":26,\"frozen\":true,\"paused\":true,\"physics_frames\":31,\"physics_hz\":60,\"probe_physics\":22,\"probe_process\":17,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1656},\"token\":\"01M0Q0CGEQHEZRBP4PVSAEN4QF\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0CEQN43C097EB97SM9PVP",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 232311
+		},
+		{
+			"kind": "runtime",
+			"line": 0,
+			"message": "hh_runtime:reply {\"code\":\"E_UNVERIFIED\",\"dummy\":false,\"is_playing_scene\":true,\"message\":\"Play viewport blit was empty; refusing dummy PNG\",\"ok\":false,\"op\":\"screenshot\",\"playing\":true,\"remote_tree\":true,\"run_id\":\"01M0Q0CEQN43C097EB97SM9PVP\",\"screenshot_artifact_present\":false,\"source\":\"hh_agent_runtime\",\"stable\":{\"frames\":33,\"frames_before\":30,\"frames_waited\":3,\"frozen\":true,\"pixel_stable\":true,\"stable\":true,\"used_sleep\":false},\"time\":{\"editor_time_scale\":false,\"event_count\":0,\"events_subscribed\":true,\"fixed_step\":true,\"frames\":33,\"frozen\":true,\"paused\":true,\"physics_frames\":38,\"physics_hz\":60,\"probe_physics\":22,\"probe_process\":17,\"seed\":4242,\"seed_pinned\":true,\"ticks_msec\":1802},\"token\":\"01M0Q0CGGXNHCD789B1S2M1YAB\",\"tree_kind\":\"remote\"}",
+			"path": "",
+			"run_id": "01M0Q0CEQN43C097EB97SM9PVP",
+			"stack": [],
+			"tree_kind": "remote",
+			"ts_ms": 232446
+		}
+	],
+	"stop_reason": "test"
+}

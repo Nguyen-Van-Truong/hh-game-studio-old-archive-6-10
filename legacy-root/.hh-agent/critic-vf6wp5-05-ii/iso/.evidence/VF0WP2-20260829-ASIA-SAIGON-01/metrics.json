@@ -1,0 +1,10 @@
+{
+  "run_id": "VF0WP2-20260829-ASIA-SAIGON-01",
+  "headless_elapsed_ms": [2036, 2029, 2016],
+  "window_elapsed_ms": 3036,
+  "window_static_memory_bytes": 53515730,
+  "headless_stderr_bytes": 0,
+  "window_stderr_bytes": 749,
+  "hygiene_cycles": 20,
+  "leftover_godot": 0
+}

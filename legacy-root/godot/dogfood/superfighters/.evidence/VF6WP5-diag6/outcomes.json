@@ -1,0 +1,155 @@
+{
+	"apply": {
+		"attempted": 0,
+		"succeeded": 0,
+		"used_apply_eval": 0,
+		"used_apply_frames": 0,
+		"used_force_kill": 0,
+		"used_step_fixed": 0,
+		"used_teleport": 0
+	},
+	"bound": {
+		"expansions_peak": 0,
+		"intents": 24,
+		"source": "same seed intent trace + expansion cap",
+		"verdict": "fail"
+	},
+	"diff": {
+		"hud": "Bot skill regular · delay 10 · aim±10° · budget 8",
+		"source": "HUD StageLine + bots.json knobs",
+		"verdict": "pass"
+	},
+	"finish": {
+		"damage_deaths": 0,
+		"living": 3,
+		"outcome": "play",
+		"pit_deaths": 0,
+		"source": "all-bot 1v2 vs1 storage think until last standing; winner fought",
+		"verdict": "fail",
+		"winner_hp": 100.0,
+		"winner_melee": 0,
+		"winner_moved": 0.0,
+		"winner_shots": 0,
+		"winner_slot": 2,
+		"winner_team": 1
+	},
+	"greedy": {},
+	"live": {
+		"screens": {
+			"fight": "",
+			"pause": "",
+			"title": ""
+		},
+		"source": "window stills; headless may omit png",
+		"verdict": "pass"
+	},
+	"map_rows": {
+		"rooftops": {
+			"aim_error_deg": 0.0,
+			"aim_ok": false,
+			"combat_ok": false,
+			"dead": false,
+			"death_cause": "",
+			"display": "Skyline Relay",
+			"expansions_peak": 0,
+			"fire_blocks": 0,
+			"force_kill": 0,
+			"goal_dist": 384.083312988281,
+			"gun_used": 0,
+			"last_shot_off_deg": 0.0,
+			"map_id": "rooftops",
+			"melee_used": 0,
+			"moved": 0.0,
+			"perfect_aim_shots": 0,
+			"pit_blocks": 0,
+			"pit_ok": true,
+			"pit_reroutes": 0,
+			"profile_id": "",
+			"reach_ok": false,
+			"teleport": 0,
+			"toward": 0.0
+		}
+	},
+	"maps": {
+		"rows": {
+			"rooftops": {
+				"aim_error_deg": 0.0,
+				"aim_ok": false,
+				"combat_ok": false,
+				"dead": false,
+				"death_cause": "",
+				"display": "Skyline Relay",
+				"expansions_peak": 0,
+				"fire_blocks": 0,
+				"force_kill": 0,
+				"goal_dist": 384.083312988281,
+				"gun_used": 0,
+				"last_shot_off_deg": 0.0,
+				"map_id": "rooftops",
+				"melee_used": 0,
+				"moved": 0.0,
+				"perfect_aim_shots": 0,
+				"pit_blocks": 0,
+				"pit_ok": true,
+				"pit_reroutes": 0,
+				"profile_id": "",
+				"reach_ok": false,
+				"teleport": 0,
+				"toward": 0.0
+			}
+		},
+		"source": "seeded vs1 think()+apply_frames on catalog maps",
+		"verdict": "fail"
+	},
+	"recover": {},
+	"schema": {
+		"profiles": [
+			"recruit",
+			"regular",
+			"veteran"
+		],
+		"source": "data/sim/bots.json + BotRules.validate",
+		"verdict": "pass"
+	},
+	"timeline": [
+		{
+			"at": "map_rooftops_start",
+			"goal_x": 72.0,
+			"goal_y": 120.0,
+			"map_id": "rooftops",
+			"outcome": "play",
+			"tick": 0
+		},
+		{
+			"aim_ok": false,
+			"at": "map_rooftops_end",
+			"cause": "",
+			"combat_ok": false,
+			"goal_dist": 384.083312988281,
+			"map_id": "rooftops",
+			"moved": 0.0,
+			"outcome": "play",
+			"pit_ok": true,
+			"reach_ok": false,
+			"tick": 0,
+			"toward": 0.0
+		},
+		{
+			"at": "weapons_start",
+			"map_id": "storage",
+			"outcome": "play",
+			"tick": 0
+		}
+	],
+	"weapons": {
+		"classes": 0,
+		"gun_used": 0,
+		"last_shot_off_deg": 0.0,
+		"melee_used": 0,
+		"nade_used": 0,
+		"perfect_aim_shots": 0,
+		"shots_with_error": 0,
+		"source": "live ledger fire_spawn + explosion/melee hit on storage",
+		"verdict": "fail"
+	}
+}

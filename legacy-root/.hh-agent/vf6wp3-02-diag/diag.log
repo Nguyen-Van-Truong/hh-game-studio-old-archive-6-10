@@ -1,0 +1,40 @@
+﻿Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_DIAG start map=rooftops bots=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=5 p1=(72.7,116.0) foe=(456.0, 115.9991) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=95 p1=(167.6,97.1) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=185 p1=(162.2,91.3) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=275 p1=(165.7,93.8) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=365 p1=(168.0,97.7) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=455 p1=(167.6,98.9) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=545 p1=(168.0,94.9) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=635 p1=(164.1,91.9) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=725 p1=(167.6,94.4) foe=(456.0, 115.9991) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=815 p1=(166.8,100.7) foe=(456.0, 115.9991) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=905 p1=(159.8,92.1) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=995 p1=(165.7,91.7) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=1085 p1=(168.0,95.7) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=1175 p1=(167.6,96.9) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=1265 p1=(159.8,93.8) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=1355 p1=(165.7,93.5) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=1445 p1=(166.8,93.3) foe=(456.0, 115.9991) hp=100.0 stuck=3
+HH_VF_STAGE HUNT want=win map=rooftops tick=1535 p1=(168.0,98.6) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=1625 p1=(168.0,94.7) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=1715 p1=(164.1,91.6) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=1805 p1=(167.6,94.1) foe=(456.0, 115.9991) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=1895 p1=(166.8,100.4) foe=(456.0, 115.9991) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=1985 p1=(159.8,91.8) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=2075 p1=(164.1,93.4) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=2165 p1=(167.6,95.9) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=rooftops tick=2255 p1=(168.0,96.6) foe=(456.0, 115.9991) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=2345 p1=(167.6,97.7) foe=(456.0, 115.9991) hp=100.0 stuck=0
+HH_VF_STAGE RESOLVE want=win ok=false map=rooftops outcome=play cause= tick=2404
+HH_DIAG win rooftops { "ok": false, "map_id": "rooftops", "outcome": "play", "death_cause": "", "end_reason": "", "bot_deaths": [], "p1_tagged_bot": false, "tick": 2404, "cycles": 2400 }
+HH_DIAG start map=storage bots=2
+HH_VF_STAGE HUNT want=win map=storage tick=5 p1=(216.4,135.1) foe=(424.0, 135.0833) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=storage tick=95 p1=(416.9,163.8) foe=(422.9168, 163.9989) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=storage tick=185 p1=(420.6,163.8) foe=(426.1907, 163.996) hp=100.0 stuck=1
+HH_VF_STAGE HUNT want=win map=storage tick=275 p1=(429.9,163.8) foe=(427.2798, 163.9988) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=storage tick=365 p1=(476.6,163.8) foe=(952.0, 163.9811) hp=100.0 stuck=0
+HH_VF_STAGE HUNT want=win map=storage tick=455 p1=(636.3,156.7) foe=(952.0, 163.9811) hp=100.0 stuck=0
+

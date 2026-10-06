@@ -1,0 +1,36 @@
+{
+	"items": [
+		{
+			"attempt": 0,
+			"kind": "run_begin",
+			"ms": 161591,
+			"name": "seed_parse",
+			"scene": "res://r6w7/c3/seed_parse/shot.tscn"
+		},
+		{
+			"kind": "step",
+			"ms": 161921,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 163203,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 163294,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 163407,
+			"ok": true
+		},
+		{
+			"kind": "step",
+			"ms": 163452,
+			"ok": true
+		}
+	]
+}

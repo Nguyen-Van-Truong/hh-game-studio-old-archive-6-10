@@ -1,0 +1,13 @@
+﻿{
+    "hash":  "29959b05e895934734a34a6837b168ce04c840411cfdbfd6690873c43815644c",
+    "path":  "D:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\.hh-agent\\critic-vf6wp5-hh\\iso",
+    "after_headless":  0,
+    "check_exit":  0,
+    "note":  "Critic HH leftover-0 on iso --path only; did not kill II/product",
+    "headless_elapsed_sec":  411.1,
+    "host":  "System.Diagnostics.Process WaitForExit",
+    "window_exe":  "C:\\Users\\truon\\AppData\\Local\\HHGodotAgent\\tooling\\godot-4.7.1-stable\\bin\\Godot_v4.7.1-stable_win64_console.exe",
+    "after_check":  0,
+    "headless_host_exit":  0,
+    "leftover":  0
+}

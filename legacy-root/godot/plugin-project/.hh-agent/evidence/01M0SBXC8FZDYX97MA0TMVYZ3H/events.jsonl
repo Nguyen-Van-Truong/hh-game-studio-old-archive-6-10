@@ -1,0 +1,2 @@
+{"event":"play.started","run_id":"01M0SBXC8FZDYX97MA0TMVYZ3H","scene":"res://r7w5/play/Play.tscn","ts_ms":2240028,"verb":"debug"}
+{"event":"play.stopped","reason":"test","run_id":"01M0SBXC8FZDYX97MA0TMVYZ3H","ts_ms":2242292}

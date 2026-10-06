@@ -1,0 +1,20 @@
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_sewer.gd:147)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_sewer.gd:188)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_sewer.gd:227)
+SCRIPT ERROR: Parse Error: Identifier "InputActions" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_sewer.gd:25)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_sewer.gd:27)
+SCRIPT ERROR: Parse Error: Could not find type "App" in the current scope.
+   at: GDScript::reload (res://tests/run_sewer.gd:27)
+SCRIPT ERROR: Parse Error: Identifier "Maps" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_sewer.gd:90)
+SCRIPT ERROR: Parse Error: Identifier "Maps" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_sewer.gd:313)
+SCRIPT ERROR: Parse Error: Identifier "SimConstants" not declared in the current scope.
+   at: GDScript::reload (res://tests/run_sewer.gd:343)
+ERROR: Failed to load script "res://tests/run_sewer.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)

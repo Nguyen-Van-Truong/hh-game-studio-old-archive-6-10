@@ -1,0 +1,51 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_VF_BOTS STEP=boot DISPLAY=headless
+HH_VF_BOTS STEP=schema ok=true
+HH_VF_BOTS STEP=maps six
+HH_VF_BOTS STEP=weapons_start nades=3 gun=pistol ammo=12
+HH_VF_BOTS STEP=weapons classes=2
+HH_VF_BOTS STEP=finish outcome=play
+HH_VF_BOTS STEP=greedy
+HH_VF_BOTS STEP=recover
+HH_VF_BOTS STEP=diff
+HH_VF_BOTS STEP=bound
+HH_VF_BOTS STEP=live
+HH_ASSERT_FAIL rooftops bot did not reach a live goal toward=-77.0 dist=461.0
+HH_ASSERT_FAIL rooftops bot never fired or melee-hit a living foe gun=0 melee=0
+HH_ASSERT_FAIL rooftops bot missing live aim-error postcondition off=0.0
+HH_ASSERT_FAIL lantern bot never fired or melee-hit a living foe gun=0 melee=0
+HH_ASSERT_FAIL lantern bot missing live aim-error postcondition off=0.0
+HH_ASSERT_FAIL gauge bot did not reach a live goal toward=-122.5 dist=394.5
+HH_ASSERT_FAIL bots did not finish a match living=2 outcome=play
+HH_ASSERT_FAIL MAPS structured outcome is fail
+HH_ASSERT_FAIL FINISH structured outcome is fail
+HH_VF_BOTS run_id=VF6WP5-20260903-ASIA-SAIGON-03
+HH_VF_BOTS command_id=cmd.vf6-wp5.bots.3
+HH_VF_BOTS DISPLAY=headless
+HH_VF_BOTS SEED=7 MAP=rooftops MODE=vs1 NAME=Skyline Relay
+HH_VF_BOTS STARTED_AT=2026-09-03T15:03:57+07:00 ENDED_AT=2026-09-03T15:23:27+07:00
+HH_VF_BOTS USED_STEP_FIXED=0 USED_APPLY_FRAMES=5078 USED_APPLY_ATTEMPTED=5078 USED_APPLY_SUCCEEDED=5078 USED_PARSE_INPUT_EVENT=0 USED_ACTION_PRESS=0 USED_FORCE_KILL=0 USED_TELEPORT=0 USED_APPLY_EVAL=0
+HH_VF_BOTS SCHEMA=pass SCHEMA_SOURCE=outcome_schema
+HH_VF_BOTS MAPS=fail WEAPONS=pass FINISH=fail GREEDY=pass RECOVER=pass DIFF=pass BOUND=pass LIVE=pass
+HH_VF_BOTS MAP_ROW id=rooftops name=Skyline Relay reach=false pit=true aim=false combat=false moved=77.1 toward=-77.0 goal_dist=461.0 pit_blocks=18 pit_reroutes=6 gun=0 melee=0 aim_err=0.0 shot_off=0.0 cause=
+HH_VF_BOTS MAP_ROW id=storage name=Pallet Annex reach=true pit=true aim=true combat=true moved=110.6 toward=98.5 goal_dist=109.5 pit_blocks=0 pit_reroutes=0 gun=7 melee=0 aim_err=3.0 shot_off=3.9 cause=
+HH_VF_BOTS MAP_ROW id=police name=Signal Court reach=true pit=true aim=true combat=true moved=60.6 toward=56.9 goal_dist=106.3 pit_blocks=9 pit_reroutes=4 gun=7 melee=0 aim_err=-3.1 shot_off=3.9 cause=
+HH_VF_BOTS MAP_ROW id=hazardous name=Vitriol Sump reach=true pit=true aim=true combat=true moved=122.5 toward=122.4 goal_dist=101.6 pit_blocks=0 pit_reroutes=0 gun=6 melee=0 aim_err=-3.0 shot_off=3.0 cause=
+HH_VF_BOTS MAP_ROW id=lantern name=Lantern Cut reach=true pit=true aim=false combat=false moved=196.0 toward=191.8 goal_dist=113.8 pit_blocks=0 pit_reroutes=0 gun=0 melee=0 aim_err=0.0 shot_off=0.0 cause=
+HH_VF_BOTS MAP_ROW id=gauge name=Gauge Deck reach=false pit=true aim=true combat=true moved=141.1 toward=-122.5 goal_dist=394.5 pit_blocks=28 pit_reroutes=9 gun=2 melee=0 aim_err=-9.7 shot_off=6.7 cause=
+HH_VF_BOTS HONESTY BOT_COVERAGE=planner NOT_AI=0 NOT_Y8_PARITY=1 PLANNER_CLASS=assumption DIFF=tuning NO_TELEPORT=1 NO_PERFECT_AIM=1 NO_HIDDEN_STATE=1
+HH_VF_BOTS FORCE_KILL_OFFICIAL=0 TELEPORT_OFFICIAL=0
+HH_VF_BOTS EVIDENCE_DIR=D:\dataDiskD\intellji\hoanhaosocial\hoanhaonew-20-6-2025\hh-game-studio\godot\dogfood\superfighters\.evidence\VF6WP5-smoke-03
+FAIL: Vault Fighters bot planner
+  - rooftops bot did not reach a live goal toward=-77.0 dist=461.0
+  - rooftops bot never fired or melee-hit a living foe gun=0 melee=0
+  - rooftops bot missing live aim-error postcondition off=0.0
+  - lantern bot never fired or melee-hit a living foe gun=0 melee=0
+  - lantern bot missing live aim-error postcondition off=0.0
+  - gauge bot did not reach a live goal toward=-122.5 dist=394.5
+  - bots did not finish a match living=2 outcome=play
+  - MAPS structured outcome is fail
+  - FINISH structured outcome is fail
+HH_VF_BOTS FINISHED=1
+HH_VF_BOTS PROCESS_EXIT=1

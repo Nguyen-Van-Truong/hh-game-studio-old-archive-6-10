@@ -1,0 +1,34 @@
+﻿critic=HH leftover-0 windowed iso
+model=cursor-grok-4.6-xhigh-fast
+run=VF6WP2-20260901-ASIA-SAIGON-02
+command_id=cmd.vf6-wp2.vs-flow.2
+source_tree_sha256=eaddfebe0fb320a2bd64a2df473dcccdd7fc42fcd13d3672bcf99a4699b0f5d6
+recomputed=match_claim match_freeze 116/116 no drift
+HEAD=2a93dfabaefd9b9aebeb652276cb923f2dfab01b
+iso=.hh-agent/critic-vf6wp2-hh/iso
+godot_console=%LOCALAPPDATA%\HHGodotAgent\tooling\godot-4.7.1-stable\bin\Godot_v4.7.1-stable_win64_console.exe
+godot_exe_sha256=35dab11e04ece16a2b93035e65204f4a944a3e00b020d43e54409193379d5eef
+
+windowed_console Start-Process WaitForExit 240s
+  started leftover_iso=0 leftover_product=0
+  elapsed_sec=24.5 WaitForExit=True hung=False
+  WINDOW_HOST_EXIT=0 leftover_iso=0 leftover_product=0
+  log FINISHED=1 PROCESS_EXIT=0 DISPLAY=Windows
+  FIRST vs1=2a/0.336s vs2=2a/0.251s
+  REMATCH=1a/0.068s
+  APPLY=406/406 PARSE_INPUT_EVENT=108 FORCE_KILL=0 TELEPORT=0
+  PLAY outcome=lose end_reason=p1_down map_id=rooftops death_cause=pit
+  P2 stayed spawn x=456000 hp=100000 idle
+  events death/lose cause=pit tick=62 hashes match official window snapshot
+  rematch still: Skyline Relay fight, no lose overlay
+  title_after: clean Vault Fighters title, no overlay leak
+  ObjectDB/WARNING/ERROR: none in leftover-0 stdout/stderr
+
+run_all: not independently launched (official 1515.3s; packed-log-only banner extract, no PROCESS_EXIT footer)
+  packed DIVE APPLY=1253/1253 status=proven
+  packed MATCH MACHINE=pass APPLY=380/382 FORCE_KILL=0 status=proven
+
+TICK=no
+blocker=PLAY resolve is P1 KEY_RIGHT pit-walk on rooftops after police combat loop failed; not two-player combat resolve
+product_not_edited=1
+plan_unticked=1

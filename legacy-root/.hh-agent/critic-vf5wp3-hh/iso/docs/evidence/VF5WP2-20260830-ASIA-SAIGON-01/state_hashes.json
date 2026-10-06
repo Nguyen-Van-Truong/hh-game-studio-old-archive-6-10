@@ -1,0 +1,17 @@
+{
+	"display": "Skyline Relay",
+	"map_id": "rooftops",
+	"mode": "vs2",
+	"replay": {
+		"pairs": [
+			{
+				"hash": "cf239af9cab6238e343e26ffed814cd810dbcddb1286a135732b1a4ee99bfc3e",
+				"id": "rooftops",
+				"match": true
+			}
+		],
+		"source": "catalog reload hash twice",
+		"verdict": "match"
+	},
+	"seed": 12
+}

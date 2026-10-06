@@ -1,0 +1,126 @@
+{
+  "schema": "vf.sim.v1",
+  "schema_version": 1,
+  "title": "Vault Fighters",
+  "tick_hz": 60,
+  "tick_dt": 0.016666666666666666,
+  "epsilon": 0.001,
+  "hash_scale": 1000,
+  "max_catchup_ticks": 8,
+  "y8_tick_rate_claimed": false,
+  "ledger_clock": "RL-SIM-FIXED-60",
+  "input_frame": {
+    "id": "vf.sim.input_frame.v1",
+    "fields": ["schema_version", "tick", "slot", "held", "pressed", "released", "move_x", "move_y"],
+    "allowed_actions": ["left", "right", "up", "down", "jump", "crouch", "melee", "fire", "grenade", "roll", "dive", "kick"],
+    "reserved_not_shipped": ["ledge"]
+  },
+  "snapshot": {
+    "id": "vf.sim.snapshot.v1",
+    "mutate": false
+  },
+  "trace": {
+    "id": "vf.sim.trace.v1",
+    "ledger_id": "vf.sim.event_ledger.v1",
+    "official_forbids": ["teleport", "force_kill"],
+    "snapshot_every_default": 15
+  },
+  "runtime": {
+    "schema": "vf.runtime.v1",
+    "path": "res://data/runtime/schema.json",
+    "bridge": "res://data/runtime/bridge.json"
+  },
+  "honesty": {
+    "hold_to_aim": "RL-CTRL-HOLD-AIM assumption, not observed",
+    "roll": "RL-MOVE-ROLL assumption, not observed",
+    "sprint": "RL-MOVE-SPRINT assumption, not observed",
+    "roll_dive": "RL-MOVE-ROLL-DIVE Y8 observation unavailable; product dive/kick are assumption",
+    "dive": "RL-MOVE-DIVE assumption, not observed",
+    "kick": "RL-MOVE-JUMP-KICK assumption, not observed",
+    "fall": "RL-MOVE-FALL assumption, not observed",
+    "ladder": "RL-MOVE-LADDER assumption, not observed",
+    "ledge": "RL-MOVE-LEDGE assumption, not observed; InputFrame action ledge stays reserved",
+    "drop": "RL-MOVE-DROP assumption, not observed",
+    "jump_crouch": "RL-MOVE-JUMP-CROUCH assumption",
+    "loco_base": "RL-MOVE-LOCO-BASE assumption",
+    "camera": "RL-CAM-ARENA assumption, not live-observed",
+    "map_geometry": "RL-MAP-LANDMARKS assumption, not live-observed",
+    "melee_phases": "RL-HIT-PHASES assumption, not observed",
+    "hitbox": "RL-HIT-BOX assumption, not observed",
+    "friendly_fire": "RL-HIT-FF assumption, not observed",
+    "hitstop": "RL-HIT-HITSTOP assumption, presentation only, clock still advances",
+    "aim_dirs": "RL-AIM-DIRS assumption, not observed",
+    "fire_semi": "RL-FIRE-SEMI assumption, not observed",
+    "fire_auto": "RL-FIRE-AUTO assumption, not observed",
+    "fire_ammo": "RL-FIRE-AMMO assumption, not observed",
+    "fire_muzzle": "RL-FIRE-MUZZLE assumption, not observed",
+    "fire_recoil": "RL-FIRE-RECOIL assumption, not observed",
+    "fire_ballistic": "RL-FIRE-BALLISTIC assumption, ballistic not hitscan",
+    "fire_sweep": "RL-FIRE-SWEEP assumption, not observed",
+    "nade_hold": "RL-NADE-HOLD assumption, not observed",
+    "nade_arc": "RL-NADE-ARC assumption, not observed",
+    "nade_bounce": "RL-NADE-BOUNCE assumption, not observed",
+    "nade_fuse": "RL-NADE-FUSE assumption, not observed",
+    "nade_falloff": "RL-NADE-FALLOFF assumption, not observed",
+    "nade_owner": "RL-NADE-OWNER assumption, owner self-damage forbidden",
+    "nade_once": "RL-NADE-ONCE assumption, one explosion event",
+    "nade_timeout": "RL-NADE-TIMEOUT assumption, leftover cleanup",
+    "nade_sweep": "RL-NADE-SWEEP assumption, not observed",
+    "nade_prop": "RL-NADE-PROP deferred VF4, event only",
+    "item_slots": "RL-ITEM-SLOTS-4 assumption, not observed",
+    "item_roster": "RL-ITEM-ROSTER assumption, tuning values, not observed",
+    "item_pick_slot": "RL-ITEM-PICK-SLOT assumption, not observed",
+    "item_keep_gun": "RL-ITEM-KEEP-GUN assumption, not observed",
+    "item_ammo_reload": "RL-ITEM-AMMO-RELOAD assumption, not observed",
+    "balance_chaos": "RL-MODE-CHAOS assumption, not observed",
+    "balance_crit": "RL-BAL-CRIT assumption, not observed",
+    "balance_knock": "RL-BAL-KNOCK-JITTER assumption, not observed",
+    "balance_spread": "RL-BAL-SPREAD-RNG assumption, not observed",
+    "balance_cap": "RL-BAL-CAP assumption, not observed",
+    "balance_stamina": "RL-BAL-STAMINA assumption, not observed",
+    "world_schema": "RL-WORLD-SCHEMA assumption, not observed",
+    "world_layers": "RL-WORLD-LAYERS assumption, not observed",
+    "world_own": "RL-WORLD-OWN assumption, not observed",
+    "prop_static": "RL-PROP-STATIC assumption, not observed",
+    "prop_dynamic": "RL-PROP-DYNAMIC assumption, shove/throw this WP",
+    "prop_oneway": "RL-PROP-ONEWAY assumption, not observed",
+    "prop_break": "RL-PROP-BREAK assumption; glass/wood destroy this WP",
+    "prop_pickup": "RL-PROP-PICKUP assumption, world marker not roster",
+    "prop_expl": "RL-PROP-EXPL assumption; chain/fire/hang this WP",
+    "nade_prop": "RL-NADE-PROP deferred VF4, glass/wood stay",
+    "world_door": "RL-WORLD-DOOR assumption, not observed",
+    "world_lift": "RL-WORLD-LIFT assumption, not observed",
+    "world_board": "RL-WORLD-BOARD assumption, not observed",
+    "world_trigger": "RL-WORLD-TRIGGER assumption, not observed"
+  },
+  "combat": {
+    "schema": "vf.sim.combat.v1",
+    "path": "res://data/sim/combat.json"
+  },
+  "aim": {
+    "schema": "vf.sim.aim.v1",
+    "path": "res://data/sim/aim.json"
+  },
+  "explosive": {
+    "schema": "vf.sim.explosive.v1",
+    "path": "res://data/sim/explosive.json"
+  },
+  "weapons": {
+    "schema": "vf.weapons.roster.v1",
+    "path": "res://data/weapons/roster.json",
+    "gate": "res://data/weapons/schema.json"
+  },
+  "locomotion": {
+    "schema": "vf.sim.locomotion.v1",
+    "path": "res://data/sim/locomotion.json"
+  },
+  "balance": {
+    "schema": "vf.sim.balance.v1",
+    "path": "res://data/sim/balance.json"
+  },
+  "world": {
+    "schema": "vf.world.catalog.v1",
+    "path": "res://data/world/catalog.json",
+    "gate": "res://data/world/schema.json"
+  }
+}

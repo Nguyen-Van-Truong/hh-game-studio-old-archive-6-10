@@ -1,12 +1,2 @@
-legacy-root/
-# Archive ignores generated/local outputs; files remain physically preserved.
-legacy-root/**/.godot/
-legacy-root/**/.local/
-legacy-root/**/target/
-legacy-root/**/build/
-legacy-root/**/dist/
-legacy-root/**/out/
-legacy-root/**/*.import
-legacy-root/**/*.uid
-legacy-root/**/*.log
-legacy-root/**/*.tmp
+# Installed dependencies stay on disk. Everything else in this archive is tracked.
+**/node_modules/

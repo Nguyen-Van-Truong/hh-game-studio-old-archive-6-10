@@ -1,0 +1,24 @@
+{
+  "checkpoint_id": "01M0Q0M7VN2NJW0ZXCT5Y6DFAH",
+  "command_id": "01M0Q0M7V9JY6J0QJJ1DY4TMVB",
+  "created_at": "2026-08-23T09:53:30.628Z",
+  "project_root": "D:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\godot\\plugin-project",
+  "git_ref": "",
+  "git_head": "",
+  "files": [
+    {
+      "rel": "r6w7/c1/seed_tint/shot.tscn",
+      "sha256": "missing",
+      "missing": true
+    }
+  ],
+  "referenced_by": [
+    "r6w7/c2/seed_anim/seed_anim.hh-test.json",
+    "r6w7/c2/seed_asset/seed_asset.hh-test.json",
+    "r6w7/c2/seed_clip/seed_clip.hh-test.json",
+    "r6w7/c2/seed_mask/seed_mask.hh-test.json",
+    "r6w7/c2/seed_parse/seed_parse.hh-test.json",
+    "r6w7/c2/seed_sig/seed_sig.hh-test.json"
+  ],
+  "hard_delete_blocked": true
+}

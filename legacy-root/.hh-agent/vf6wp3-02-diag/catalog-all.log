@@ -1,0 +1,48 @@
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+HH_DIAG start map=rooftops bots=1
+HH_VF_STAGE HUNT want=win map=rooftops tick=5 p1=(72.7,116.0) foe=(456.0, 115.9991) foe_hp=100.0 p1_hp=100.0 stuck=1 live_bots=1 cross=0 bots=1:live(456,116,hp=100)
+HH_VF_STAGE HUNT want=win map=rooftops tick=95 p1=(284.2,67.8) foe=(456.0, 115.9991) foe_hp=100.0 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:live(456,116,hp=100)
+HH_VF_STAGE HUNT want=win map=rooftops tick=185 p1=(458.7,115.8) foe=(455.1303, 115.2537) foe_hp=90.0 p1_hp=84.0 stuck=0 live_bots=1 cross=0 bots=1:live(455,115,hp=90)
+HH_VF_STAGE HUNT want=win map=rooftops tick=275 p1=(462.0,115.8) foe=(458.1808, 115.9988) foe_hp=60.0 p1_hp=84.0 stuck=0 live_bots=1 cross=0 bots=1:live(458,116,hp=60)
+HH_VF_STAGE HUNT want=win map=rooftops tick=365 p1=(454.7,115.8) foe=(460.3616, 115.9988) foe_hp=20.0 p1_hp=84.7 stuck=0 live_bots=1 cross=0 bots=1:live(460,116,hp=20)
+HH_VF_STAGE RESOLVE want=win ok=true map=rooftops outcome=win cause=damage tick=400
+HH_DIAG win rooftops { "ok": true, "map_id": "rooftops", "outcome": "win", "death_cause": "damage", "end_reason": "last_standing", "bot_deaths": [{ "slot": 1, "death_cause": "damage", "hp": 0.0 }], "p1_tagged_bot": false, "tick": 400, "cycles": 396 }
+HH_DIAG start map=storage bots=2
+HH_VF_STAGE HUNT want=win map=storage tick=5 p1=(216.4,135.1) foe=(424.0, 135.0833) foe_hp=100.0 p1_hp=100.0 stuck=1 live_bots=2 cross=0 bots=1:live(424,135,hp=100),2:live(952,135,hp=100)
+HH_VF_STAGE HUNT want=win map=storage tick=95 p1=(416.9,163.8) foe=(422.9168, 163.9989) foe_hp=90.0 p1_hp=100.0 stuck=0 live_bots=2 cross=0 bots=1:live(423,164,hp=90),2:live(952,164,hp=100)
+HH_VF_STAGE HUNT want=win map=storage tick=185 p1=(429.2,163.8) foe=(423.1418, 163.2519) foe_hp=50.0 p1_hp=100.0 stuck=0 live_bots=2 cross=0 bots=1:live(423,163,hp=50),2:live(952,164,hp=100)
+HH_VF_STAGE HUNT want=win map=storage tick=275 p1=(414.9,163.8) foe=(421.8292, 163.996) foe_hp=20.0 p1_hp=100.0 stuck=0 live_bots=2 cross=0 bots=1:live(422,164,hp=20),2:live(952,164,hp=100)
+HH_VF_STAGE HUNT want=win map=storage tick=365 p1=(547.0,164.0) foe=(952.0, 163.9811) foe_hp=100.0 p1_hp=100.0 stuck=12 live_bots=1 cross=0 bots=1:dead(461,164,hp=0),2:live(952,164,hp=100)
+HH_VF_STAGE HUNT want=win map=storage tick=455 p1=(659.0,95.1) foe=(952.0, 163.9811) foe_hp=100.0 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:dead(522,164,hp=0),2:live(952,164,hp=100)
+HH_VF_STAGE HUNT want=win map=storage tick=545 p1=(711.0,19.1) foe=(952.0, 163.9811) foe_hp=100.0 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:dead(547,164,hp=0),2:live(952,164,hp=100)
+HH_VF_STAGE HUNT want=win map=storage tick=635 p1=(928.3,14.9) foe=(952.0, 163.9811) foe_hp=100.0 p1_hp=84.0 stuck=0 live_bots=1 cross=0 bots=1:dead(547,164,hp=0),2:live(952,164,hp=100)
+HH_VF_STAGE HUNT want=win map=storage tick=725 p1=(942.2,163.8) foe=(947.4167, 163.9973) foe_hp=68.0 p1_hp=68.0 stuck=0 live_bots=1 cross=0 bots=1:dead(547,164,hp=0),2:live(947,164,hp=68)
+HH_VF_STAGE HUNT want=win map=storage tick=815 p1=(946.2,163.8) foe=(947.4191, 163.9962) foe_hp=28.0 p1_hp=68.0 stuck=3 live_bots=1 cross=0 bots=1:dead(547,164,hp=0),2:live(947,164,hp=28)
+HH_VF_STAGE RESOLVE want=win ok=true map=storage outcome=win cause=damage tick=880
+HH_DIAG win storage { "ok": true, "map_id": "storage", "outcome": "win", "death_cause": "damage", "end_reason": "last_standing", "bot_deaths": [{ "slot": 1, "death_cause": "damage", "hp": 0.0 }, { "slot": 2, "death_cause": "damage", "hp": 0.0 }], "p1_tagged_bot": false, "tick": 880, "cycles": 876 }
+HH_DIAG start map=police bots=3
+HH_VF_STAGE HUNT want=win map=police tick=5 p1=(72.7,116.0) foe=(232.0, 147.9991) foe_hp=100.0 p1_hp=100.0 stuck=1 live_bots=3 cross=0 bots=1:live(232,148,hp=100),2:live(952,119,hp=100),3:live(248,148,hp=100)
+HH_VF_STAGE HUNT want=win map=police tick=95 p1=(235.8,147.8) foe=(231.9986, 147.9989) foe_hp=80.0 p1_hp=84.0 stuck=0 live_bots=3 cross=0 bots=1:live(232,148,hp=80),2:live(814,98,hp=100),3:live(249,148,hp=90)
+HH_VF_STAGE HUNT want=win map=police tick=185 p1=(227.5,147.8) foe=(231.7736, 147.2519) foe_hp=40.0 p1_hp=84.0 stuck=0 live_bots=3 cross=0 bots=1:live(232,147,hp=40),2:live(596,100,hp=100),3:live(251,147,hp=70)
+HH_VF_STAGE HUNT want=win map=police tick=275 p1=(229.8,147.8) foe=(228.722, 147.996) foe_hp=10.0 p1_hp=86.5 stuck=0 live_bots=3 cross=0 bots=1:live(229,148,hp=10),2:live(409,68,hp=100),3:live(251,148,hp=70)
+HH_VF_STAGE HUNT want=win map=police tick=365 p1=(249.2,147.8) foe=(254.5518, 147.9989) foe_hp=40.0 p1_hp=92.5 stuck=0 live_bots=2 cross=0 bots=1:dead(286,148,hp=0),2:live(289,180,hp=84),3:live(255,148,hp=40)
+HH_VF_STAGE HUNT want=win map=police tick=455 p1=(266.5,147.8) foe=(288.7719, 179.8132) foe_hp=84.0 p1_hp=98.5 stuck=0 live_bots=1 cross=0 bots=1:dead(346,180,hp=0),2:live(289,180,hp=84),3:dead(260,147,hp=0)
+HH_VF_STAGE HUNT want=win map=police tick=545 p1=(301.1,179.8) foe=(295.0, 166.0) foe_hp=52.0 p1_hp=84.0 stuck=0 live_bots=1 cross=0 bots=1:dead(406,180,hp=0),2:live(295,166,hp=52),3:dead(320,180,hp=0)
+HH_VF_STAGE HUNT want=win map=police tick=635 p1=(301.1,179.8) foe=(295.0, 166.0) foe_hp=22.0 p1_hp=84.0 stuck=0 live_bots=1 cross=0 bots=1:dead(466,180,hp=0),2:live(295,166,hp=22),3:dead(380,180,hp=0)
+HH_VF_STAGE RESOLVE want=win ok=true map=police outcome=win cause=damage tick=688
+HH_DIAG win police { "ok": true, "map_id": "police", "outcome": "win", "death_cause": "damage", "end_reason": "last_standing", "bot_deaths": [{ "slot": 1, "death_cause": "damage", "hp": 0.0 }, { "slot": 2, "death_cause": "damage", "hp": 0.0 }, { "slot": 3, "death_cause": "damage", "hp": 0.0 }], "p1_tagged_bot": false, "tick": 688, "cycles": 684 }
+HH_DIAG start map=hazardous bots=3
+HH_VF_STAGE HUNT want=win map=hazardous tick=5 p1=(72.7,132.0) foe=(296.0, 131.9991) foe_hp=100.0 p1_hp=100.0 stuck=1 live_bots=3 cross=0 bots=1:live(296,132,hp=100),2:live(936,132,hp=100),3:live(312,132,hp=100)
+HH_VF_STAGE HUNT want=win map=hazardous tick=95 p1=(290.5,132.0) foe=(294.9081, 131.9962) foe_hp=90.0 p1_hp=100.0 stuck=0 live_bots=3 cross=0 bots=1:live(295,132,hp=90),2:live(936,132,hp=100),3:live(312,132,hp=100)
+HH_VF_STAGE HUNT want=win map=hazardous tick=185 p1=(292.2,132.0) foe=(292.9467, 131.2535) foe_hp=50.0 p1_hp=100.0 stuck=0 live_bots=3 cross=0 bots=1:live(293,131,hp=50),2:live(936,132,hp=100),3:live(314,132,hp=70)
+HH_VF_STAGE HUNT want=win map=hazardous tick=275 p1=(297.5,132.0) foe=(295.997, 131.9988) foe_hp=20.0 p1_hp=100.0 stuck=0 live_bots=3 cross=0 bots=1:live(296,132,hp=20),2:live(936,132,hp=100),3:live(316,132,hp=60)
+HH_VF_STAGE HUNT want=win map=hazardous tick=365 p1=(311.2,132.0) foe=(318.5467, 131.9988) foe_hp=40.0 p1_hp=100.0 stuck=1 live_bots=2 cross=0 bots=1:dead(336,132,hp=0),2:live(936,132,hp=100),3:live(319,132,hp=40)
+HH_VF_STAGE HUNT want=win map=hazardous tick=455 p1=(333.2,132.0) foe=(936.0, 131.9991) foe_hp=100.0 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:dead(396,164,hp=0),2:live(936,132,hp=100),3:dead(324,131,hp=0)
+HH_VF_STAGE HUNT want=win map=hazardous tick=545 p1=(588.2,131.8) foe=(936.0, 131.9991) foe_hp=100.0 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:dead(456,185,hp=0),2:live(936,132,hp=100),3:dead(384,164,hp=0)
+HH_VF_STAGE HUNT want=win map=hazardous tick=635 p1=(843.2,111.7) foe=(936.0, 131.9991) foe_hp=100.0 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:dead(516,1252,hp=0),2:live(936,132,hp=100),3:dead(444,180,hp=0)
+HH_VF_STAGE HUNT want=win map=hazardous tick=725 p1=(932.4,52.0) foe=(936.0, 131.9991) foe_hp=100.0 p1_hp=100.0 stuck=1 live_bots=1 cross=0 bots=1:dead(576,2452,hp=0),2:live(936,132,hp=100),3:dead(504,1025,hp=0)
+HH_VF_STAGE HUNT want=win map=hazardous tick=815 p1=(929.4,52.0) foe=(936.0, 131.9991) foe_hp=100.0 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:dead(636,3652,hp=0),2:live(936,132,hp=100),3:dead(564,2225,hp=0)
+HH_VF_STAGE HUNT want=win map=hazardous tick=905 p1=(929.4,52.0) foe=(936.0, 131.9991) foe_hp=100.0 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:dead(696,4852,hp=0),2:live(936,132,hp=100),3:dead(624,3425,hp=0)
+HH_VF_STAGE HUNT want=win map=hazardous tick=995 p1=(929.4,52.0) foe=(936.0, 131.9991) foe_hp=100.0 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:dead(756,6052,hp=0),2:live(936,132,hp=100),3:dead(684,4625,hp=0)
+HH_VF_STAGE HUNT want=win map=hazardous tick=1085 p1=(929.4,52.0) foe=(936.0, 131.9991) foe_hp=100.0 p1_hp=100.0 stuck=0 live_bots=1 cross=0 bots=1:dead(816,7252,hp=0),2:live(936,132,hp=100),3:dead(744,5825,hp=0)

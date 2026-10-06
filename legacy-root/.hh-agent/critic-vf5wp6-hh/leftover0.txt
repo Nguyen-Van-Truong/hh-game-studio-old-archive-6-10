@@ -1,0 +1,25 @@
+critic=HH leftover-0 windowed iso
+model=cursor-grok-4.6-xhigh-fast
+iso_pid=7872 exit_seen=process_gone
+started=2026-08-31T13:59:52+07:00 ended=2026-08-31T14:02:25+07:00 stills_done=2026-08-31T14:03:13+07:00
+display=Windows fail_count=0 APPLY_banner=2600/2600 APPLY_outcomes=3543/3543
+source_tree_sha256=771fdc8445b5e814c1827a1d938e0202a2d6dad9543219f01038bc244206698a
+freeze_latest_SOURCE_FILE=2026-08-31T13:16:20+07:00 official_started_at=2026-08-31T13:19:59+07:00
+SOURCE_FILES_after_freeze=0
+outcomes_equal_pack=True
+water_wet_before=False water_wet_after=True env_id=cut_gutter_00
+lift_y0=96.0 lift_y1=40.0 ly0=188.0 ly1=56.0 boards=1
+hud=Skyline Relay,Pallet Annex,Signal Court,Vitriol Sump,Lantern Cut,Gauge Deck
+wrap=rooftops title_still=Map: Skyline Relay
+stills_pairwise_distinct=True
+stills_bitwise_match=title,rooftops,storage,police,hazardous,lantern,gauge
+stills_setup_flake=pack36733_iso36701
+stills_water_flake=pack36525_iso36537
+stills_lift_flake=pack35844_iso35849
+godot_leftover_after_window=0
+product_path_leftover=0
+run_all_console_pid=34764 leftover_after=0
+DIVE=1253/1253 ROOF=1276/1276 WARE=2519/2519 STAT=2979/2979 SEWER=4793/4793 VS=2600/2600
+SEWER_vs_WP5=4793_vs_4255 unique_toxic_pollutes_sewer_counters
+plan_vf5wp6=[ ]
+TICK=yes

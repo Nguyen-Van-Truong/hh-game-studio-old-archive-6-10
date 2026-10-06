@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://c4yyugod264m4"]
+
+[ext_resource type="Script" uid="uid://nxe2nb60iivq" path="res://snake/snake_game.gd" id="1_j2kkt"]
+
+[node name="snake" type="Node2D" unique_id=1360453701]
+script = ExtResource("1_j2kkt")
+metadata/hh_agent_uid = "hhuid_471973270_2"
+metadata/_hh_agent_uid = "hhuid_471973270_2"
+
+[node name="Board" type="ColorRect" parent="." unique_id=1584149052]
+offset_right = 512.0
+offset_bottom = 384.0
+color = Color(0.08, 0.1, 0.14, 1)
+metadata/hh_agent_uid = "hhuid_471972422_1"
+metadata/_hh_agent_uid = "hhuid_471972422_1"
+
+[node name="Score" type="Label" parent="." unique_id=368396926]
+offset_left = 8.0
+offset_top = 388.0
+offset_right = 400.0
+offset_bottom = 420.0
+metadata/hh_agent_uid = "hhuid_550771326_6"
+metadata/_hh_agent_uid = "hhuid_550771326_6"

@@ -1,0 +1,28 @@
+{
+	"after": "working tree",
+	"assets": [],
+	"assumptions": [
+		"Pause stays global A14",
+		"observer commands=8"
+	],
+	"before": "checkpoint dest",
+	"files": [
+		"res://scripts/memory/board.gd"
+	],
+	"gaps": [
+		"G2 stays human"
+	],
+	"goal": "R7-WP6 zero-touch slice",
+	"license": "MIT",
+	"perf": {
+		"notes": "headless; no pixel golden"
+	},
+	"scenes": [
+		"res://scenes/memory/board.tscn"
+	],
+	"schema": "hh-review-card/1",
+	"screenshots": [],
+	"tests": [
+		"keyboard_cursor_plus_accept_flips_a_tile"
+	]
+}

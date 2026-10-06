@@ -1,0 +1,28 @@
+critic=HH leftover-0 windowed iso
+model=cursor-grok-4.6-xhigh-fast
+run=VF6WP1-20260901-ASIA-SAIGON-03
+command_id=cmd.vf6-wp1.match-machine.3
+source_tree_sha256=de9f28b7dcea25fbd3e550cc86f565b153fbf4b38189101ba16698a458895c6c
+HEAD=2b1e0a2e8ff2e7b4b8bfa35080b7f551be091db8
+iso=.hh-agent/critic-vf6wp1-hh/iso
+godot_gui=%LOCALAPPDATA%\HHGodotAgent\tooling\godot-4.7.1-stable\bin\Godot_v4.7.1-stable_win64.exe
+godot_exe_sha256=323f9c4cc5db674e98815cdd8e69da007d5efc779abedc8c0e42883b7fdea12a
+
+windowed_gui Start-Process -Wait
+  pid=37772 started=2026-09-01T14:55:10 ended=2026-09-01T15:05:42 elapsed_sec=632
+  HOST_EXIT=-1 (process killed after hang)
+  stills_written=1 (match_setup only at 14:55:13)
+  outcomes=false run_partial=false
+  iso_leftover_after_kill=0
+  product_path_leftover=0
+
+headless_console Start-Process -Wait
+  pid=4056 started=2026-09-01T15:05:56 ended=2026-09-01T15:08:22 elapsed_sec=146
+  HOST_EXIT=0 leftover=0
+  DISPLAY=headless APPLY=642/644 FORCE_KILL=0 banners=pass
+  replay hashes byte-match pack
+
+run_all: not independently launched (Critic II already on critic-vf6wp1-ii/iso run_all)
+pack run_all is 32 banner lines; packer accepts PASS banner as exit
+
+TICK=no

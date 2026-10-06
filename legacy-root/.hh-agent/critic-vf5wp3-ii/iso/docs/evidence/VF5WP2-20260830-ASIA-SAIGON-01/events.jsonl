@@ -1,0 +1,9 @@
+{"display":"Skyline Relay","kind":"roof_name","ok":true,"tick_hz":60,"title":"Vault Fighters"}
+{"elevations":4,"kind":"roof_zone","ok":true,"tick_hz":60,"title":"Vault Fighters"}
+{"hits":{"mid_deck":true,"west_bridge":true,"west_deck":true},"kind":"roof_p1","ok":true,"tick_hz":60,"title":"Vault Fighters"}
+{"hits":{"east_bridge":true,"mid_deck":true},"kind":"roof_p2","ok":true,"tick_hz":60,"title":"Vault Fighters"}
+{"hits":{"east_bridge":true,"mid_deck":true},"kind":"roof_bot","ok":true,"tick_hz":60,"title":"Vault Fighters"}
+{"breaks":1,"kind":"roof_cover","ok":true,"tick_hz":60,"title":"Vault Fighters"}
+{"fallback":true,"kind":"roof_pit","ok":true,"pit":true,"tick_hz":60,"title":"Vault Fighters"}
+{"hud":"Skyline Relay","kind":"roof_live","ok":true,"tick_hz":60,"title":"Vault Fighters"}
+{"hash":"cf239af9cab6238e343e26ffed814cd810dbcddb1286a135732b1a4ee99bfc3e","kind":"roof_replay","ok":true,"tick_hz":60,"title":"Vault Fighters"}

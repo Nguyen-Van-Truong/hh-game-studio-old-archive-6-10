@@ -1,0 +1,202 @@
+{
+	"apply": {
+		"attempted": 1234,
+		"succeeded": 1234,
+		"used_apply_eval": 0,
+		"used_apply_frames": 1234,
+		"used_force_kill": 0,
+		"used_step_fixed": 0,
+		"used_teleport": 0
+	},
+	"bound": {
+		"expansions_peak": 38,
+		"intents": 24,
+		"source": "same seed intent trace + expansion cap",
+		"verdict": "pass"
+	},
+	"diff": {
+		"hud": "Bot skill regular · delay 10 · aim±10° · budget 8",
+		"source": "HUD StageLine + bots.json knobs",
+		"verdict": "pass"
+	},
+	"finish": {
+		"culled": 0,
+		"damage_deaths": 1,
+		"fighter_count": 2,
+		"fighters": [
+			{
+				"dead": false,
+				"death_cause": "",
+				"hp": 82.0,
+				"melee": 8,
+				"moved": 125.572534680367,
+				"shots": 2,
+				"slot": 0,
+				"team": 0,
+				"x": 308.727508544922
+			},
+			{
+				"dead": true,
+				"death_cause": "damage",
+				"hp": 0.0,
+				"melee": 0,
+				"moved": 167.075600624084,
+				"shots": 2,
+				"slot": 1,
+				"team": 1,
+				"x": 314.258880615234
+			}
+		],
+		"living": 1,
+		"outcome": "win",
+		"pit_deaths": 0,
+		"source": "spawned-two-bot 1v1 vs1 storage; champion fought; loser dead by damage",
+		"spawned_count": 2,
+		"unused_spawns": 0,
+		"verdict": "pass",
+		"winner_hp": 82.0,
+		"winner_melee": 8,
+		"winner_moved": 125.572534680367,
+		"winner_shots": 2,
+		"winner_slot": 0,
+		"winner_team": 0
+	},
+	"greedy": {},
+	"live": {
+		"screens": {
+			"fight": "",
+			"pause": "",
+			"title": ""
+		},
+		"source": "window stills; 2-body fight; pause overlay must change pixels",
+		"verdict": "pass"
+	},
+	"map_rows": {
+		"rooftops": {
+			"aim_error_deg": 6.73078179359436,
+			"aim_ok": true,
+			"closed_then_down": true,
+			"closest_engage": 10.7168712615967,
+			"combat_ok": true,
+			"dead": false,
+			"death_cause": "",
+			"display": "Skyline Relay",
+			"engage_dist": 17.5751247406006,
+			"expansions_peak": 38,
+			"fire_blocks": 0,
+			"force_kill": 0,
+			"goal_dist": 8.94374561309814,
+			"gun_used": 2,
+			"last_shot_off_deg": 3.42726619555075,
+			"map_id": "rooftops",
+			"melee_used": 8,
+			"moved": 375.928863525391,
+			"named_down": true,
+			"perfect_aim_shots": 0,
+			"pit_blocks": 0,
+			"pit_ok": true,
+			"pit_reroutes": 0,
+			"profile_id": "regular",
+			"reach_ok": true,
+			"reach_reason": "goal",
+			"teleport": 0,
+			"toward": 375.056254386902,
+			"waypoint_dist": 9.10988998413086
+		}
+	},
+	"maps": {
+		"rows": {
+			"rooftops": {
+				"aim_error_deg": 6.73078179359436,
+				"aim_ok": true,
+				"closed_then_down": true,
+				"closest_engage": 10.7168712615967,
+				"combat_ok": true,
+				"dead": false,
+				"death_cause": "",
+				"display": "Skyline Relay",
+				"engage_dist": 17.5751247406006,
+				"expansions_peak": 38,
+				"fire_blocks": 0,
+				"force_kill": 0,
+				"goal_dist": 8.94374561309814,
+				"gun_used": 2,
+				"last_shot_off_deg": 3.42726619555075,
+				"map_id": "rooftops",
+				"melee_used": 8,
+				"moved": 375.928863525391,
+				"named_down": true,
+				"perfect_aim_shots": 0,
+				"pit_blocks": 0,
+				"pit_ok": true,
+				"pit_reroutes": 0,
+				"profile_id": "regular",
+				"reach_ok": true,
+				"reach_reason": "goal",
+				"teleport": 0,
+				"toward": 375.056254386902,
+				"waypoint_dist": 9.10988998413086
+			}
+		},
+		"source": "seeded vs1 think()+apply_frames on catalog maps",
+		"verdict": "pass"
+	},
+	"recover": {},
+	"schema": {
+		"profiles": [
+			"recruit",
+			"regular",
+			"veteran"
+		],
+		"source": "data/sim/bots.json + BotRules.validate",
+		"verdict": "pass"
+	},
+	"timeline": [
+		{
+			"at": "map_rooftops_start",
+			"goal_x": 72.0,
+			"goal_y": 112.0,
+			"map_id": "rooftops",
+			"outcome": "play",
+			"tick": 0
+		},
+		{
+			"aim_ok": true,
+			"at": "map_rooftops_end",
+			"cause": "",
+			"closest_engage": 10.7168712615967,
+			"combat_ok": true,
+			"engage_dist": 17.5751247406006,
+			"goal_dist": 8.94374561309814,
+			"map_id": "rooftops",
+			"moved": 375.928863525391,
+			"outcome": "lose",
+			"pit_ok": true,
+			"reach_ok": true,
+			"reach_reason": "goal",
+			"tick": 426,
+			"toward": 375.056254386902,
+			"waypoint_dist": 9.10988998413086
+		},
+		{
+			"at": "weapons_start",
+			"map_id": "storage",
+			"outcome": "play",
+			"tick": 0
+		}
+	],
+	"weapons": {
+		"classes": 2,
+		"gun_used": 4,
+		"last_shot_off_deg": 3.42726000569181,
+		"melee_used": 9,
+		"nade_after_fire": true,
+		"nade_combat": false,
+		"nade_hit": 0,
+		"nade_used": 4,
+		"perfect_aim_shots": 0,
+		"shots_with_error": 4,
+		"source": "live ledger fire_spawn + melee hit or nade blast-hit on storage",
+		"verdict": "pass"
+	}
+}

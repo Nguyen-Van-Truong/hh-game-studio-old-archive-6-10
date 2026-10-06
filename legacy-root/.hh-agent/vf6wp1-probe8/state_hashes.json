@@ -1,0 +1,48 @@
+{
+	"map_id": "police",
+	"mode": "vs2",
+	"replay": {
+		"pair_count": 6,
+		"pairs": [
+			{
+				"hash": "a15a3ad2b0220607a2dc1a1efdf61bbf0388280e965df08f55ff9e9d87d6eaef",
+				"match": true,
+				"name": "match_lose.json",
+				"outcome": "lose"
+			},
+			{
+				"hash": "85832e815f6480754cfc96048e37f699d067a65170716a162292112f7437ab25",
+				"match": true,
+				"name": "match_pause.json",
+				"outcome": "play"
+			},
+			{
+				"hash": "f1f41a2c08186a7b57352a9317918ff75b7bbc335e28643a47c657438108132c",
+				"match": true,
+				"name": "match_quit.json",
+				"outcome": "quit"
+			},
+			{
+				"hash": "290f851cce7db14b7626fdf76d9133c02be2c7a324aaeae21abe4db8d0b73963",
+				"match": true,
+				"name": "match_restart.json",
+				"outcome": "win"
+			},
+			{
+				"hash": "2b48e2f872c2a22ba9571f9ee4ca513166fbd38788b2f363ecdad709885a1456",
+				"match": true,
+				"name": "match_tie.json",
+				"outcome": "tie"
+			},
+			{
+				"hash": "290f851cce7db14b7626fdf76d9133c02be2c7a324aaeae21abe4db8d0b73963",
+				"match": true,
+				"name": "match_win.json",
+				"outcome": "win"
+			}
+		],
+		"source": "SimReplay.final_hash twice",
+		"verdict": "match"
+	},
+	"seed": 7
+}

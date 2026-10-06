@@ -1,0 +1,19 @@
+{
+  "checkpoint_id": "01M0HBEWSNZGWWZW98E91VB2W5",
+  "command_id": "01M0HBEWS860SEF4Q128XG8TT4",
+  "created_at": "2026-08-21T05:07:23.194Z",
+  "project_root": "D:\\dataDiskD\\intellji\\hoanhaosocial\\hoanhaonew-20-6-2025\\hh-game-studio\\godot\\plugin-project",
+  "git_ref": "",
+  "git_head": "",
+  "files": [
+    {
+      "rel": "r3w2/main.tscn",
+      "sha256": "48d23f59db5c758255335163fd36abad1af5a638fce1fcce5e8351bd92e02b46",
+      "missing": false
+    }
+  ],
+  "referenced_by": [
+    "addons/hh_agent/core/hh_router.gd"
+  ],
+  "hard_delete_blocked": true
+}

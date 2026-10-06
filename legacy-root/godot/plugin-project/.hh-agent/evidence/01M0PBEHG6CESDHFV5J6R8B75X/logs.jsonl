@@ -1,0 +1,3 @@
+{"kind":"runtime","line":6,"message":"SCRIPT ERROR: Cannot call method 'get_path' on a null value. | at: _ready (res://r6w1/ok.gd:6)","path":"res://r6w1/ok.gd","run_id":"01M0PBEHG6CESDHFV5J6R8B75X","stack":[{"function":"at: _ready (res://r6w1/ok.gd:6)","line":0,"path":""}],"tree_kind":"editor","ts_ms":20576}
+{"kind":"runtime","line":6,"message":"at: _ready (res://r6w1/ok.gd:6)","path":"res://r6w1/ok.gd","run_id":"01M0PBEHG6CESDHFV5J6R8B75X","stack":[],"tree_kind":"editor","ts_ms":20577}
+{"kind":"runtime","line":0,"message":"play process stopped unexpectedly","path":"res://r6w1/play.tscn","run_id":"01M0PBEHG6CESDHFV5J6R8B75X","stack":[],"tree_kind":"editor","ts_ms":25334}
